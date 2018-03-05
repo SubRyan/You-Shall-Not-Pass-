@@ -1,0 +1,22 @@
+state={
+	id=899
+	name="STATE_899"
+	provinces={
+		5047 
+	}
+	history={
+		owner = ERI
+		add_core_of = ERI
+		buildings = {
+			infrastructure = 1
+		}
+		1939.8.14 = {
+			owner = ITE
+			controller = ITE
+		}
+	}
+
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	manpower=11203
+}

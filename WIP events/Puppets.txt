@@ -1,0 +1,4702 @@
+﻿###########################
+# Puppet Events
+###########################
+
+add_namespace = puppet
+
+###########################
+# British Puppets
+###########################
+
+### Nigeria is free
+
+# Nigeria
+country_event = {
+	id = puppet.1
+	title = puppet.1.t
+	desc = puppet.1.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NIG = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		NIG = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.1.a
+		NIG = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Nigeria is colony again
+
+# Nigeria
+country_event = {
+	id = puppet.2
+	title = puppet.2.t
+	desc = puppet.2.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NIG = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		NIG = {
+			set_cosmetic_tag = NIG_ENG # Nigeria
+		}
+	}
+	option = {
+		name = puppet.2.a
+		NIG = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Southern Rhodesia is free
+
+# Southern Rhodesia
+country_event = {
+	id = puppet.3
+	title = puppet.3.t
+	desc = puppet.3.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		RHO = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		RHO = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.1.a
+		RHO = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Southern Rhodesia is colony again
+
+# Southern Rhodesia
+country_event = {
+	id = puppet.4
+	title = puppet.4.t
+	desc = puppet.4.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		RHO = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		RHO = {
+			set_cosmetic_tag = RHO_ENG # Southern Rhodesia
+		}
+	}
+	option = {
+		name = puppet.4.a
+		RHO = {
+			add_political_power = 5
+		}
+	}
+}
+### Egypt is free
+
+# Egypt
+country_event = {
+	id = puppet.5
+	title = puppet.5.t
+	desc = puppet.5.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		EGY = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		EGY = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.5.a
+		EGY = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Egypt is colony again
+
+# Egypt
+country_event = {
+	id = puppet.6
+	title = puppet.6.t
+	desc = puppet.6.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		EGY = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		EGY = {
+			set_cosmetic_tag = EGY_ENG # Nigeria
+		}
+	}
+	option = {
+		name = puppet.6.a
+		EGY = {
+			add_political_power = 5
+		}
+	}
+}
+### Malaysia is free
+
+# Malaysia
+country_event = {
+	id = puppet.7
+	title = puppet.7.t
+	desc = puppet.7.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		MAL = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		MAL = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.7.a
+		MAL = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Malaysia is colony again
+
+# Malaysia
+country_event = {
+	id = puppet.8
+	title = puppet.8.t
+	desc = puppet.8.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		MAL = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		MAL = {
+			set_cosmetic_tag = MAL_ENG # Malaysia
+		}
+	}
+	option = {
+		name = puppet.8.a
+		MAL = {
+			add_political_power = 5
+		}
+	}
+}
+### Leeward Islands are free
+
+# Leeward Islands
+country_event = {
+	id = puppet.9
+	title = puppet.9.t
+	desc = puppet.9.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		LEE = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		LEE = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.9.a
+		LEE = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Leeward Islands is colony again
+
+# Leeward Islands
+country_event = {
+	id = puppet.10
+	title = puppet.10.t
+	desc = puppet.10.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		LEE = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		LEE = {
+			set_cosmetic_tag = LEE_ENG # Leeward Islands
+		}
+	}
+	option = {
+		name = puppet.10.a
+		LEE = {
+			add_political_power = 5
+		}
+	}
+}
+### Windward Islands is free
+
+# Windward Islands
+country_event = {
+	id = puppet.11
+	title = puppet.11.t
+	desc = puppet.11.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		WIN = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		WIN = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.11.a
+		WIN = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Windward Islands is colony again
+
+# Windward Islands
+country_event = {
+	id = puppet.12
+	title = puppet.12.t
+	desc = puppet.12.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		WIN = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		WIN = {
+			set_cosmetic_tag = WIN_ENG # Windward Islands
+		}
+	}
+	option = {
+		name = puppet.12.a
+		WIN = {
+			add_political_power = 5
+		}
+	}
+}
+### Belize is free
+
+# Belize
+country_event = {
+	id = puppet.13
+	title = puppet.13.t
+	desc = puppet.13.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		BEZ = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		BEZ = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.13.a
+		BEZ = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Belize is colony again
+
+# Belize
+country_event = {
+	id = puppet.14
+	title = puppet.14.t
+	desc = puppet.14.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		BEZ = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		BEZ = {
+			set_cosmetic_tag = BEZ_ENG # Belize
+		}
+	}
+	option = {
+		name = puppet.14.a
+		BEZ = {
+			add_political_power = 5
+		}
+	}
+}
+### Sierra Leone is free
+
+# Sierra Leone
+country_event = {
+	id = puppet.15
+	title = puppet.15.t
+	desc = puppet.15.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		LEO = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		LEO = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.15.a
+		LEO = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Sierra Leone is colony again
+
+# Sierra Leone
+country_event = {
+	id = puppet.16
+	title = puppet.16.t
+	desc = puppet.16.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		LEO = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		LEO = {
+			set_cosmetic_tag = LEO_ENG # Sierra Leone
+		}
+	}
+	option = {
+		name = puppet.16.a
+		LEO = {
+			add_political_power = 5
+		}
+	}
+}
+### Gambia is free
+
+# Gambia
+country_event = {
+	id = puppet.17
+	title = puppet.17.t
+	desc = puppet.17.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		GAM = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		GAM = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.17.a
+		GAM = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Gambia is colony again
+
+# Gambia
+country_event = {
+	id = puppet.18
+	title = puppet.18.t
+	desc = puppet.18.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		GAM = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		GAM = {
+			set_cosmetic_tag = GAM_ENG # Gambia
+		}
+	}
+	option = {
+		name = puppet.18.a
+		GAM = {
+			add_political_power = 5
+		}
+	}
+}
+### Kenya is free
+
+# Kenya
+country_event = {
+	id = puppet.19
+	title = puppet.19.t
+	desc = puppet.19.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		KEN = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		KEN = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.19.a
+		KEN = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Kenya is colony again
+
+# Kenya
+country_event = {
+	id = puppet.20
+	title = puppet.20.t
+	desc = puppet.20.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		KEN = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		KEN = {
+			set_cosmetic_tag = NIG_ENG # Kenya
+		}
+	}
+	option = {
+		name = puppet.20.a
+		KEN = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Lesotho is free
+
+# Lesotho
+country_event = {
+	id = puppet.21
+	title = puppet.21.t
+	desc = puppet.21.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		LES = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		LES = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.21.a
+		LES = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Lesotho is colony again
+
+# Lesotho
+country_event = {
+	id = puppet.22
+	title = puppet.22.t
+	desc = puppet.22.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		LES = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		LES = {
+			set_cosmetic_tag = NIG_ENG # Lesotho
+		}
+	}
+	option = {
+		name = puppet.22.a
+		LES = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Ghana is free
+
+# Ghana
+country_event = {
+	id = puppet.23
+	title = puppet.23.t
+	desc = puppet.23.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		GHA = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		GHA = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.23.a
+		GHA = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Ghana is colony again
+
+# Ghana
+country_event = {
+	id = puppet.24
+	title = puppet.24.t
+	desc = puppet.24.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		GHA = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		GHA = {
+			set_cosmetic_tag = NIG_ENG # Ghana
+		}
+	}
+	option = {
+		name = puppet.24.a
+		GHA = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Falkland Islands is free
+
+# Falkland Islands
+country_event = {
+	id = puppet.25
+	title = puppet.25.t
+	desc = puppet.25.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		FAL = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		FAL = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.25.a
+		FAL = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Falkland Islands is colony again
+
+# Falkland Islands
+country_event = {
+	id = puppet.26
+	title = puppet.26.t
+	desc = puppet.26.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		FAL = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		FAL = {
+			set_cosmetic_tag = FAL_ENG # Falkland Islands
+		}
+	}
+	option = {
+		name = puppet.26.a
+		FAL = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Ceylon is free
+
+# Ceylon
+country_event = {
+	id = puppet.27
+	title = puppet.27.t
+	desc = puppet.27.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		SRI = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		SRI = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.27.a
+		SRI = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Ceylon is colony again
+
+# Ceylon
+country_event = {
+	id = puppet.28
+	title = puppet.28.t
+	desc = puppet.28.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		SRI = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		SRI = {
+			set_cosmetic_tag = SRI_ENG # Ceylon
+		}
+	}
+	option = {
+		name = puppet.28.a
+		SRI = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Burma is free
+
+# Burma
+country_event = {
+	id = puppet.29
+	title = puppet.29.t
+	desc = puppet.29.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		MYA = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		MYA = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.29.a
+		MYA = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Burma is colony again
+
+# Burma
+country_event = {
+	id = puppet.30
+	title = puppet.30.t
+	desc = puppet.30.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		MYA = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		MYA = {
+			set_cosmetic_tag = MYA_ENG # Burma
+		}
+	}
+	option = {
+		name = puppet.30.a
+		MYA = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Barbados is free
+
+# Barbados
+country_event = {
+	id = puppet.31
+	title = puppet.31.t
+	desc = puppet.31.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		BAR = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		BAR = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.31.a
+		BAR = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Barbados is colony again
+
+# Barbados
+country_event = {
+	id = puppet.32
+	title = puppet.32.t
+	desc = puppet.32.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		BAR = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		BAR = {
+			set_cosmetic_tag = BAR_ENG # Barbados
+		}
+	}
+	option = {
+		name = puppet.32.a
+		BAR = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Bahamas is free
+
+# Bahamas
+country_event = {
+	id = puppet.33
+	title = puppet.33.t
+	desc = puppet.33.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		BAH = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		BAH = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.33.a
+		BAH = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Bahamas is colony again
+
+# Bahamas
+country_event = {
+	id = puppet.34
+	title = puppet.34.t
+	desc = puppet.34.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		BAH = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		BAH = {
+			set_cosmetic_tag = BAH_ENG # Bahamas
+		}
+	}
+	option = {
+		name = puppet.34.a
+		BAH = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Jamaica is free
+
+# Jamaica
+country_event = {
+	id = puppet.35
+	title = puppet.35.t
+	desc = puppet.35.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		JAM = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		JAM = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.35.a
+		JAM = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Jamaica is colony again
+
+# Jamaica
+country_event = {
+	id = puppet.36
+	title = puppet.36.t
+	desc = puppet.36.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		JAM = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		JAM = {
+			set_cosmetic_tag = JAM_ENG # Jamaica
+		}
+	}
+	option = {
+		name = puppet.36.a
+		JAM = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Trinidad and Tobago is free
+
+# Trinidad and Tobago
+country_event = {
+	id = puppet.37
+	title = puppet.37.t
+	desc = puppet.37.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		TNT = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		TNT = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.37.a
+		TNT = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Trinidad and Tobago is colony again
+
+# Trinidad and Tobago
+country_event = {
+	id = puppet.38
+	title = puppet.38.t
+	desc = puppet.38.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		TNT = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		TNT = {
+			set_cosmetic_tag = TNT_ENG # Trinidad and Tobago
+		}
+	}
+	option = {
+		name = puppet.38.a
+		TNT = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Guyana is free
+
+# Guyana
+country_event = {
+	id = puppet.39
+	title = puppet.39.t
+	desc = puppet.39.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		GUY = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		GUY = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.39.a
+		GUY = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Guyana is colony again
+
+# Guyana
+country_event = {
+	id = puppet.40
+	title = puppet.40.t
+	desc = puppet.40.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		GUY = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		GUY = {
+			set_cosmetic_tag = GUY_ENG # Guyana
+		}
+	}
+	option = {
+		name = puppet.40.a
+		GUY = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Hong Kong is free
+
+# Hong Kong
+country_event = {
+	id = puppet.41
+	title = puppet.41.t
+	desc = puppet.41.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		KON = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		KON = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.41.a
+		KON = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Hong Kong is colony again
+
+# Hong Kong
+country_event = {
+	id = puppet.42
+	title = puppet.42.t
+	desc = puppet.42.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		KON = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		KON = {
+			set_cosmetic_tag = KON_ENG # Hong Kong
+		}
+	}
+	option = {
+		name = puppet.42.a
+		KON = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Brunei is free
+
+# Brunei
+country_event = {
+	id = puppet.43
+	title = puppet.43.t
+	desc = puppet.43.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		BRU = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		BRU = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.43.a
+		BRU = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Brunei is colony again
+
+# Brunei
+country_event = {
+	id = puppet.44
+	title = puppet.44.t
+	desc = puppet.44.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		BRU = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		BRU = {
+			set_cosmetic_tag = BRU_ENG # Brunei
+		}
+	}
+	option = {
+		name = puppet.44.a
+		BRU = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Jordan is free
+
+# Jordan
+country_event = {
+	id = puppet.45
+	title = puppet.45.t
+	desc = puppet.45.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		JOR = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		JOR = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.45.a
+		JOR = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Jordan is colony again
+
+# Jordan
+country_event = {
+	id = puppet.46
+	title = puppet.46.t
+	desc = puppet.46.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		JOR = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		JOR = {
+			set_cosmetic_tag = JOR_ENG # Jordan
+		}
+	}
+	option = {
+		name = puppet.46.a
+		JOR = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Cyprus is free
+
+# Cyprus
+country_event = {
+	id = puppet.47
+	title = puppet.47.t
+	desc = puppet.47.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		CYP = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		CYP = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.47.a
+		CYP = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Cyprus is colony again
+
+# Cyprus
+country_event = {
+	id = puppet.48
+	title = puppet.48.t
+	desc = puppet.48.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		CYP = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		CYP = {
+			set_cosmetic_tag = CYP_ENG # Cyprus
+		}
+	}
+	option = {
+		name = puppet.48.a
+		CYP = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Gibraltar is free
+
+# Gibraltar
+country_event = {
+	id = puppet.49
+	title = puppet.49.t
+	desc = puppet.49.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		GIB = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		GIB = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.49.a
+		GIB = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Gibraltar is colony again
+
+# Gibraltar
+country_event = {
+	id = puppet.50
+	title = puppet.50.t
+	desc = puppet.50.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		GIB = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		GIB = {
+			set_cosmetic_tag = GIB_ENG # Gibraltar
+		}
+	}
+	option = {
+		name = puppet.50.a
+		GIB = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Malta is free
+
+# Malta
+country_event = {
+	id = puppet.51
+	title = puppet.51.t
+	desc = puppet.51.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		MAT = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		MAT = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.51.a
+		MAT = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Malta is colony again
+
+# Malta
+country_event = {
+	id = puppet.52
+	title = puppet.52.t
+	desc = puppet.52.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		MAT = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		MAT = {
+			set_cosmetic_tag = MAT_ENG # Malta
+		}
+	}
+	option = {
+		name = puppet.52.a
+		MAT = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Bermuda is free
+
+# Bermuda
+country_event = {
+	id = puppet.53
+	title = puppet.53.t
+	desc = puppet.53.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		BER = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		BER = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.53.a
+		BER = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Bermuda is colony again
+
+# Bermuda
+country_event = {
+	id = puppet.54
+	title = puppet.54.t
+	desc = puppet.54.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		BER = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		BER = {
+			set_cosmetic_tag = BER_ENG # Bermuda
+		}
+	}
+	option = {
+		name = puppet.54.a
+		BER = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Saint Helena is free
+
+# Saint Helena
+country_event = {
+	id = puppet.55
+	title = puppet.55.t
+	desc = puppet.55.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		HEL = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		HEL = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.55.a
+		HEL = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Saint Helena is colony again
+
+# Saint Helena
+country_event = {
+	id = puppet.56
+	title = puppet.56.t
+	desc = puppet.56.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		HEL = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		HEL = {
+			set_cosmetic_tag = HEL_ENG # Saint Helena
+		}
+	}
+	option = {
+		name = puppet.56.a
+		HEL = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Mauritius is free
+
+# Mauritius
+country_event = {
+	id = puppet.57
+	title = puppet.57.t
+	desc = puppet.57.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		MAU = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		MAU = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.57.a
+		MAU = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Mauritius is colony again
+
+# Mauritius
+country_event = {
+	id = puppet.58
+	title = puppet.58.t
+	desc = puppet.58.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		MAU = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		MAU = {
+			set_cosmetic_tag = MAU_ENG # Mauritius
+		}
+	}
+	option = {
+		name = puppet.58.a
+		MAU = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Seychelles is free
+
+# Seychelles
+country_event = {
+	id = puppet.59
+	title = puppet.59.t
+	desc = puppet.59.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		SEY = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		SEY = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.59.a
+		SEY = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Seychelles is colony again
+
+# Seychelles
+country_event = {
+	id = puppet.60
+	title = puppet.60.t
+	desc = puppet.60.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		SEY = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		SEY = {
+			set_cosmetic_tag = SEY_ENG # Seychelles
+		}
+	}
+	option = {
+		name = puppet.60.a
+		SEY = {
+			add_political_power = 5
+		}
+	}
+}
+
+### British West Pacific is free
+
+# British West Pacific
+country_event = {
+	id = puppet.61
+	title = puppet.61.t
+	desc = puppet.61.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		BWP = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		BWP = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.61.a
+		BWP = {
+			add_political_power = 50
+		}
+	}
+}
+
+### British West Pacific is colony again
+
+# British West Pacific
+country_event = {
+	id = puppet.62
+	title = puppet.62.t
+	desc = puppet.62.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		BWP = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		BWP = {
+			set_cosmetic_tag = BWP_ENG # British West Pacific
+		}
+	}
+	option = {
+		name = puppet.62.a
+		BWP = {
+			add_political_power = 5
+		}
+	}
+}
+
+### North Borneo is free
+
+# North Borneo
+country_event = {
+	id = puppet.63
+	title = puppet.63.t
+	desc = puppet.63.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		BOR = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		BOR = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.63.a
+		BOR = {
+			add_political_power = 50
+		}
+	}
+}
+
+### North Borneo is colony again
+
+# North Borneo
+country_event = {
+	id = puppet.64
+	title = puppet.64.t
+	desc = puppet.64.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		BOR = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		BOR = {
+			set_cosmetic_tag = BOR_ENG # North Borneo
+		}
+	}
+	option = {
+		name = puppet.64.a
+		BOR = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Sarawak is free
+
+# Sarawak
+country_event = {
+	id = puppet.65
+	title = puppet.65.t
+	desc = puppet.65.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		SAR = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		SAR = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.65.a
+		SAR = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Sarawak is colony again
+
+# Sarawak
+country_event = {
+	id = puppet.66
+	title = puppet.66.t
+	desc = puppet.66.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		SAR = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		SAR = {
+			set_cosmetic_tag = SAR_ENG # Sarawak
+		}
+	}
+	option = {
+		name = puppet.66.a
+		SAR = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Somaliland is free
+
+# Somaliland
+country_event = {
+	id = puppet.67
+	title = puppet.67.t
+	desc = puppet.67.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		SOL = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		SOL = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.67.a
+		SOL = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Somaliland is colony again
+
+# Somaliland
+country_event = {
+	id = puppet.68
+	title = puppet.68.t
+	desc = puppet.68.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		SOL = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		SOL = {
+			set_cosmetic_tag = SOL_ENG # Somaliland
+		}
+	}
+	option = {
+		name = puppet.68.a
+		SOL = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Botswana is free
+
+# Botswana
+country_event = {
+	id = puppet.69
+	title = puppet.69.t
+	desc = puppet.69.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		BOT = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		BOT = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.69.a
+		BOT = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Botswana is colony again
+
+# Botswana
+country_event = {
+	id = puppet.70
+	title = puppet.70.t
+	desc = puppet.70.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		BOT = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		BOT = {
+			set_cosmetic_tag = BOT_ENG # Botswana
+		}
+	}
+	option = {
+		name = puppet.70.a
+		BOT = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Sudan is free
+
+# Sudan
+country_event = {
+	id = puppet.71
+	title = puppet.71.t
+	desc = puppet.71.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		SUD = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		SUD = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.71.a
+		SUD = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Sudan is colony again
+
+# Sudan
+country_event = {
+	id = puppet.72
+	title = puppet.72.t
+	desc = puppet.72.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		SUD = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		SUD = {
+			set_cosmetic_tag = SUD_ENG # Sudan
+		}
+	}
+	option = {
+		name = puppet.72.a
+		SUD = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Swaziland is free
+
+# Swaziland
+country_event = {
+	id = puppet.73
+	title = puppet.73.t
+	desc = puppet.73.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		SWA = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		SWA = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.73.a
+		SWA = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Swaziland is colony again
+
+# Swaziland
+country_event = {
+	id = puppet.74
+	title = puppet.74.t
+	desc = puppet.74.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		SWA = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		SWA = {
+			set_cosmetic_tag = SWA_ENG # Swaziland
+		}
+	}
+	option = {
+		name = puppet.74.a
+		SWA = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Tanzania is free
+
+# Tanzania
+country_event = {
+	id = puppet.75
+	title = puppet.75.t
+	desc = puppet.75.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		TNZ = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		TNZ = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.75.a
+		TNZ = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Tanzania is colony again
+
+# Tanzania
+country_event = {
+	id = puppet.76
+	title = puppet.76.t
+	desc = puppet.76.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		TNZ = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		TNZ = {
+			set_cosmetic_tag = TNZ_ENG # Tanzania
+		}
+	}
+	option = {
+		name = puppet.76.a
+		TNZ = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Uganda is free
+
+# Uganda
+country_event = {
+	id = puppet.77
+	title = puppet.77.t
+	desc = puppet.77.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		UGA = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		UGA = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.77.a
+		UGA = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Uganda is colony again
+
+# Uganda
+country_event = {
+	id = puppet.78
+	title = puppet.78.t
+	desc = puppet.78.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		UGA = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		UGA = {
+			set_cosmetic_tag = UGA_ENG # Uganda
+		}
+	}
+	option = {
+		name = puppet.78.a
+		UGA = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Kuwait is free
+
+# Kuwait
+country_event = {
+	id = puppet.79
+	title = puppet.79.t
+	desc = puppet.79.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		KUW = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		KUW = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.79.a
+		KUW = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Kuwait is colony again
+
+# Kuwait
+country_event = {
+	id = puppet.80
+	title = puppet.80.t
+	desc = puppet.80.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		KUW = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		KUW = {
+			set_cosmetic_tag = KUW_ENG # Kuwait
+		}
+	}
+	option = {
+		name = puppet.80.a
+		KUW = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Zambia is free
+
+# Zambia
+country_event = {
+	id = puppet.81
+	title = puppet.81.t
+	desc = puppet.81.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		ZAM = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		ZAM = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.81.a
+		ZAM = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Zambia is colony again
+
+# Zambia
+country_event = {
+	id = puppet.82
+	title = puppet.82.t
+	desc = puppet.82.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		ZAM = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		ZAM = {
+			set_cosmetic_tag = ZAM_ENG # Zambia
+		}
+	}
+	option = {
+		name = puppet.82.a
+		ZAM = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Malawi is free
+
+# Malawi
+country_event = {
+	id = puppet.83
+	title = puppet.83.t
+	desc = puppet.83.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		MAW = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		MAW = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.83.a
+		MAW = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Malawi is colony again
+
+# Malawi
+country_event = {
+	id = puppet.84
+	title = puppet.84.t
+	desc = puppet.84.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		MAW = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		MAW = {
+			set_cosmetic_tag = MAW_ENG # Malawi
+		}
+	}
+	option = {
+		name = puppet.84.a
+		MAW = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Trucial States is free
+
+# Trucial States
+country_event = {
+	id = puppet.85
+	title = puppet.85.t
+	desc = puppet.85.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		UAE = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		UAE = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.85.a
+		UAE = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Trucial States is colony again
+
+# Trucial States
+country_event = {
+	id = puppet.86
+	title = puppet.86.t
+	desc = puppet.86.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		UAE = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		UAE = {
+			set_cosmetic_tag = UAE_ENG # Trucial States
+		}
+	}
+	option = {
+		name = puppet.86.a
+		UAE = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Bahrain is free
+
+# Bahrain
+country_event = {
+	id = puppet.87
+	title = puppet.87.t
+	desc = puppet.87.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		BHN = {
+			AND ={
+				NOT ={
+					is_subject_of = ENG
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		BHN = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.87.a
+		BHN = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Bahrain is colony again
+
+# Bahrain
+country_event = {
+	id = puppet.88
+	title = puppet.88.t
+	desc = puppet.88.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		BHN = {
+			AND ={
+				is_subject_of = ENG
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		BHN = {
+			set_cosmetic_tag = BHN_ENG # Bahrain
+		}
+	}
+	option = {
+		name = puppet.88.a
+		BHN = {
+			add_political_power = 5
+		}
+	}
+}
+
+#X# French colonies
+
+### French West Africa is free
+
+# French West Africa
+country_event = {
+	id = puppet.89
+	title = puppet.89.t
+	desc = puppet.89.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AOF = {
+			AND ={
+				NOT ={
+					is_subject_of = FRA
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		AOF = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.89.a
+		AOF = {
+			add_political_power = 50
+		}
+	}
+}
+
+### French West Africa is colony again
+
+# French West Africa
+country_event = {
+	id = puppet.90
+	title = puppet.90.t
+	desc = puppet.90.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AOF = {
+			AND ={
+				is_subject_of = FRA
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		AOF = {
+			set_cosmetic_tag = AOF_FRA # French West Africa
+		}
+	}
+	option = {
+		name = puppet.90.a
+		AOF = {
+			add_political_power = 5
+		}
+	}
+}
+
+### French Equitorial Africa is free
+
+# French Equitorial Africa
+country_event = {
+	id = puppet.91
+	title = puppet.91.t
+	desc = puppet.91.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AEF = {
+			AND ={
+				NOT ={
+					is_subject_of = FRA
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		AEF = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.91.a
+		AEF = {
+			add_political_power = 50
+		}
+	}
+}
+
+### French Equitorial Africa is colony again
+
+# French Equitorial Africa
+country_event = {
+	id = puppet.92
+	title = puppet.92.t
+	desc = puppet.92.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AEF = {
+			AND ={
+				is_subject_of = FRA
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		AEF = {
+			set_cosmetic_tag = AEF_FRA # French Equitorial Africa
+		}
+	}
+	option = {
+		name = puppet.92.a
+		AEF = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Indochina is free
+
+# Indochina
+country_event = {
+	id = puppet.93
+	title = puppet.93.t
+	desc = puppet.93.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		IND = {
+			AND ={
+				NOT ={
+					is_subject_of = FRA
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		IND = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.93.a
+		IND = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Indochina is colony again
+
+# Indochina
+country_event = {
+	id = puppet.94
+	title = puppet.94.t
+	desc = puppet.94.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		IND = {
+			AND ={
+				is_subject_of = FRA
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		IND = {
+			set_cosmetic_tag = IND_FRA # Indochina
+		}
+	}
+	option = {
+		name = puppet.94.a
+		IND = {
+			add_political_power = 5
+		}
+	}
+}
+
+### French India is free
+
+# French India
+country_event = {
+	id = puppet.95
+	title = puppet.95.t
+	desc = puppet.95.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		FRI = {
+			AND ={
+				NOT ={
+					is_subject_of = FRA
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		FRI = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.95.a
+		FRI = {
+			add_political_power = 50
+		}
+	}
+}
+
+### French India is colony again
+
+# French India
+country_event = {
+	id = puppet.96
+	title = puppet.96.t
+	desc = puppet.96.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		FRI = {
+			AND ={
+				is_subject_of = FRA
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		FRI = {
+			set_cosmetic_tag = FRI_FRA # French India
+		}
+	}
+	option = {
+		name = puppet.96.a
+		FRI = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Djibouti is free
+
+# Djibouti
+country_event = {
+	id = puppet.97
+	title = puppet.97.t
+	desc = puppet.97.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		DJI = {
+			AND ={
+				NOT ={
+					is_subject_of = FRA
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		DJI = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.97.a
+		DJI = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Djibouti is colony again
+
+# Djibouti
+country_event = {
+	id = puppet.98
+	title = puppet.98.t
+	desc = puppet.98.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		DJI = {
+			AND ={
+				is_subject_of = FRA
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		DJI = {
+			set_cosmetic_tag = DJI_FRA # Djibouti
+		}
+	}
+	option = {
+		name = puppet.98.a
+		DJI = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Madagascar is free
+
+# Madagascar
+country_event = {
+	id = puppet.99
+	title = puppet.99.t
+	desc = puppet.99.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		MAD = {
+			AND ={
+				NOT ={
+					is_subject_of = FRA
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		MAD = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.99.a
+		MAD = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Madagascar is colony again
+
+# Madagascar
+country_event = {
+	id = puppet.100
+	title = puppet.100.t
+	desc = puppet.100.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		MAD = {
+			AND ={
+				is_subject_of = FRA
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		MAD = {
+			set_cosmetic_tag = MAD_FRA # Madagascar
+		}
+	}
+	option = {
+		name = puppet.100.a
+		MAD = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Tunisia is free
+
+# Tunisia
+country_event = {
+	id = puppet.101
+	title = puppet.101.t
+	desc = puppet.101.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		TUN = {
+			AND ={
+				NOT ={
+					is_subject_of = FRA
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		TUN = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.101.a
+		TUN = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Tunisia is colony again
+
+# Tunisia
+country_event = {
+	id = puppet.102
+	title = puppet.102.t
+	desc = puppet.102.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		TUN = {
+			AND ={
+				is_subject_of = FRA
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		TUN = {
+			set_cosmetic_tag = TUN_FRA # Tunisia
+		}
+	}
+	option = {
+		name = puppet.102.a
+		TUN = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Morocco is free
+
+# Morocco
+country_event = {
+	id = puppet.103
+	title = puppet.103.t
+	desc = puppet.103.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		MOR = {
+			AND ={
+				NOT ={
+					is_subject_of = FRA
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		MOR = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.103.a
+		MOR = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Morocco is colony again
+
+# Morocco
+country_event = {
+	id = puppet.104
+	title = puppet.104.t
+	desc = puppet.104.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		MOR = {
+			AND ={
+				is_subject_of = FRA
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		MOR = {
+			set_cosmetic_tag = MOR_FRA # Morocco
+		}
+	}
+	option = {
+		name = puppet.104.a
+		MOR = {
+			add_political_power = 5
+		}
+	}
+}
+
+#X# Belgian Colonies
+
+### Congo is free
+
+# Congo
+country_event = {
+	id = puppet.105
+	title = puppet.105.t
+	desc = puppet.105.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		COG = {
+			AND ={
+				NOT ={
+					is_subject_of = BEL
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		COG = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.105.a
+		COG = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Congo is colony again
+
+# Congo
+country_event = {
+	id = puppet.106
+	title = puppet.106.t
+	desc = puppet.106.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		COG = {
+			AND ={
+				is_subject_of = BEL
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		COG = {
+			set_cosmetic_tag = COG_BEL # Congo
+		}
+	}
+	option = {
+		name = puppet.106.a
+		COG = {
+			add_political_power = 5
+		}
+	}
+}
+
+#X# Dutch colonies
+
+### Indonesia is free
+
+# Indonesia
+country_event = {
+	id = puppet.107
+	title = puppet.107.t
+	desc = puppet.107.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		INS = {
+			AND ={
+				NOT ={
+					is_subject_of = HOL
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		INS = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.107.a
+		INS = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Indonesia is colony again
+
+# Indonesia
+country_event = {
+	id = puppet.108
+	title = puppet.108.t
+	desc = puppet.108.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		INS = {
+			AND ={
+				is_subject_of = HOL
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		INS = {
+			set_cosmetic_tag = INS_HOL # Indonesia
+		}
+	}
+	option = {
+		name = puppet.108.a
+		INS = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Suriname is free
+
+# Suriname
+country_event = {
+	id = puppet.109
+	title = puppet.109.t
+	desc = puppet.109.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		SUR = {
+			AND ={
+				NOT ={
+					is_subject_of = HOL
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		SUR = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.109.a
+		SUR = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Suriname is colony again
+
+# Suriname
+country_event = {
+	id = puppet.110
+	title = puppet.110.t
+	desc = puppet.110.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		SUR = {
+			AND ={
+				is_subject_of = HOL
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		SUR = {
+			set_cosmetic_tag = SUR_HOL # Suriname
+		}
+	}
+	option = {
+		name = puppet.110.a
+		SUR = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Curacao is free
+
+# Curacao
+country_event = {
+	id = puppet.111
+	title = puppet.111.t
+	desc = puppet.111.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		CUR = {
+			AND ={
+				NOT ={
+					is_subject_of = HOL
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		CUR = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.111.a
+		CUR = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Curacao is colony again
+
+# Curacao
+country_event = {
+	id = puppet.112
+	title = puppet.112.t
+	desc = puppet.112.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		CUR = {
+			AND ={
+				is_subject_of = HOL
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		CUR = {
+			set_cosmetic_tag = CUR_HOL # Curacao
+		}
+	}
+	option = {
+		name = puppet.112.a
+		CUR = {
+			add_political_power = 5
+		}
+	}
+}
+
+#X# Portuguese colonies
+
+### Guinea-Bissau is free
+
+# Guinea-Bissau
+country_event = {
+	id = puppet.113
+	title = puppet.113.t
+	desc = puppet.113.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		GBI = {
+			AND ={
+				NOT ={
+					is_subject_of = POR
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		GBI = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.113.a
+		GBI = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Guinea-Bissau is colony again
+
+# Guinea-Bissau
+country_event = {
+	id = puppet.114
+	title = puppet.114.t
+	desc = puppet.114.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		GBI = {
+			AND ={
+				is_subject_of = POR
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		GBI = {
+			set_cosmetic_tag = GBI_POR # Guinea-Bissau
+		}
+	}
+	option = {
+		name = puppet.114.a
+		GBI = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Angola is free
+
+# Angola
+country_event = {
+	id = puppet.115
+	title = puppet.115.t
+	desc = puppet.115.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		ANG = {
+			AND ={
+				NOT ={
+					is_subject_of = POR
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		ANG = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.115.a
+		ANG = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Angola is colony again
+
+# Angola
+country_event = {
+	id = puppet.116
+	title = puppet.116.t
+	desc = puppet.116.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		ANG = {
+			AND ={
+				is_subject_of = POR
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		ANG = {
+			set_cosmetic_tag = ANG_POR # Angola
+		}
+	}
+	option = {
+		name = puppet.116.a
+		ANG = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Cape Verde is free
+
+# Cape Verde
+country_event = {
+	id = puppet.117
+	title = puppet.117.t
+	desc = puppet.117.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		VER = {
+			AND ={
+				NOT ={
+					is_subject_of = POR
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		VER = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.117.a
+		VER = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Cape Verde is colony again
+
+# Cape Verde
+country_event = {
+	id = puppet.118
+	title = puppet.118.t
+	desc = puppet.118.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		VER = {
+			AND ={
+				is_subject_of = POR
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		VER = {
+			set_cosmetic_tag = VER_POR # Cape Verde
+		}
+	}
+	option = {
+		name = puppet.118.a
+		VER = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Mozambique is free
+
+# Mozambique
+country_event = {
+	id = puppet.119
+	title = puppet.119.t
+	desc = puppet.119.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		MZB = {
+			AND ={
+				NOT ={
+					is_subject_of = POR
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		MZB = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.119.a
+		MZB = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Mozambique is colony again
+
+# Mozambique
+country_event = {
+	id = puppet.120
+	title = puppet.120.t
+	desc = puppet.120.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		MZB = {
+			AND ={
+				is_subject_of = POR
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		MZB = {
+			set_cosmetic_tag = MZB_POR # Mozambique
+		}
+	}
+	option = {
+		name = puppet.120.a
+		MZB = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Sao Tome is free
+
+# Sao Tome
+country_event = {
+	id = puppet.121
+	title = puppet.121.t
+	desc = puppet.121.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		SAO = {
+			AND ={
+				NOT ={
+					is_subject_of = POR
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		SAO = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.121.a
+		SAO = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Sao Tome is colony again
+
+# Sao Tome
+country_event = {
+	id = puppet.122
+	title = puppet.122.t
+	desc = puppet.122.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		SAO = {
+			AND ={
+				is_subject_of = POR
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		SAO = {
+			set_cosmetic_tag = SAO_POR # Sao Tome
+		}
+	}
+	option = {
+		name = puppet.122.a
+		SAO = {
+			add_political_power = 5
+		}
+	}
+}
+
+### East Timor is free
+
+# East Timor
+country_event = {
+	id = puppet.123
+	title = puppet.123.t
+	desc = puppet.123.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		TIM = {
+			AND ={
+				NOT ={
+					is_subject_of = POR
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		TIM = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.123.a
+		TIM = {
+			add_political_power = 50
+		}
+	}
+}
+
+### East Timor is colony again
+
+# East Timor
+country_event = {
+	id = puppet.124
+	title = puppet.124.t
+	desc = puppet.124.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		TIM = {
+			AND ={
+				is_subject_of = POR
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		TIM = {
+			set_cosmetic_tag = TIM_POR # East Timor
+		}
+	}
+	option = {
+		name = puppet.124.a
+		TIM = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Goa is free
+
+# Goa
+country_event = {
+	id = puppet.125
+	title = puppet.125.t
+	desc = puppet.125.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		GOA = {
+			AND ={
+				NOT ={
+					is_subject_of = POR
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		GOA = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.125.a
+		GOA = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Goa is colony again
+
+# Goa
+country_event = {
+	id = puppet.126
+	title = puppet.126.t
+	desc = puppet.126.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		GOA = {
+			AND ={
+				is_subject_of = POR
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		GOA = {
+			set_cosmetic_tag = GOA_POR # Goa
+		}
+	}
+	option = {
+		name = puppet.126.a
+		GOA = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Macau is free
+
+# Macau
+country_event = {
+	id = puppet.127
+	title = puppet.127.t
+	desc = puppet.127.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		MAC = {
+			AND ={
+				NOT ={
+					is_subject_of = POR
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		MAC = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.127.a
+		MAC = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Macau is colony again
+
+# Macau
+country_event = {
+	id = puppet.128
+	title = puppet.128.t
+	desc = puppet.128.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		MAC = {
+			AND ={
+				is_subject_of = POR
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		MAC = {
+			set_cosmetic_tag = MAC_POR # Macau
+		}
+	}
+	option = {
+		name = puppet.128.a
+		MAC = {
+			add_political_power = 5
+		}
+	}
+}
+
+#X# Italian colonies
+
+### Libya is free
+
+# Libya
+country_event = {
+	id = puppet.129
+	title = puppet.129.t
+	desc = puppet.129.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		LBA = {
+			AND ={
+				NOT ={
+					is_subject_of = ITA
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		LBA = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.129.a
+		LBA = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Libya is colony again
+
+# Libya
+country_event = {
+	id = puppet.130
+	title = puppet.130.t
+	desc = puppet.130.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		LBA = {
+			AND ={
+				is_subject_of = ITA
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		LBA = {
+			set_cosmetic_tag = LBA_ITA # Libya
+		}
+	}
+	option = {
+		name = puppet.130.a
+		LBA = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Eritrea is free
+
+# Eritrea
+country_event = {
+	id = puppet.131
+	title = puppet.131.t
+	desc = puppet.131.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		ERI = {
+			AND ={
+				NOT ={
+					is_subject_of = ITA
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		ERI = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.131.a
+		ERI = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Eritrea is colony again
+
+# Eritrea
+country_event = {
+	id = puppet.132
+	title = puppet.132.t
+	desc = puppet.132.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		ERI = {
+			AND ={
+				is_subject_of = ITA
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		ERI = {
+			set_cosmetic_tag = ERI_ITA # Eritrea
+		}
+	}
+	option = {
+		name = puppet.132.a
+		ERI = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Somalia is free
+
+# Somalia
+country_event = {
+	id = puppet.133
+	title = puppet.133.t
+	desc = puppet.133.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		SOM = {
+			AND ={
+				NOT ={
+					is_subject_of = ITA
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		SOM = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.133.a
+		SOM = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Somalia is colony again
+
+# Somalia
+country_event = {
+	id = puppet.134
+	title = puppet.134.t
+	desc = puppet.134.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		SOM = {
+			AND ={
+				is_subject_of = ITA
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		SOM = {
+			set_cosmetic_tag = SOM_ITA # Somalia
+		}
+	}
+	option = {
+		name = puppet.134.a
+		SOM = {
+			add_political_power = 5
+		}
+	}
+}
+
+### Italian East Africa is free
+
+# Italian East Africa
+country_event = {
+	id = puppet.135
+	title = puppet.135.t
+	desc = puppet.135.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		ITE = {
+			AND ={
+				NOT ={
+					is_subject_of = ITA
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		ITE = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.135.a
+		ITE = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Italian East Africa is colony again
+
+# Italian East Africa
+country_event = {
+	id = puppet.136
+	title = puppet.136.t
+	desc = puppet.136.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		ITE = {
+			AND ={
+				is_subject_of = ITA
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		ITE = {
+			set_cosmetic_tag = ITE_ITA # Italian East Africa
+		}
+	}
+	option = {
+		name = puppet.136.a
+		ITE = {
+			add_political_power = 5
+		}
+	}
+}
+
+#X# Spanish colonies
+
+### Equatorial Guinea is free
+
+# Equatorial Guinea
+country_event = {
+	id = puppet.137
+	title = puppet.137.t
+	desc = puppet.137.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		EQU = {
+			AND ={
+				NOT ={
+					is_subject_of = SPA
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		EQU = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.137.a
+		EQU = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Equatorial Guinea is colony again
+
+# Equatorial Guinea
+country_event = {
+	id = puppet.138
+	title = puppet.138.t
+	desc = puppet.138.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		EQU = {
+			AND ={
+				is_subject_of = SPA
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		EQU = {
+			set_cosmetic_tag = EQU_SPA # Equatorial Guinea
+		}
+	}
+	option = {
+		name = puppet.138.a
+		EQU = {
+			add_political_power = 5
+		}
+	}
+}
+### Equatorial Guinea is free
+
+# Equatorial Guinea
+country_event = {
+	id = puppet.139
+	title = puppet.139.t
+	desc = puppet.139.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		EQU = {
+			AND ={
+				NOT ={
+					is_subject_of = SPR
+				}
+				exists = yes
+				is_puppet = no
+			}
+		}
+	}
+	immediate ={
+		EQU = {
+			drop_cosmetic_tag = yes
+		}
+	}
+	option = {
+		name = puppet.139.a
+		EQU = {
+			add_political_power = 50
+		}
+	}
+}
+
+### Equatorial Guinea is colony again
+
+# Equatorial Guinea
+country_event = {
+	id = puppet.140
+	title = puppet.140.t
+	desc = puppet.140.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		EQU = {
+			AND ={
+				is_subject_of = SPR
+				exists = yes
+			}
+		}
+	}
+	immediate ={
+		EQU = {
+			set_cosmetic_tag = EQU_SPR # Equatorial Guinea
+		}
+	}
+	option = {
+		name = puppet.140.a
+		EQU = {
+			add_political_power = 5
+		}
+	}
+}

@@ -1,0 +1,19 @@
+state={
+	id=863
+	name="STATE_863"
+	provinces={
+		2216 
+	}
+	history={
+		owner = RHO
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = RHO
+	}
+
+	state_category=wasteland
+	manpower=31568
+	buildings_max_level_factor=1.000
+}

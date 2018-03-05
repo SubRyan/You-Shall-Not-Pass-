@@ -1,0 +1,22 @@
+state={
+	id=1039
+	name="STATE_1039"
+
+	history={
+		owner = BOL
+		victory_points={
+			10952 4
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+	}
+
+	provinces={
+		10952 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

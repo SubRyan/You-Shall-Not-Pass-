@@ -1,0 +1,20 @@
+state={
+	id=1057
+	name="STATE_1057"
+	provinces={
+		12878 
+	}
+	history={
+		owner = COS
+		victory_points={
+			12878 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = COS
+	}
+	state_category=pastoral
+	manpower=72000
+	buildings_max_level_factor=1.000
+}

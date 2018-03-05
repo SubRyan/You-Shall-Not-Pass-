@@ -1,0 +1,21 @@
+state={
+	id=1068
+	name="STATE_1068"
+	provinces={
+		4904 
+	}
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 3
+			4904 = {
+				naval_base = 2
+
+			}
+		}
+		add_core_of = MEX
+	}
+	state_category=pastoral
+	manpower=90500
+	buildings_max_level_factor=1.000
+}

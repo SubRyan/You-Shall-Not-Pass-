@@ -1,0 +1,21 @@
+state={
+	id=988
+	name="STATE_988"
+	provinces={
+		12917 
+	}
+	resources={
+		rubber=1.000
+	}
+	history={
+		owner = BOL
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = BOL
+	}
+	state_category=pastoral
+	manpower=7200
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

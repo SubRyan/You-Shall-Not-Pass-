@@ -1,0 +1,25 @@
+state={
+	id=1098
+	name="STATE_1098"
+	resources={
+		rubber=27.000
+		tungsten=36.000
+	}
+	history={
+		owner = MAL
+		add_core_of = MAL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points={
+			12144 2
+		}
+	}
+	provinces={
+		1291 12144 
+	}
+	state_category=rural
+	manpower=452600
+	buildings_max_level_factor=1.000
+}

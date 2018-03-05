@@ -1,0 +1,21 @@
+state={
+	id=864
+	name="STATE_864"
+	provinces={
+		5155 
+	}
+	history={
+		owner = MZB
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = MZB
+
+	}
+
+	manpower=220180
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+}

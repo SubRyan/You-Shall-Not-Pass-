@@ -1,0 +1,21 @@
+state={
+	id=775
+	name="STATE_775"
+
+	history={
+		owner = MAW
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			12950 5 
+		}
+	}
+
+	provinces={
+		12950 12986 
+	}
+	manpower=1604000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,39 @@
+state={
+	id=1124
+	name="STATE_1124"
+	provinces={
+		7290 
+	}
+	history={
+		owner = NZL
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points={
+			7290 1
+		}
+		set_demilitarized_zone = yes
+		if = {
+			limit = {
+				OR = {
+					NZL = {
+						has_defensive_war = yes
+
+					}
+					NOT = {
+						country_exists = NZL
+
+					}
+
+				}
+
+			}
+			set_demilitarized_zone = no
+
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	state_category=small_island
+	manpower=56000
+}

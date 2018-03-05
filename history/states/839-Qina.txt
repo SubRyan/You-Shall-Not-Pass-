@@ -1,0 +1,21 @@
+state={
+	id=839
+	name="STATE_839"
+	provinces={
+		7073 12071 
+	}
+	history = {
+		owner = EGY
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = EGY
+		victory_points ={
+			12071 1
+		}
+
+	}
+	manpower=387985
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

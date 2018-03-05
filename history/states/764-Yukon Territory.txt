@@ -1,0 +1,17 @@
+state={
+	id=764
+	name="STATE_764"
+	provinces={
+		3606 7869 7891 
+	}
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	manpower=100
+	
+	state_category = wasteland
+	impassable = yes
+}

@@ -1,0 +1,26 @@
+state={
+	id=744
+	name="STATE_744"
+	
+	manpower=18000	
+	state_category = pastoral
+	resources={
+		aluminium=15
+	}		
+	history={
+		owner = DEN
+		buildings = {
+			infrastructure = 2
+			12512 = {
+				naval_base = 1
+			}
+	
+		}
+		add_core_of = DEN
+	}
+
+	provinces={
+		12512 
+	}
+	buildings_max_level_factor=1.000
+}

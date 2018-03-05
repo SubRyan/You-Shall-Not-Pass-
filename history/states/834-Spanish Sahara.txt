@@ -1,0 +1,21 @@
+state={
+	id=834
+	name="STATE_834"
+	provinces={
+		4920 7979 
+	}
+	history={
+		owner = SPR
+		add_core_of = MOR
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	manpower=100
+	buildings_max_level_factor=1.000
+	
+	state_category = wasteland
+	impassable = yes
+}

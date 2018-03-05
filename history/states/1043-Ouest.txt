@@ -1,0 +1,21 @@
+state={
+	id=1043
+	name="STATE_1043"
+	provinces={
+		1635 
+	}
+	history={
+		owner = HAI
+		victory_points={
+			1635 1
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		add_core_of = HAI
+	}
+	state_category=town
+	manpower=628000
+	buildings_max_level_factor=1.000
+}

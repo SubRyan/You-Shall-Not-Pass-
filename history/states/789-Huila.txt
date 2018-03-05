@@ -1,0 +1,20 @@
+state={
+	id=789
+	name="STATE_789"
+	provinces={
+		8138 
+	}
+	history={
+		owner = ANG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			8138 1 
+		}
+		add_core_of = ANG
+	}
+	manpower=150238
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

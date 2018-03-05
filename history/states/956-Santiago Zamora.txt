@@ -1,0 +1,22 @@
+state={
+	id=956
+	name="STATE_956"
+	provinces={
+		10942 
+	}
+	resources={
+		oil=75.000
+	}
+
+	history={
+		owner = PRU
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = PRU
+		add_core_of = ECU
+	}
+	manpower=30000
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,21 @@
+state={
+	id=769
+	name="STATE_769"
+	provinces={
+		4993 
+	}
+	resources={
+		oil=2
+	}
+
+	history={
+		owner = OMA
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = OMA
+	}
+	manpower=65231
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

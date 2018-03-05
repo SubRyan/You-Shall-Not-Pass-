@@ -1,0 +1,26 @@
+state={
+	id=1108
+	name="STATE_1108"
+	provinces={
+		1082 1197 1934 4087 4318 4425 4588 4996 8063 10386 10486 10920 12335 12464 12492 
+	}
+	history={
+		owner = RAJ
+		add_core_of = MYA
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+
+		}
+		victory_points = {
+			4425 1 
+		}
+		1939.8.14 = {
+			owner = MYA
+			controller = MYA
+		}
+	}
+	manpower=2120400
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

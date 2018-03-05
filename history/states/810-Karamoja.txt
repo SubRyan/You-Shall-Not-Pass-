@@ -1,0 +1,16 @@
+state={
+	id=810
+	name="STATE_810"
+	provinces={
+		12929 
+	}
+	history={
+		owner = UGA
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=445231
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

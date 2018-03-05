@@ -1,0 +1,19 @@
+state={
+	id=1053
+	name="STATE_1053"
+	provinces={
+		13009 
+	}
+	history={
+		owner = WIN
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points ={
+			13009 5
+		}
+	}
+	state_category=small_island
+	manpower=66000
+	buildings_max_level_factor=1.000
+}

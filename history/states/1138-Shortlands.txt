@@ -1,0 +1,33 @@
+state={
+	id=1138
+	name="STATE_1138"
+	provinces={
+		1358 4226 4378 10234 
+	}
+	manpower=1300
+	history={
+		owner = BWP
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			4226 1 
+		}
+		set_demilitarized_zone = yes
+		if = {
+			limit = {
+				OR = {
+					ENG = {
+						has_defensive_war = yes
+					}
+					NOT = {
+						country_exists = ENG
+					}
+				}
+			}
+			set_demilitarized_zone = no
+		}
+	}
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

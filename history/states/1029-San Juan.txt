@@ -1,0 +1,25 @@
+state={
+	id=1029
+	name="STATE_1029"
+	provinces={
+		2179 10964 
+	}
+	resources={
+		tungsten=91.000
+		
+	}
+	history={
+		owner = ARG
+		victory_points={
+			10964 2
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex=1
+		}
+		add_core_of = ARG
+	}
+	state_category=rural
+	manpower=202500
+	buildings_max_level_factor=1.000
+}

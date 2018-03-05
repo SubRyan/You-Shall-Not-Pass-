@@ -1,0 +1,28 @@
+state={
+	id=1091
+	name="STATE_1091"
+	resources={
+		rubber=27.000
+		tungsten=36.000
+	}
+	history={
+		owner = MAL
+		add_core_of = MAL
+		victory_points = {
+			7329 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			7329 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces={
+		1348 7329 10227 
+	}
+	state_category=pastoral
+	manpower=378600
+	buildings_max_level_factor=1.000
+}

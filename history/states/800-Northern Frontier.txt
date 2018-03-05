@@ -1,0 +1,20 @@
+state={
+	id=800
+	name="STATE_800"
+
+	history={
+		owner = KEN
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = KEN
+	}
+
+	provinces={
+		2066 5079 8133 10761 11145 12927 
+	}
+	manpower=178956
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

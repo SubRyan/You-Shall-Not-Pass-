@@ -1,0 +1,25 @@
+
+state={
+	id=476
+	name="STATE_476"
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			industrial_complex=2
+		}
+		add_core_of = MEX
+		victory_points={
+			10773 3
+		}
+	}
+
+	provinces={
+		8236 10773 12712 
+	}
+	manpower=1192800
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

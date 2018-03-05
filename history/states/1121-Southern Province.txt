@@ -1,0 +1,24 @@
+state={
+	id=1121
+	name="STATE_1121"
+	provinces={
+		4219 7260 
+	}
+	resources={
+		rubber=25.000
+	}
+	history={
+		owner = SRI
+		add_core_of = SRI
+		victory_points = {
+			7260 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	manpower=2394450
+	buildings_max_level_factor=1.000
+	state_category=town
+}

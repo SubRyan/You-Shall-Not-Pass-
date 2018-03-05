@@ -1,0 +1,21 @@
+state={
+	id=1107
+	name="STATE_1107"
+	history={
+		owner = RAJ
+		add_core_of = MYA
+		buildings = {
+			infrastructure = 1
+		}
+		1939.8.14 = {
+			owner = MYA
+			controller = MYA
+		}
+	}
+	manpower=1813900
+	state_category=pastoral
+	provinces={
+		1650 3999 4202 4454 7034 7163 7190 7534 10033 11966 
+	}
+	buildings_max_level_factor=1.000
+}

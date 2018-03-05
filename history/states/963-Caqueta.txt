@@ -1,0 +1,17 @@
+state={
+	id=963
+	name="STATE_963"
+	provinces={
+		2007 12770 12825 
+	}
+	history={
+		owner = COL
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = COL
+	}
+	state_category=wasteland
+	manpower=43000
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=101
+	name="STATE_101"
+	manpower=100
+	
+	state_category = wasteland
+	impassable = yes
+	
+	history={
+		owner = DEN
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+
+	provinces={
+		10245 10636 13058 13066 
+	}
+
+}

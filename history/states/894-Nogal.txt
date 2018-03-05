@@ -1,0 +1,21 @@
+state={
+	id=894
+	name="STATE_894"
+	provinces={
+		4909 10818 
+	}
+	history={
+		owner = SOM
+		add_core_of = SOM
+		buildings = {
+			infrastructure = 1
+		}
+		1939.8.14 = {
+			owner = ITE
+			controller = ITE
+		}
+	}
+	manpower=15000
+	state_category=wasteland
+	buildings_max_level_factor=1.000
+}

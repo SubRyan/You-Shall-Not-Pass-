@@ -1,0 +1,31 @@
+state={
+	id=1023
+	name="STATE_1023"
+	provinces={
+		1449 10515 10943 12453 
+	}
+	resources={
+		oil=12.000
+	}
+
+	history={
+		owner = ARG
+		victory_points={
+			10515 8
+		}
+		victory_points={
+			12453 7
+		}
+		victory_points={
+			1449 7
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex=1
+		}
+		add_core_of = ARG
+	}
+	state_category=town
+	manpower=695800
+	buildings_max_level_factor=1.000
+}

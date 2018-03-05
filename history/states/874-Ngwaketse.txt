@@ -1,0 +1,22 @@
+state={
+	id=874
+	name="STATE_874"
+
+	history={
+		owner = BOT
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = BOT
+
+	}
+
+	provinces={
+		12940 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable=yes
+}

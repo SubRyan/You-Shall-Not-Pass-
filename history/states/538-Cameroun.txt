@@ -1,0 +1,27 @@
+
+state={
+	id=538
+	name="STATE_538"
+
+	history={
+		owner = COG
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+	
+			10071 1 
+
+		}
+		add_core_of = COG
+
+	}
+
+	provinces={
+		7219 10071 10883 10951 12741 12824 
+	}
+	manpower=1500300
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

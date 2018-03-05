@@ -1,0 +1,21 @@
+state={
+	id=999
+	name="STATE_999"
+	provinces={
+		4457 
+	}
+	history={
+		owner = URG
+		victory_points={
+			4457 2
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex=1
+		}
+		add_core_of = URG
+	}
+	state_category=rural
+	manpower=208600
+	buildings_max_level_factor=1.000
+}

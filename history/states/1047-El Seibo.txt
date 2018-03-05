@@ -1,0 +1,21 @@
+state={
+	id=1047
+	name="STATE_1047"
+	provinces={
+		10484 
+	}
+	history={
+		owner = DOM
+		victory_points={
+			10484 6
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = DOM
+	}
+	state_category=rural
+	manpower=361700
+	buildings_max_level_factor=1.000
+}

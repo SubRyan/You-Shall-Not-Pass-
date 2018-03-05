@@ -1,0 +1,23 @@
+
+state={
+	id=462
+	name="STATE_462"
+
+	history={
+		owner = MOR
+		add_core_of = MOR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			4108 10
+		}
+	}
+
+	provinces={
+		1102 4108 7203 8046 10107 
+	}
+	manpower=758698
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

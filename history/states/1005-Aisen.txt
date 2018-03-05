@@ -1,0 +1,17 @@
+state={
+	id=1005
+	name="STATE_1005"
+	provinces={
+		2161 5159 8198 10961 
+	}
+	history={
+		owner = CHL
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = CHL
+	}
+	state_category=wasteland
+	manpower=13900
+	buildings_max_level_factor=1.000
+}

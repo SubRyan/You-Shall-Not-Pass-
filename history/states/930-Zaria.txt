@@ -1,0 +1,17 @@
+state={
+	id=930
+	name="STATE_930"
+	provinces={
+		1969 
+	}
+	history={
+		owner = NIG
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = NIG
+	}
+	state_category=rural
+	manpower=1357423
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=512
+	name="STATE_512"
+	resources={
+		oil=16.000
+	}
+
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ARG
+	}
+	state_category=pastoral
+	provinces={
+		5173 12946 12952 
+	}
+	manpower=30100
+	buildings_max_level_factor=1.000
+
+}

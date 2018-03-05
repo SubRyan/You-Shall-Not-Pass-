@@ -1,0 +1,29 @@
+state={
+	id=757
+	name="STATE_757"
+
+	resources={
+		chromium=2.000
+	}	
+	history={
+		owner = BRA
+		victory_points={
+			2228 6
+		}
+		victory_points={
+			5153 4
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = BRA
+	}
+
+	provinces={
+		2228 5153 5204 10984 
+	}
+	state_category=rural
+	manpower=887100
+	buildings_max_level_factor=1.000
+}

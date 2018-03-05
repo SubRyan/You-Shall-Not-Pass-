@@ -1,0 +1,23 @@
+state={
+	id=983
+	name="STATE_983"
+	provinces={
+		7968 8080 
+	}
+	resources={
+		oil=716.000
+	}
+	history={
+		owner = VEN
+		victory_points={
+			7968 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = VEN
+	}
+	state_category=rural
+	manpower=136600
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,21 @@
+state={
+	id=1081
+	name="STATE_1081"
+	provinces={
+		4445 7629 9675 
+	}
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = USA
+		victory_points = {
+			4445 5 
+		}
+	}
+	state_category=rural
+	manpower=359600
+	buildings_max_level_factor=1.000
+}

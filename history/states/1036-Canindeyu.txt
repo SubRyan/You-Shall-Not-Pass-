@@ -1,0 +1,17 @@
+state={
+	id=1036
+	name="STATE_1036"
+	provinces={
+		12901 
+	}
+	history={
+		owner = PAR
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = PAR
+	}
+	state_category=pastoral
+	manpower=146500
+	buildings_max_level_factor=1.000
+}

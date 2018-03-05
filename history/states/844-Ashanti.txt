@@ -1,0 +1,21 @@
+state={
+	id=844
+	name="STATE_844"
+	provinces={
+		12787 
+	}
+	history={
+		owner = GHA
+		add_core_of = GHA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			12787 3 
+		}
+	}
+
+	manpower=749882
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

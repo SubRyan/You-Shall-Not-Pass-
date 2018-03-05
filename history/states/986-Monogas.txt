@@ -1,0 +1,20 @@
+state={
+	id=986
+	name="STATE_986"
+	provinces={
+		10823 
+	}
+	resources={
+		oil=716.000
+	}
+	history={
+		owner = VEN
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = VEN
+	}
+	state_category=pastoral
+	manpower=93800
+	buildings_max_level_factor=1.000
+}

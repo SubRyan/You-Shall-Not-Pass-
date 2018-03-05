@@ -1,0 +1,34 @@
+state={
+	id=826
+	name="STATE_826"
+
+	history={
+		owner = AOF
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			10803 5 
+		}
+		victory_points = {
+			10836 5 
+		}
+		victory_points = {
+			10762 1 
+		}
+		victory_points = {
+			7983 1 
+		}
+		victory_points = {
+			8071 1 
+		}
+	}
+
+	provinces={
+		2001 5013 5070 7950 7983 8065 8071 8122 10762 10803 10836 
+	}
+	manpower=3850700
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

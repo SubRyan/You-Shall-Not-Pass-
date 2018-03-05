@@ -1,0 +1,35 @@
+
+state={
+	id=550
+	name="STATE_550"
+
+	history={
+		owner = ERI
+		add_core_of = ERI
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+			12766 = {
+				naval_base = 3
+
+			}
+		}
+		victory_points = {
+			12766 5 
+		}
+		victory_points = {
+			5091 1 
+		}
+		1939.8.14 = {
+			owner = ITE
+			controller = ITE
+		}
+	}
+
+	provinces={
+		5091 12766 
+	}
+	manpower=478285
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

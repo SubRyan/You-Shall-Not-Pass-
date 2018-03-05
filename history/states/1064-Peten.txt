@@ -1,0 +1,17 @@
+state={
+	id=1064
+	name="STATE_1064"
+	provinces={
+		4991 
+	}
+	history={
+		owner = GUA
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = GUA
+	}
+	state_category=wasteland
+	manpower=9700
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,18 @@
+state={
+	id=862
+	name="STATE_862"
+	provinces={
+		7842 
+	}
+	history={
+		owner = RHO
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = RHO
+	}
+
+	state_category=pastoral
+	manpower=148654
+	buildings_max_level_factor=1.000
+}

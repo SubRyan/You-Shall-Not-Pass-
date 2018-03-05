@@ -1,0 +1,59 @@
+﻿division_template = {
+	name = "Colonial Garrison"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+units = {
+					
+	### NORTH AND SOUTH AMERICAS ###			
+	navy = {				
+		name = "America and West Indies Fleet"
+		base = 13010
+		location = 13010  # Bermuda
+		ship = { name = "HMS Berwick" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BER version_name = "County Class" } } }
+		ship = { name = "HMS York" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BER version_name = "County Class" } } }	
+		ship = { name = "HMS Orion" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BER version_name = "Emerald Class" } } }
+	}						
+}
+
+
+air_wings = {
+
+}
+
+	#########################
+	## STARTING PRODUCTION ##
+	#########################
+instant_effect = {
+	
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "BER"
+		}
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "BER" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+}
+	#####################

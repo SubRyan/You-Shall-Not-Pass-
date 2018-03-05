@@ -1,0 +1,20 @@
+state={
+	id=852
+	name="STATE_852"
+	provinces={
+		10013 11987 
+	}
+	history={
+		owner = MOR
+		add_core_of = MOR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			11987 10
+		}
+	}
+	manpower=268532
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

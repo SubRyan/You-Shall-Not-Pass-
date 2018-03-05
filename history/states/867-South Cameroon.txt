@@ -1,0 +1,29 @@
+state={
+	id=867
+	name="STATE_867"
+	provinces={
+		7978 10831 
+	}
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 1
+		}
+		set_demilitarized_zone = yes
+		if = {
+			limit = {
+				OR = {
+ 					ENG = { has_defensive_war = yes }
+					NOT = {
+						country_exists = ENG
+					}
+				}
+ 			}
+			set_demilitarized_zone = no		
+		}
+	}
+
+	manpower=334872
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

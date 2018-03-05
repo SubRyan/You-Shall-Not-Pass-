@@ -1,0 +1,28 @@
+state={
+	id=822
+	name="STATE_822"
+	provinces={
+		1155 12049 4073 9947 
+	}
+	manpower=2500
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 4
+			1155 = {
+				naval_base = 2
+
+			}
+		}
+		victory_points = {
+			12049 15 
+		}
+		victory_points = {
+			4073 5 
+		}
+		add_core_of = EGY
+	}
+
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

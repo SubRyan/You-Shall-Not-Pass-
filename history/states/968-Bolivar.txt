@@ -1,0 +1,24 @@
+state={
+	id=968
+	name="STATE_968"
+	provinces={
+		10864 12703 
+	}
+	resources={
+		oil=19.000
+	}
+	history={
+		owner = COL
+		victory_points={
+			10864 1
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex=2
+		}
+		add_core_of = COL
+	}
+	state_category=town
+	manpower=771700
+	buildings_max_level_factor=1.000
+}

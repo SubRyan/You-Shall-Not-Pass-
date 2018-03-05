@@ -1,0 +1,24 @@
+state={
+	id=1031
+	name="STATE_1031"
+	provinces={
+		2208 5143 8169 8255 
+	}
+	resources={
+		oil=20.000
+	}
+
+	history={
+		owner = ARG
+		victory_points={
+			5143 6
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ARG
+	}
+	state_category=rural
+	manpower=454100
+	buildings_max_level_factor=1.000
+}

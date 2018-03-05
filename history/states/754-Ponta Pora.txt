@@ -1,0 +1,23 @@
+state={
+	id=754
+	name="STATE_754"
+
+	history={
+		owner = CUB
+		victory_points={
+			10498 7
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = CUB
+	}
+
+	provinces={
+		10498 
+	}
+	manpower=372800
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

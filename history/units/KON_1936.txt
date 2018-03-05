@@ -1,0 +1,85 @@
+﻿division_template = {
+	name = "Colonial Garrison"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+
+units = {
+	
+	### Far East Command ###
+	###China
+	division= {	
+		name = "Hong Kong VDF"
+		location = 10062
+		division_template = "Colonial Garrison"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	
+	##### NAVAL UNITS #####
+			
+	navy = {				
+		name = "China Fleet"
+		base = 10062
+		location = 10062 # Hong Kong			
+		ship = { name = "HMS Eagle" definition = carrier equipment = { carrier_1 = { amount = 1 owner = KON } } 
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "KON" amount = 18 }
+				cv_nav_bomber_equipment_1 =  { owner = "KON" amount = 18 }
+			}
+		}
+		ship = { name = "HMS Kent" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = KON version_name = "County Class" } } }	
+		ship = { name = "HMS Cornwall" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = KON version_name = "County Class" } } }	
+		ship = { name = "HMS Dorsetshire" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = KON version_name = "County Class" } }	}
+		ship = { name = "HMS Caledon" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KON } } }
+		ship = { name = "HMS Calypso" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KON } } }
+		# Singapore & Hong Kong Division
+		ship = { name = "HMS Scout" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KON } } }		
+		ship = { name = "HMS Tenedos" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KON } } }		
+		ship = { name = "HMS Thanet" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KON } } }		
+		ship = { name = "HMS Thracian" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KON } } }		
+	}					
+}
+
+
+air_wings = {
+
+}
+
+	#########################
+	## STARTING PRODUCTION ##
+	#########################
+instant_effect = {
+	
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "KON"
+		}
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "KON" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+}
+	#####################

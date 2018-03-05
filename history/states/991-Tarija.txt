@@ -1,0 +1,20 @@
+state={
+	id=991
+	name="STATE_991"
+	provinces={
+		5229 
+	}
+	history={
+		owner = BOL
+		victory_points={
+			5229 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = BOL
+	}
+	state_category=wasteland
+	manpower=187900
+	buildings_max_level_factor=1.000
+}

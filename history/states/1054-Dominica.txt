@@ -1,0 +1,22 @@
+state={
+	id=1054
+	name="STATE_1054"
+	provinces={
+		7123 
+	}
+	history={
+		owner = LEE
+		buildings = {
+			infrastructure = 2
+			7123 = {
+				naval_base = 1
+			}
+		}
+		victory_points ={
+			7123 5
+		}
+	}
+	state_category=small_island
+	manpower=48000
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=510
+	name="STATE_510"
+	resources={
+		oil=12.000
+	}
+
+	history={
+		owner = ARG
+		victory_points={
+			12964 6
+		}
+		victory_points={
+			8187 3
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex=1
+		}
+		add_core_of = ARG
+	}
+
+	provinces={
+		8187 8238 12964 
+	}
+	manpower=490500
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

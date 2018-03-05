@@ -1,0 +1,19 @@
+state={
+	id=818
+	name="STATE_818"
+	provinces={
+		2088 10784 
+	}
+	history={
+		owner = SUD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			2088 5
+		}
+	}
+	manpower=654000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

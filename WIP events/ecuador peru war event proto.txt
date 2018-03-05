@@ -1,0 +1,265 @@
+# Border War
+country_event = {
+	id = ecuador.1
+	title = ecuador.1.t
+	desc = ecuador.1.d
+	picture = GFX_report_event_generic_battle
+	
+	fire_only_once = yes
+
+	trigger = {
+		OR = {
+			divisions_in_state = {
+				state = 955
+				size > 0
+			}
+			divisions_in_state = {
+				state = 957
+				size > 0
+			}
+			divisions_in_state = {
+				state = 958
+				size > 0
+			}
+		}
+		PRU = {
+			divisions_in_state = {	
+				state = 490	
+				size > 0	
+			}
+			divisions_in_state = {	
+				state = 956	
+				size > 0	
+			}
+			divisions_in_state = {	
+				state = 944
+				size > 0	
+			}
+		}	
+	}	
+	
+	mean_time_to_happen = {	
+		days = 21	
+	}	
+
+	immediate = {
+		hidden_effect = {
+			PRU = { country_event = { id = peru.1 } }
+		}
+	}
+	
+	option = {
+		name = ecuador.1.a
+		if = {
+			limit = {
+				divisions_in_state = {
+					state = 605
+					size > 0
+				}
+			}
+			605 = { set_border_war = yes }
+		}
+		if = {
+			limit = {
+				divisions_in_state = {
+					state = 620
+					size > 0
+				}
+			}
+			620 = { set_border_war = yes }
+		}
+		if = {
+			limit = {
+				divisions_in_state = {
+					state = 607
+					size > 0
+				}
+			}
+			607 = { set_border_war = yes }
+		}
+		622 = { set_border_war = yes }
+	}
+	option = {
+		name = ecuador.1.b
+		ai_chance = { factor = 0 }
+		add_political_power = -50
+	}
+}
+
+# ECU loses Border War
+country_event = {
+	id = ecuador.2
+	title = ecuador.2.t
+	desc = ecuador.2.d
+	picture = GFX_report_event_generic_battle
+	
+	is_triggered_only = yes
+
+	trigger = {
+		tag = CHI
+	}
+
+	immediate = {
+		hidden_effect = {
+			605 = {
+				if = {
+					limit = { is_border_conflict = yes }
+					set_border_war = no
+				}
+			}
+			620 = {
+				if = {
+					limit = { is_border_conflict = yes }
+					set_border_war = no
+				}
+			}
+			607 = {
+				if = {
+					limit = { is_border_conflict = yes }
+					set_border_war = no
+				}
+			}
+			622 = {
+				if = {
+					limit = { is_border_conflict = yes }
+					set_border_war = no
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = china.14.a
+		add_political_power = -100
+		add_national_unity = -0.05
+		PRC = { country_event = { id = china.15 } }
+	}
+}
+
+# PRC wins Border War
+country_event = {
+	id = china.15
+	title = china.15.t
+	desc = china.15.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+
+	option = {
+		name = china.15.a
+		add_political_power = 100
+		add_national_unity = 0.05
+	}
+}
+
+# PRC loses Border War
+country_event = {
+	id = china.16
+	title = china.16.t
+	desc = china.16.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+
+	trigger = {
+		tag = PRC
+	}
+
+	immediate = {
+		hidden_effect = {
+			605 = {
+				if = {
+					limit = { is_border_conflict = yes }
+					set_border_war = no
+				}
+			}
+			620 = {
+				if = {
+					limit = { is_border_conflict = yes }
+					set_border_war = no
+				}
+			}
+			607 = {
+				if = {
+					limit = { is_border_conflict = yes }
+					set_border_war = no
+				}
+			}
+			622 = {
+				if = {
+					limit = { is_border_conflict = yes }
+					set_border_war = no
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = china.16.a
+		add_political_power = -100
+		add_national_unity = -0.05
+		CHI = { country_event = { id = china.17 } }
+	}
+}
+
+# CHI wins Border War
+country_event = {
+	id = china.17
+	title = china.17.t
+	desc = china.17.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+
+	option = {
+		name = china.17.a
+		add_political_power = 100
+		add_national_unity = 0.05
+	}
+}
+
+# Border War Starts (PRC)
+country_event = {
+	id = china.18
+	title = china.18.t
+	desc = china.18.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+
+	option = {
+		name = china.18.a
+		effect_tooltip = {
+			622 = { set_border_war = yes }
+			CHI = {
+				if = {
+					limit = {
+						divisions_in_state = {
+							state = 605
+							size > 0
+						}
+					}
+					605 = { set_border_war = yes }
+				}
+				if = {
+					limit = {
+						divisions_in_state = {
+							state = 620
+							size > 0
+						}
+					}
+					620 = { set_border_war = yes }
+				}
+				if = {
+					limit = {
+						divisions_in_state = {
+							state = 607
+							size > 0
+						}
+					}
+					607 = { set_border_war = yes }
+				}
+			}
+		}
+	}
+}

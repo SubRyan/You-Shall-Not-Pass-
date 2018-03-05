@@ -1,0 +1,33 @@
+state={
+	id=760
+	name="STATE_760"
+	provinces={
+		5168 5182 8227 10345 10967 
+	}
+	resources={
+		steel=2.000
+	}
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			5168 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = BRA
+		victory_points = {
+			5168 19 
+		}
+		victory_points = {
+			8227 2 
+		}
+		victory_points = {
+			10967 9 
+		}
+	}
+	manpower=3146600
+	buildings_max_level_factor=1.000
+	state_category=city
+}

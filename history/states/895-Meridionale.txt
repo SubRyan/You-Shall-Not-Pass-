@@ -1,0 +1,21 @@
+state={
+	id=895
+	name="STATE_895"
+	provinces={
+		8164 11014 12941 
+	}
+	history={
+		owner = SOM
+		add_core_of = SOM
+		buildings = {
+			infrastructure = 1
+		}
+		1939.8.14 = {
+			owner = ITE
+			controller = ITE
+		}
+	}
+	manpower=65985
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

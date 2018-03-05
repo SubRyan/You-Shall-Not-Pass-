@@ -1,0 +1,19 @@
+state={
+	id=860
+	name="STATE_860"
+	provinces={
+		1874 
+	}
+	history={
+		owner = RHO
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = RHO
+	}
+
+	state_category=pastoral
+	manpower=24365
+	buildings_max_level_factor=1.000
+}

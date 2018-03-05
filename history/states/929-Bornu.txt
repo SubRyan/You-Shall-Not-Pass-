@@ -1,0 +1,20 @@
+state={
+	id=929
+	name="STATE_929"
+	provinces={
+		4997 5028 
+	}
+	history={
+		owner = NIG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			4997 1 
+		}
+		add_core_of = NIG
+	}
+	state_category=rural
+	manpower=1118360
+	buildings_max_level_factor=1.000
+}

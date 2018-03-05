@@ -1,0 +1,101 @@
+﻿division_template = {
+	name = "Infantry Division"			# 1st - 5th divisions = fully equipped, others = reserve divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+       	engineer = { x = 0 y = 0 }
+       	artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Colonial Garrison"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+units = {
+	### 1st Battalion ###
+	division = {
+		name = "1st Battalion"
+		location = 10929
+		division_template = "Infantry Division"		# Represents Rhodesia's 1st Salisbury Battalion
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		name = "2nd Battalion"
+		location = 4851
+		division_template = "Infantry Division"		# Represents Rhodesia's 2nd Salisbury Battalion
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.8
+
+	}
+
+}
+
+
+air_wings = {
+	### Southern Rhodesia Staff Corps Air Unit
+	772 = { 
+		# Southern Rhodesia Staff Corps Air Unit
+		fighter_equipment_0 =  {
+			owner = "RHO" 
+			amount = 10
+		}
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "RHO"
+		}
+		requested_factories = 1
+		progress = 0.9
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "RHO" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+			creator = "RHO" 
+		}
+		requested_factories = 1
+		progress = 0.15
+		efficiency = 50
+	}
+}
+
+#################################

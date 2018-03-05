@@ -1,0 +1,24 @@
+state={
+	id=1070
+	name="STATE_1070"
+	provinces={
+		1904 8119 12736 
+	}
+	history={
+		owner = MEX
+		victory_points={
+			12736 1
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			12736 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = MEX
+	}
+	state_category=pastoral
+	manpower=51500
+	buildings_max_level_factor=1.000
+}

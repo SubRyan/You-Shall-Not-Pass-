@@ -1,0 +1,17 @@
+state={
+	id=972
+	name="STATE_972"
+	provinces={
+		7991 
+	}
+	history={
+		owner = COL
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = COL
+	}
+	state_category=rural
+	manpower=465900
+	buildings_max_level_factor=1.000
+}

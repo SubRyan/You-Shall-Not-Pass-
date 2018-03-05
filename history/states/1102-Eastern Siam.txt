@@ -1,0 +1,21 @@
+state={
+	id=1102
+	name="STATE_1102"
+
+	history={
+		owner = SIA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+
+		add_core_of = SIA
+
+	}
+	provinces={
+		1244 4433 7225 7292 10293 12224 
+	}
+	manpower=1841700
+	state_category=town
+	buildings_max_level_factor=1.000
+}

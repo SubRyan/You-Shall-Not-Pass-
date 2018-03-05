@@ -1,0 +1,29 @@
+state={
+	id=795
+	name="STATE_795"
+
+	history={
+		owner = AEF
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+	
+			12830 3 
+
+		}
+		victory_points = {
+	
+			3165 1 
+
+		}
+	}
+
+	provinces={
+		3165 5084 8078 11012 11108 12719 12830 
+	}
+	manpower=834000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

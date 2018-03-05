@@ -1,0 +1,24 @@
+
+state={
+	id=319
+	name="STATE_319"
+
+	history={
+		owner = DOM
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = DOM
+		victory_points = {
+			4598 3 
+		}
+	}
+
+	provinces={
+		4598 
+	}
+	manpower=384500
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

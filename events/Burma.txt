@@ -1,0 +1,95 @@
+﻿###########################
+# Burmese Events
+###########################
+
+add_namespace = Burma
+
+# Partition Burma from Raj
+#country_event = {
+    id = burma.1
+    title = burma.1.t
+    desc = burma.1.d
+    picture = GFX_report_event_generic_peaceful_annexation
+ 
+    fire_only_once = yes
+ 
+    trigger = {
+        tag = ENG
+        date > 1937.4.1
+        has_start_date < 1936.01.02
+    }
+
+    mean_time_to_happen = {
+        days = 4
+    }
+
+    option = { release burma
+    	name = burma.1.a
+        ai_chance = {
+		factor = 50
+		modifier = {
+			is_historical_focus_on = yes
+			factor = 100
+		}
+	}
+	MYA = { 
+		set_state_owner = 640
+		set_state_owner = 288
+		set_state_owner = 1110
+		set_state_owner = 1109
+		set_state_owner = 1106
+		set_state_owner = 472
+		set_state_owner = 1108
+		set_state_owner = 1107
+		set_state_owner = 1111 
+		load_oob = MYA_1936
+	}
+	ENG={
+		add_to_faction = MYA
+	}
+    }
+	option = { dont release burma
+    	name = burma.2.a
+        ai_chance = {
+		factor = 50
+		modifier = {
+			is_historical_focus_on = yes
+			factor = 100
+		}
+	}
+	ENG = { 
+		set_state_owner = 640
+		set_state_owner = 288
+		set_state_owner = 1110
+		set_state_owner = 1109
+		set_state_owner = 1106
+		set_state_owner = 472
+		set_state_owner = 1108
+		set_state_owner = 1107
+		set_state_owner = 1111 
+	}
+    }
+	option = { release burma
+    	name = burma.1.a
+        ai_chance = {
+		factor = 50
+		modifier = {
+			is_historical_focus_on = yes
+			factor = 100
+		}
+	}
+	MYA = { 
+		change_tag_from = ENG
+		set_state_owner = 640
+		set_state_owner = 288
+		set_state_owner = 1110
+		set_state_owner = 1109
+		set_state_owner = 1106
+		set_state_owner = 472
+		set_state_owner = 1108
+		set_state_owner = 1107
+		set_state_owner = 1111 
+		load_oob = MYA_1936
+	}
+    }
+}
