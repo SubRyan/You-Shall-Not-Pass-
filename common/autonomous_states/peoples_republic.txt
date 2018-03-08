@@ -1,5 +1,5 @@
 autonomy_state = {
-	id = peoples_republic
+	id = autonomy_peoples_republic
 	
 	default = yes
 	is_puppet = yes
