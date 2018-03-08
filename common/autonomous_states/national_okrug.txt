@@ -1,5 +1,5 @@
 autonomy_state = {
-	id = national_okrug
+	id = autonomy_national_okrug
 	
 	default = yes
 	is_puppet = yes
