@@ -1,5 +1,5 @@
 autonomy_state = {
-	id = autonomous_oblast
+	id = autonomy_autonomous_oblast
 	
 	default = yes
 	is_puppet = yes
