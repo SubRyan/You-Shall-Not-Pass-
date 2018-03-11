@@ -772,3 +772,23 @@ SMO = { #done
 	color = rgb { 224 54 57 }
 	color_ui = rgb { 230 94 96 }
 }
+KAZ = { #done
+	color = rgb { 75 184 203 }
+	color_ui = rgb { 67 165 182 }
+}
+TAJ = { #done
+	color = rgb { 127 124 66 }
+	color_ui = rgb { 114 111 59 }
+}
+KYR = { #done
+	color = rgb { 17 47 71 }
+	color_ui = rgb { 40 67 89 }
+}
+UZB = { #done
+	color = rgb { 232 124 5 }
+	color_ui = rgb { 208 111 4 }
+}
+TUK = { #done
+	color = rgb { 112 116 172 }
+	color_ui = rgb { 100 104 154 }
+}

@@ -6,7 +6,8 @@ set_research_slots = 2
 
 set_cosmetic_tag = BWP_ENG # British West Pacific
 
-set_national_unity = 0.6
+set_stability = 0.6
+set_war_support = 0.1
 
 # Starting tech
 set_technology = {
@@ -66,19 +67,25 @@ create_country_leader = {
 
 1939.1.1 = {
 
-	add_political_power = 1198
+	add_political_power = 200
+	add_ideas = {	
 
-create_country_leader = {
-	name = "Harry Charles Luke"
-	picture = "Portrait_BWP_Harry_Luke.dds"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-		
+		#laws
+		partial_economic_mobilisation
+		limited_conscription
+
 	}
-}
+
+	create_country_leader = {
+		name = "Harry Charles Luke"
+		picture = "Portrait_BWP_Harry_Luke.dds"
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {
+			
+		}
+	}
 	
-	set_national_unity = 0.8
 	oob = "BWP_1939"
 	set_technology = {
 		fighter1 = 1
@@ -139,8 +146,8 @@ create_country_leader = {
 		improved_machine_tools = 1
 		advanced_machine_tools = 1
 		synth_oil_experiments = 1
-		oil_plant = 1
-		improved_oil_plant = 1
+		oil_processing = 1
+		improved_oil_processing = 1
 		construction1 = 1
 		construction2 = 1
 		construction3 = 1

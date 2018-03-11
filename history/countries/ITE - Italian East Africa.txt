@@ -1,7 +1,8 @@
 ﻿capital = 271
 
 oob = "ITE_1936"
-
+set_stability = 0.6
+set_war_support = 0.7
 set_research_slots = 2
 
 add_ideas = {
@@ -43,8 +44,13 @@ set_convoys = 20
 
 1939.1.1 = {
 
-	add_political_power = 1198
-	
+	add_political_power = 200
+	add_ideas = {
+
+		#laws
+		partial_economic_mobilisation
+		extensive_conscription
+	}
 	#generic focuses
 	complete_national_focus = army_effort
 	complete_national_focus = equipment_effort
@@ -66,18 +72,38 @@ set_convoys = 20
 		}
 	}	
 	set_technology = {
-		tech_support = 1
-		tech_recon = 1
+		fighter1 = 1
+		fighter2 = 1
+		tactical_bomber1 = 1
+		tactical_bomber2 = 1
+		improved_light_tank = 1
+		interwar_artillery = 1
+		interwar_antitank = 1
+		infantry_weapons2 = 1
 		support_weapons = 1
-		gw_artillery = 1
+		support_weapons2 = 1
+		basic_submarine = 1
+		basic_destroyer = 1
+		improved_destroyer = 1
+		basic_light_cruiser = 1
+		basic_battleship = 1
+		improved_battleship = 1
+		tech_recon = 1
 
 		#doctrines
-		air_superiority = 1
+					 
 		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
+		prepared_defense = 1
+					
 		battlefleet_concentration = 1
-		convoy_sailing = 1
+		submarine_operations = 1
+		
+		#Air
+		force_rotation = 1
+		fighter_baiting = 1
+		low_echelon_support = 1
+		dispersed_fighting = 1
+
 
 		#electronics
 		electronic_mechanical_engineering = 1
@@ -85,41 +111,47 @@ set_convoys = 20
 		radio_detection = 1
 		mechanical_computing = 1
 		computing_machine = 1
+		basic_encryption = 1
+		basic_decryption = 1
 
 		#industry
 		basic_machine_tools = 1
 		improved_machine_tools = 1
 		advanced_machine_tools = 1
 		synth_oil_experiments = 1
-		oil_plant = 1
-		improved_oil_plant = 1
+		oil_processing = 1
+		improved_oil_processing = 1
 		construction1 = 1
 		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
+		construction3 = 1
+		concentrated_industry = 1
+		concentrated_industry2 = 1
+		concentrated_industry3 = 1
 	}
+	
+	set_stability = 0.8
 }
 
 set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 97
+			popularity = 22
 		}
 
 		fascism = {
-			popularity = 2
+			popularity = 76
 		}
 		
 		communism = {
-			popularity = 1
+			popularity = 2
 		}
 	}
 	
-	ruling_party = democratic
-	last_election = "1935.11.14"
-	election_frequency = 48
-	elections_allowed = yes ##suspended through duration of war, which is handled via event
+	ruling_party = fascism
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
 }
 
 create_country_leader = {
@@ -135,33 +167,53 @@ create_country_leader = {
 create_field_marshal = {
 	name = "Pietro Badoglio"
 	picture = "Portrait_ITE_Pietro_Badoglio.dds"
-	traits = { defensive_doctrine old_guard }
+	traits = { defensive_doctrine old_guard politically_connected inflexible_strategist }
 	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 create_field_marshal = {
 	name = "Prince Amedeo"
 	picture = "Portrait_ITE_Prince_Amedeo.dds"
-	traits = { inspirational_leader }
-	skill = 3
+	traits = { inspirational_leader defensive_doctrine}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
 }
 create_corps_commander = {
 	name = "Guglielmo Nasi"
 	picture = "Portrait_ITE_Guglielmo_Nasi.dds"
 	traits = { commando }
 	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
 }
 create_corps_commander = {
 	name = "Pietro Gazzera"
 	picture = "Portrait_ITE_Pietro_Gazzera.dds"
 	traits = { desert_fox }
-	skill = 2
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 create_corps_commander = {
-	name = "Portrait_ITE_Luigi_Frusci"
+	name = "Luigi Frusci"
 	picture = "Portrait_ITE_Luigi_Frusci.dds"
 	traits = { desert_fox old_guard  }
-	skill = 2
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 ### Ship Variants ###
 

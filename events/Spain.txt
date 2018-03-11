@@ -55,7 +55,8 @@ country_event = {
 				}
 				load_oob = "SPR_Civil_War"
 				set_equipment_fraction = 0.5
-				set_national_unity = 0.9
+				set_stability = 0.9
+				set_war_support = 0.8
 				#country_event = { id = spain.3 days = 1 }
 				add_popularity = {
 					ideology = democratic
@@ -67,11 +68,19 @@ country_event = {
 			
 			load_oob = "SPA_Civil_War"
 			set_equipment_fraction = 0.5
-			set_national_unity = 0.9
+			set_stability = 0.9
+			set_war_support = 0.8
 			
 			add_popularity = {
 				ideology = fascism
 				popularity = 1
+			}
+			random_other_country = {
+				limit = {
+					original_tag = SPR
+					has_government = communism
+				}
+				set_cosmetic_tag = SPR_civil_war
 			}
 
 			#country_event = { id = spain.2 days = 7 }
@@ -97,7 +106,8 @@ country_event = {
 					has_government = fascism
 				}
 				set_equipment_fraction = 0.5
-				set_national_unity = 0.9
+				set_stability = 0.9
+				set_war_support = 0.8
 				#country_event = { id = spain.2 days = 1 }
 				load_oob = "SPA_Civil_War"
 			}
@@ -116,11 +126,19 @@ country_event = {
 				ideology = fascism
 				popularity = -1
 			}	
+			random_other_country = {
+				limit = {
+					original_tag = SPR
+					has_government = fascism
+				}
+				set_cosmetic_tag = SPR_civil_war
+			}
 			load_oob = "SPR_Civil_War"
 			set_equipment_fraction = 0.5
-			set_national_unity = 0.9
+			set_stability = 0.9
+			set_war_support = 0.8
 			
-			#country_event = { id = spain.3 days = 7 }
+			#country_event = { id = spain.3 days = 7 
 		}
 		custom_effect_tooltip = republicans_chosen
 	}
@@ -464,7 +482,8 @@ country_event = {
 				}
 				load_oob = "SPR_Civil_War"
 				set_equipment_fraction = 0.7
-				set_national_unity = 0.8
+				set_stability = 0.8
+				set_war_support = 0.8
 				add_popularity = {
 					ideology = democratic
 					popularity = 0.35
@@ -475,7 +494,8 @@ country_event = {
 			
 			load_oob = "SPA_Civil_War"
 			set_equipment_fraction = 0.7
-			set_national_unity = 0.9
+			set_stability = 0.9
+			set_war_support = 0.8
 			add_popularity = {
 				ideology = fascism
 				popularity = 1
@@ -499,7 +519,8 @@ country_event = {
 					has_government = fascism
 				}
 				set_equipment_fraction = 0.7
-				set_national_unity = 0.9
+				set_stability = 0.9
+				set_war_support = 0.8
 				load_oob = "SPA_Civil_War"
 			}
 			news_event = { hours = 6 id = news.63 }
@@ -511,7 +532,8 @@ country_event = {
 			}
 			load_oob = "SPR_Civil_War"
 			set_equipment_fraction = 0.7
-			set_national_unity = 0.8
+			set_stability = 0.9
+			set_war_support = 0.8
 			add_popularity = {
 				ideology = fascism
 				popularity = -1

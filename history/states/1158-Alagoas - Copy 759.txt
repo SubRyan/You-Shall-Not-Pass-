@@ -1,0 +1,23 @@
+state={
+	id=1158
+	name="STATE_1158"
+	state_category = large_town
+	
+	history={
+		owner = BRA
+		victory_points={
+			10939 9
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = BRA
+	}
+
+	provinces={
+		1524 10939 10998 
+	}
+	manpower=1266000
+	buildings_max_level_factor=1.000
+}

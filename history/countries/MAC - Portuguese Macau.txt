@@ -12,11 +12,18 @@ set_technology = {
 	gw_artillery = 1
 	tech_support = 1		
 	tech_engineers = 1
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	transport = 1
 }
 
 1939.1.1 = {
 
-	add_political_power = 1198
+	add_political_power = 200
 	
 	#generic focuses
 	complete_national_focus = army_effort
@@ -65,8 +72,8 @@ set_technology = {
 		improved_machine_tools = 1
 		advanced_machine_tools = 1
 		synth_oil_experiments = 1
-		oil_plant = 1
-		improved_oil_plant = 1
+		oil_processing = 1
+		improved_oil_processing = 1
 		construction1 = 1
 		construction2 = 1
 		dispersed_industry = 1
@@ -74,7 +81,7 @@ set_technology = {
 	}
 }
 
-set_convoys = 5
+set_convoys = 25
 set_politics = {
 
 	parties = {
@@ -129,8 +136,8 @@ set_politics = {
 	}
 }
 
-set_convoys = 100
-set_national_unity = 0.8
+set_convoys = 25
+set_stability = 0.75
 
 
 create_country_leader = {

@@ -1,18 +1,21 @@
 state={
 	id=916
 	name="STATE_916"
-	provinces={
-		2015 4682 4947 5016 5736 7702 7790 7792 7949 8042 8086 10885 12524 12864 
-	}
+
 	history={
 		owner = SIK
 		buildings = {
 			infrastructure = 0
+
 		}
+
 	}
 
+	provinces={
+		2015 4682 5016 7702 7790 7792 7949 8042 8086 10885 12864 
+	}
 	manpower=100
-	state_category=wasteland
-	impassable=yes
 	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
 }

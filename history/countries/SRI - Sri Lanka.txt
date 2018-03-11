@@ -6,7 +6,8 @@ set_research_slots = 2
 
 set_cosmetic_tag = SRI_ENG # Ceylon
 
-set_national_unity = 0.6
+set_stability = 0.6
+set_war_support = 0.1
 
 # Starting tech
 set_technology = {
@@ -56,7 +57,7 @@ if = {
 
 1939.1.1 = {
 
-	add_political_power = 1198
+	add_political_power = 200
 
 create_country_leader = {
 	name = "Andrew Caldecott"
@@ -67,8 +68,7 @@ create_country_leader = {
 		
 	}
 }
-	
-	set_national_unity = 0.8
+					 
 	oob = "SRI_1939"
 	set_technology = {
 		fighter1 = 1
@@ -129,8 +129,8 @@ create_country_leader = {
 		improved_machine_tools = 1
 		advanced_machine_tools = 1
 		synth_oil_experiments = 1
-		oil_plant = 1
-		improved_oil_plant = 1
+		oil_processing = 1
+		improved_oil_processing = 1
 		construction1 = 1
 		construction2 = 1
 		construction3 = 1

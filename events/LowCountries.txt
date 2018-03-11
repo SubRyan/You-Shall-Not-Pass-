@@ -59,7 +59,8 @@ country_event = {
 		#Set same cosmetic tag they would get on capitulation
 		BEL = {
 			set_capital = 295 
-			add_national_unity = -0.10
+			add_stability = -0.10
+			add_war_support = 0.10
 			set_cosmetic_tag = BEL_EXILE
 			#belgian congo
 			annex_country = { target = COG transfer_troops = yes }
@@ -127,7 +128,7 @@ country_event = {
 		}
 		BEL = {
 			set_capital = 6
-			add_national_unity = 0.15
+			add_stability = 0.10
 			drop_cosmetic_tag = yes
 			release = COG
 			puppet = COG
@@ -135,7 +136,7 @@ country_event = {
 		}
 		COG = {
 			set_cosmetic_tag = COG_BEL
-			add_national_unity = 0.05
+			add_stability = 0.10
 		}
 	}
 	option = { # Don't release Belgian Congo
@@ -148,7 +149,7 @@ country_event = {
 			}
 		}
 		BEL = {
-			add_national_unity = -0.05
+			add_stability = -0.10
 		}
 	}
 }
@@ -195,7 +196,8 @@ country_event = {
 		#Set same cosmetic tag they would get on capitulation
 		HOL = {
 			set_capital = 695 
-			add_national_unity = -0.10
+			add_stability = -0.10
+			add_war_support = 0.10
 			set_cosmetic_tag = HOL_EXILE
 			#dutch curacao
 			annex_country = { target = CUR transfer_troops = yes }
@@ -373,7 +375,7 @@ country_event = {
 		}
 		HOL = {
 			set_capital = 7
-			add_national_unity = 0.15
+			add_stability = 0.10
 			drop_cosmetic_tag = yes
 			release = CUR
 			puppet = CUR
@@ -381,7 +383,7 @@ country_event = {
 		}
 		CUR = {
 			set_cosmetic_tag = CUR_HOL
-			add_national_unity = 0.05
+			add_stability = 0.05
 		}
 	}
 	option = { # Don't release Dutch Curacao
