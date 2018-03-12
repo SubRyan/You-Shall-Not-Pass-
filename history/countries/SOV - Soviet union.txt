@@ -45,68 +45,55 @@ if = {
 	}
 	set_autonomy = {
 		target = BLR
-		autonomous_state = autonomy_union_republic
-		freedom_level = 0.35
+		autonomous_state = autonomy_SSR
 	}
 	set_autonomy = {
 		target = UKR
-		autonomous_state = autonomy_union_republic
-		freedom_level = 0.4
+		autonomous_state = autonomy_SSR
 	}
 	set_autonomy = {
 		target = GEO
-		autonomous_state = autonomy_union_republic
-		freedom_level = 0.4
+		autonomous_state = autonomy_SSR
 	}
 	set_autonomy = {
 		target = AZR
-		autonomous_state = autonomy_union_republic
-		freedom_level = 0.2
+		autonomous_state = autonomy_SSR
 	}
 	set_autonomy = {
 		target = ARM
-		autonomous_state = autonomy_union_republic
-		freedom_level = 0.2
+		autonomous_state = autonomy_SSR
 	}
 	set_autonomy = {
 		target = KAZ
-		autonomous_state = autonomy_union_republic
-		freedom_level = 0.15
+		autonomous_state = autonomy_SSR
 	}
 	set_autonomy = {
 		target = KYR
-		autonomous_state = autonomy_union_republic
-		freedom_level = 0.15
+		autonomous_state = autonomy_SSR
 	}
 	set_autonomy = {
 		target = TUK
-		autonomous_state = autonomy_union_republic
-		freedom_level = 0.15
+		autonomous_state = autonomy_SSR
 	}
 	set_autonomy = {
 		target = TAJ
-		autonomous_state = autonomy_union_republic
-		freedom_level = 0.15
+		autonomous_state = autonomy_SSR
 	}
 	set_autonomy = {
 		target = UZB
-		autonomous_state = autonomy_union_republic
-		freedom_level = 0.15
+		autonomous_state = autonomy_SSR
 	}
 	set_autonomy = {
 		target = TAN
 		autonomous_state = autonomy_peoples_republic
-		freedom_level = 0.15
 	}
 	set_autonomy = {
 		target = MON
 		autonomous_state = autonomy_peoples_republic
-		freedom_level = 0.15
 	}
 	set_autonomy = {
 		target = SIK
 		autonomous_state = autonomy_peoples_republic
-		freedom_level = 0.15
 	}
 	else = {
 		puppet = BLR
