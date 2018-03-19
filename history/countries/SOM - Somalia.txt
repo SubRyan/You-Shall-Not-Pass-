@@ -149,8 +149,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Rodolfo Graziani"
-	desc = ""
-	picture = "Portrait_Somalia_Rodolfo_Graziani.dds"
+	picture = "Portrait_Somalia_Radolfo_Graziani.dds"
 	ideology = fascism_ideology
 	traits = {
 		#
