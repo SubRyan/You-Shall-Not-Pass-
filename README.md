@@ -12,6 +12,11 @@ Hearts of Iron IV mod
 
 ## Features
 
+### New Autonomy
+
+* Communist autonomy
+![](https://i.imgur.com/gifLxkz.png)
+
 ### Map Changes
 
 * Global resource allocation rework according to League of Nations production data
