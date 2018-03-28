@@ -34,12 +34,12 @@ spriteTypes = {
 	
 	#ASSR
 	spriteType = {
-		name = "GFX_autonomy_ASSR_icon"
-		textureFile = "gfx/interface/autonomy/autonomy_ASSR.dds"
+		name = "GFX_autonomy_assr_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_assr.dds"
 	}
 	#SSR
 	spriteType = {
-		name = "GFX_autonomy_SSR_icon"
-		textureFile = "gfx/interface/autonomy/autonomy_SSR.dds"
+		name = "GFX_autonomy_ssr_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_ssr.dds"
 	}
 }
