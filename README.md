@@ -2,6 +2,14 @@
 
 Hearts of Iron IV mod
 
+## Credits
+
+* @FlimsyPike - Italy rework
+* insanegorey - Italy rework
+* @TheDivexz - Spain rework, Spanish Civil War event rework
+* @SPACERAIDER - Graphics assets
+* @Natt305 - Assistance with autonomy
+
 ## Features
 
 ### Map Changes
@@ -255,10 +263,3 @@ Hearts of Iron IV mod
 * Victory point rework for the following areas
   * Europe
   * Asia
-
-## Credits
-
-* @FlimsyPike - Italy rework
-* insanegorey - Italy rework
-* @TheDivexz - Spain rework, Spanish Civil War event rework
-* @SPACERAIDER - Graphics assets
