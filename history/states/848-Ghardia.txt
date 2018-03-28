@@ -6,16 +6,18 @@ state={
 		owner = FRA
 		buildings = {
 			infrastructure = 1
+
 		}
 		victory_points = {
 			1967 1 
 		}
+
 	}
 
 	provinces={
-		1126 1967 4018 9960 
+		1126 1967 2049 9960 
 	}
-	manpower=79658
+	manpower=166400
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

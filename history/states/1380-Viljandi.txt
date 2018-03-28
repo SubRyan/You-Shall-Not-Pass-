@@ -1,0 +1,17 @@
+state={
+	id=1380
+	name="STATE_1380"
+	provinces={
+		308 6178 
+	}
+	history={
+		owner = EST
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = EST
+	}
+	manpower=75000
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

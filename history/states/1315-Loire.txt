@@ -1,0 +1,21 @@
+state={
+	id=1315
+	name="STATE_1315"
+	provinces={
+		3594 11593 
+	}
+	history={
+		owner = FRA
+		victory_points = {
+			3594 3 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		add_core_of = FRA
+	}
+	manpower=650200
+	state_category=town
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,19 @@
+state={
+	id=1458
+	name="STATE_1458"
+
+	history={
+		owner = DEN
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = DEN
+		add_core_of = ICE
+	}
+	provinces={
+		4861 
+	}
+	manpower=26800
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

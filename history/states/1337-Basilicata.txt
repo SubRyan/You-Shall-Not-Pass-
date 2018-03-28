@@ -1,0 +1,17 @@
+state={
+	id=1337
+	name="STATE_1337"
+	provinces={
+		3968 6972 9856 
+	}
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ITA
+	}
+	manpower=543300
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

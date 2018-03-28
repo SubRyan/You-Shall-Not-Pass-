@@ -1,0 +1,38 @@
+state={
+	id=1512
+	name="STATE_1512"
+
+	history={
+		owner = JOR
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = JOR
+		set_demilitarized_zone = yes
+		if = {
+			limit = {
+				OR = {
+					ENG = {
+						has_defensive_war = yes
+
+					}
+					NOT = {
+						country_exists = ENG
+
+					}
+
+				}
+
+			}
+			set_demilitarized_zone = no
+
+		}
+
+	}
+	provinces={
+		4562 4574 4591 10089 
+	}
+	manpower=125400
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=264
+	name="STATE_264"
+
+	history={
+		owner = TUK
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SOV
+		add_core_of = TUK
+	}
+
+	provinces={
+		4958 7560 10357 13129 
+	}
+	manpower=359600
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,19 @@
+state={
+	id=1410
+	name="STATE_1410"
+
+	history={
+		owner = TAJ
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = SOV
+		add_core_of = TAJ
+	}
+	provinces={
+		8027 10417 12805 
+	}
+	manpower=48900
+	state_category=wasteland
+	buildings_max_level_factor=1.000
+}

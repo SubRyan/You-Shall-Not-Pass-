@@ -1,16 +1,12 @@
-state=
-{
+
+state={
 	id=79
 	name="STATE_79"
-	manpower = 2806400
-	
 	resources={
-		oil=20.00
+		oil=20.000
 	}
-	state_category = rural
-	
-	history=
-	{
+
+	history={
 		owner = ROM
 		buildings = {
 			infrastructure = 5
@@ -22,7 +18,11 @@ state=
 		}
 		add_core_of = ROM
 	}
-	provinces=
-	{
-723 744 3728 3741 6584 6706 6729 6747 6761 9701 9716 11534 11652 11655 11672 11689 	}
+
+	provinces={
+		711 723 744 3689 3728 3741 6584 6706 6729 6747 9701 9716 11534 11655 11672 
+	}
+	manpower=2597800
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

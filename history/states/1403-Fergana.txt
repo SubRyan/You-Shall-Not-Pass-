@@ -1,0 +1,19 @@
+state={
+	id=1403
+	name="STATE_1403"
+
+	history={
+		owner = UZB
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = UZB
+		add_core_of = SOV
+	}
+	provinces={
+		2058 10488 10530 12581 
+	}
+	manpower=320500
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

@@ -1,13 +1,13 @@
 state={
 	id=81
 	name="STATE_81"
-	manpower=1519300
+	manpower=1626000
 	
 	resources={
 		oil=280.000
 	}
 	
-	state_category = rural
+	state_category = town
 	
 	history={
 		owner = ROM

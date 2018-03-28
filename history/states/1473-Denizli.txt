@@ -1,0 +1,18 @@
+state={
+	id=1473
+	name="STATE_1473"
+
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = TUR
+	}
+	provinces={
+		10041 11917 
+	}
+	manpower=261700
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

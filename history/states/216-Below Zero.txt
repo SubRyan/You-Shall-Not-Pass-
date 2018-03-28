@@ -4,23 +4,18 @@ state={
 	name="STATE_216"
 
 	history={
-		owner = SOV
-		victory_points = {
-			11159 1 
-		}
+		owner = TUK
 		buildings = {
-			infrastructure = 4
-			air_base = 3
-
+			infrastructure = 1
 		}
 		add_core_of = SOV
-
+		add_core_of = TUK
 	}
 
 	provinces={
-		40 90 92 2994 3033 3084 3144 6057 6070 6094 6106 6172 9078 9118 9231 11092 11150 11153 11159 
+		4599 7491 8099 10510 12491 
 	}
-	manpower=229564
+	manpower=119700
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 }

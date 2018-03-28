@@ -1,0 +1,17 @@
+state={
+	id=1170
+	name="STATE_1170"
+	provinces={
+		3969 6996 
+	}
+	history={
+		owner = POR
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = POR
+	}
+	manpower=288300
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

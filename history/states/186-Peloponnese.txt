@@ -2,9 +2,9 @@
 state={
 	id=186
 	name="STATE_186"
-	manpower=945000
+	manpower=1026200
 	
-	state_category = town
+	state_category = rural
 
 	history={
 		owner = GRE
@@ -14,16 +14,12 @@ state={
 			industrial_complex = 1
 			11965 = {
 				naval_base = 1
-
 			}
 			4193 = {
 				naval_base = 2
-
 			}
-
 		}
 		add_core_of = GRE
-
 	}
 
 	provinces={

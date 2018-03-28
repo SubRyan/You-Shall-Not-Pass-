@@ -1,0 +1,17 @@
+state={
+	id=1171
+	name="STATE_1171"
+	provinces={
+		3886 3926 
+	}
+	history={
+		owner = POR
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = POR
+	}
+	manpower=179700
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

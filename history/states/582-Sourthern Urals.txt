@@ -1,27 +1,20 @@
 
 state={
 	id=582
-	name="STATE_582" # Magnitogorsk
-	manpower = 1044991
-	
-	state_category = rural
-	
-	resources={
-		steel=179.000
-		oil=15.000
-	}
+	name="STATE_582"
 
 	history={
-		owner = KAZ
+		owner = SOV
 		buildings = {
-			infrastructure = 5
-
+			infrastructure = 1
 		}
 		add_core_of = SOV
-		add_core_of = KAZ
 	}
 
 	provinces={
-		1334 1406 4215 4261 4265 4311 4383 4411 7281 7300 7328 7373 7401 10185 10224 10256 12200 
+		1292 1294 1327 1775 4242 10170 10542 12106 
 	}
+	manpower=1013200
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

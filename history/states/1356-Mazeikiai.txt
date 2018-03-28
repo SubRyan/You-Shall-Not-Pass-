@@ -1,0 +1,17 @@
+state={
+	id=1356
+	name="STATE_1356"
+	provinces={
+		3354 
+	}
+	history={
+		owner = LIT
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = LIT
+	}
+	manpower=82200
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

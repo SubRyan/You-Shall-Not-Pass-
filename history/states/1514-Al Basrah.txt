@@ -1,0 +1,27 @@
+state={
+	id=1514
+	name="STATE_1514"
+	resources={
+		oil=125.000
+	}
+	history={
+		owner = IRQ
+		victory_points = {
+			2089 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			2089 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = IRQ
+	}
+	provinces={
+		2089 
+	}
+	manpower=286300
+	state_category=town
+	buildings_max_level_factor=1.000
+}

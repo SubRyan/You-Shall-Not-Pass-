@@ -1,16 +1,20 @@
 state={
 	id=847
 	name="STATE_847"
-	provinces={
-		3991 12018 
-	}
+
 	history={
 		owner = FRA
 		buildings = {
 			infrastructure = 1
+
 		}
+
 	}
-	manpower=365214
+
+	provinces={
+		12018 12842 
+	}
+	manpower=193300
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 }

@@ -1,0 +1,19 @@
+state={
+	id=1419
+	name="STATE_1419"
+
+	history={
+		owner = BUL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		add_core_of = BUL
+	}
+	provinces={
+		793 965 9771 11754 
+	}
+	manpower=757500
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

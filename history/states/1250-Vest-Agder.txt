@@ -1,0 +1,23 @@
+state={
+	id=1250
+	name="STATE_1250"
+
+	history={
+		owner = NOR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			9296 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
+		add_core_of = NOR
+	}
+	provinces={
+		3049 9296 11367 
+	}
+	manpower=85700
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

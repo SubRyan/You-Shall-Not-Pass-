@@ -1,0 +1,18 @@
+state={
+	id=1253
+	name="STATE_1253"
+
+	history={
+		owner = NOR
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = NOR
+	}
+	provinces={
+		188 199 3090 3180 3188 6204 6216 9047 
+	}
+	manpower=93300
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

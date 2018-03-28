@@ -1,0 +1,32 @@
+state={
+	id=1219
+	name="STATE_1219"
+	provinces={
+		11666 
+	}
+	history={
+		owner = AUS
+		victory_points = {
+			11666 30.0 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 3
+			industrial_complex = 3
+		}
+		add_core_of = AUS
+		1938.3.12 = {
+			owner = GER
+			controller = GER
+			add_core_of = GER
+		}
+		1939.1.1 = {
+			buildings = {
+				anti_air_building = 5
+			}
+		}
+	}
+	manpower=1874900
+	state_category=metropolis
+	buildings_max_level_factor=1.000
+}

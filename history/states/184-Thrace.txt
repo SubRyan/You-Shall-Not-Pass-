@@ -2,10 +2,6 @@
 state={
 	id=184
 	name="STATE_184"
-	manpower = 382500
-	
-	state_category = rural
-	
 	resources={
 		chromium=4.000
 	}
@@ -13,13 +9,17 @@ state={
 	history={
 		owner = GRE
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
+			industrial_complex = 1
 		}
 		add_core_of = GRE
 		add_claim_by = BUL
 	}
 
 	provinces={
-		6990 9791 9930 11774 11905 
+		11774 11905 
 	}
+	manpower=306300
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

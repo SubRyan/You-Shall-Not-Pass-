@@ -6,8 +6,7 @@ state={
 	history={
 		owner = KYR
 		buildings = {
-			infrastructure = 1
-
+			infrastructure = 3
 		}
 		add_core_of = SOV
 		add_core_of = KYR
@@ -17,9 +16,9 @@ state={
 	}
 
 	provinces={
-		1483 1675 1825 4316 4391 4467 4768 4923 5062 10408 10530 12370 12511 
+		1825 
 	}
-	manpower=230000
+	manpower=457700
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=large_town
 }

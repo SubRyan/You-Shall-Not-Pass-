@@ -1,0 +1,20 @@
+state={
+	id=1523
+	name="STATE_1523"
+	resources={
+		oil=25.000
+	}
+	history={
+		owner = IRQ
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = IRQ
+	}
+	provinces={
+		2004 12726 
+	}
+	manpower=232000
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

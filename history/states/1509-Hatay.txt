@@ -1,0 +1,37 @@
+state={
+	id=1509
+	name="STATE_1509"
+
+	history={
+		owner = SYR
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SYR
+		add_core_of = TUR
+		set_demilitarized_zone = yes
+		if = {
+			limit = {
+				OR = {
+					FRA = {
+						has_defensive_war = yes
+					}
+					NOT = {
+						country_exists = FRA
+					}
+					NOT = {
+						SYR = { owns_state = 1509 }
+					}
+				}
+			}
+			set_demilitarized_zone = no
+		}
+	}
+	provinces={
+		12029 
+	}
+	manpower=225800
+	state_category=town
+	buildings_max_level_factor=1.000
+}

@@ -2,10 +2,6 @@
 state={
 	id=232
 	name="STATE_232"
-	manpower = 1658292
-	
-	state_category = rural
-	
 	resources={
 		oil=32.000
 	}
@@ -13,7 +9,7 @@ state={
 	history={
 		owner = SOV
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 		}
 		victory_points = {
 			3672 5 
@@ -22,6 +18,9 @@ state={
 	}
 
 	provinces={
-		683 700 712 728 1450 3668 3672 3682 3711 4463 6689 6701 6730 6748 7554 7624 9645 11632 
+		700 712 728 742 1450 3668 3682 3711 3726 4463 6689 6701 6730 6748 7554 7624 9645 
 	}
+	manpower=924100
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

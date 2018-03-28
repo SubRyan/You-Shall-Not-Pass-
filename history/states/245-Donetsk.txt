@@ -1,0 +1,22 @@
+
+state={
+	id=245
+	name="STATE_245"
+
+	history={
+		owner = KYR
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = SOV
+		add_core_of = KYR
+
+	}
+
+	provinces={
+		1675 4391 4768 12511 
+	}
+	manpower=150200
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

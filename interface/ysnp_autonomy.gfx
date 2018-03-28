@@ -1,0 +1,45 @@
+spriteTypes = {	
+	#pretty much all the graphics in hoi4 except for the leader portraits need a sprite to work
+	#both .gui and .gfx can take a random file name i.e. my_mods_graphic.gfx
+	#The sprite for an autonomy icon is like this
+	#
+	#spriteType = {
+	#	name = "GFX_[autonomy id]_icon"
+	#	textureFile = "gfx/interface/autonomy/[file name].dds"
+	#}
+	#
+	#i.e. (taken from vanilla)
+	#spriteType = {
+	#	name = "GFX_autonomy_wtt_imperial_subject_icon" ##(autonomy_wtt_imperial_subject is the id)
+	#	textureFile = "gfx/interface/autonomy/autonomy_imperial_associate.dds" ##(autonomy_imperial_associate is the file name)
+	#}
+	
+	#peoples republic
+	spriteType = {
+		name = "GFX_autonomy_peoples_republic_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_peoples_republic.dds"
+	}
+	
+	#okrug
+	spriteType = {
+		name = "GFX_autonomy_okrug_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_okrug.dds"
+	}
+	
+	#oblast
+	spriteType = {
+		name = "GFX_autonomy_oblast_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_oblast.dds"
+	}
+	
+	#ASSR
+	spriteType = {
+		name = "GFX_autonomy_ASSR_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_ASSR.dds"
+	}
+	#SSR
+	spriteType = {
+		name = "GFX_autonomy_SSR_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_SSR.dds"
+	}
+}

@@ -1,17 +1,17 @@
 
 state={
 	id=200
-	name="STATE_200" # Zaporozhe
-	manpower = 1294082
-	state_category = town
-
+	name="STATE_200"
+	resources={
+		chromium=5.000
+	}
 	history={
 		owner = UKR
 		victory_points = {
-			11405 1
+			11405 1 
 		}
 		buildings = {
-			infrastructure = 5
+			infrastructure = 3
 			air_base = 3
 		}
 		add_core_of = SOV
@@ -24,6 +24,9 @@ state={
 	}
 
 	provinces={
-		429 588 3399 3767 6596 9571 9729 11405 11700 
+		429 588 767 3399 3573 3767 6596 6771 9571 9712 9729 11405 11700 
 	}
+	manpower=1575300
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

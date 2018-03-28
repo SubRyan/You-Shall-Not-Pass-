@@ -1,0 +1,30 @@
+state={
+	id=1212
+	name="STATE_1212"
+	provinces={
+		495 3398 9443 9482 9547 11431 
+	}
+	history={
+		owner = GER
+		victory_points = {
+			495 5 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 1
+		}
+		add_core_of = GER
+		1939.1.1 = {
+			buildings = {
+				radar_station = 1
+				arms_factory = 3
+				industrial_complex = 1
+			}
+		}
+
+	}
+	manpower=2654600
+	state_category= city
+	buildings_max_level_factor=1.000
+}

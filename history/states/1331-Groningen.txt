@@ -1,0 +1,17 @@
+state={
+	id=1331
+	name="STATE_1331"
+	provinces={
+		11318 
+	}
+	history={
+		owner = HOL
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+	}
+	manpower=415300
+	state_category=city
+	buildings_max_level_factor=1.000
+}

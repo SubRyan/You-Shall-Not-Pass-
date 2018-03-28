@@ -1,0 +1,20 @@
+state={
+	id=1326
+	name="STATE_1326"
+	provinces={
+		68 3314 
+	}
+	history={
+		owner = HOL
+		add_core_of = HOL
+		buildings = {
+			infrastructure = 5
+			3314 = {
+				naval_base = 10
+			}
+		}
+	}
+	manpower=1510000
+	state_category=large_city
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,23 @@
+state={
+	id=1383
+	name="STATE_1383"
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 1
+			anti_air_building = 2
+			air_base = 1
+			6196 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = ENG
+	}
+	provinces={
+		6196 
+	}
+	manpower=18700
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

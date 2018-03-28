@@ -1,0 +1,28 @@
+
+state={
+	id=77
+	name="STATE_77"
+
+	history={
+		owner = ROM
+		victory_points = {
+			657 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			657 = {
+				naval_base = 8
+			}
+		}
+		add_core_of = ROM
+	}
+
+	provinces={
+		657 9635 
+	}
+	manpower=267400
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

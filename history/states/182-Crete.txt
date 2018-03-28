@@ -2,7 +2,7 @@ state=
 {
 	id=182
 	name="STATE_182"
-	manpower = 387900
+	manpower = 421300
 	
 	state_category = rural
 	history=
@@ -12,7 +12,7 @@ state=
 			9940 1 
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			industrial_complex = 1
 			air_base = 1
 			4170 = {
@@ -24,7 +24,6 @@ state=
 		}
 		add_core_of = GRE
 	}
-	provinces=
-	{
-1164 4170 9940 12058 	}
+	provinces= 
+		{ 1164 4170 9940 12058 	}
 }

@@ -1,0 +1,27 @@
+state={
+	id=1455
+	name="STATE_1455"
+
+	history={
+		owner = DEN
+		victory_points = {
+			3325 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			3325 = {
+				naval_base = 3
+
+			}
+		}
+		add_core_of = DEN
+
+	}
+	provinces={
+		3325 3374 
+	}
+	manpower=36900
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

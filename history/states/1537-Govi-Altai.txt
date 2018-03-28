@@ -1,0 +1,18 @@
+state={
+	id=1537
+	name="STATE_1537"
+
+	history={
+		owner = MON
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = MON
+	}
+	provinces={
+		1781 1855 4858 7864 10560 10634 10695 
+	}
+	manpower=37600
+	state_category=wasteland
+	buildings_max_level_factor=1.000
+}

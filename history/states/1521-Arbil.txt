@@ -1,0 +1,18 @@
+state={
+	id=1521
+	name="STATE_1521"
+
+	history={
+		owner = IRQ
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = IRQ
+	}
+	provinces={
+		3916 5014 
+	}
+	manpower=180700
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

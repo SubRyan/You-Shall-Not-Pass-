@@ -1,0 +1,17 @@
+state={
+	id=1292
+	name="STATE_1292"
+	provinces={
+		553 3534 11521 
+	}
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = FRA
+	}
+	manpower=269300
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,20 @@
+state={
+	id=1463
+	name="STATE_1463"
+	resources={
+		steel=45.000
+	}
+	history={
+		owner = BEL
+		buildings = {
+			infrastructure = 7
+		}
+		add_core_of = BEL
+	}
+	provinces={
+		3488 6537 
+	}
+	manpower=978600
+	state_category=city
+	buildings_max_level_factor=1.000
+}

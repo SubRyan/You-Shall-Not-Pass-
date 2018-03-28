@@ -1,0 +1,20 @@
+state={
+	id=1261
+	name="STATE_1261"
+	provinces={
+		527 9495 11508 
+	}
+	history={
+		owner = FRA
+		victory_points = {
+			9495 1 
+		}
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = FRA
+	}
+	manpower=565800
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

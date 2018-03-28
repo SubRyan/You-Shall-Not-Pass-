@@ -1,13 +1,10 @@
 
 state={
 	id=117
-	name="STATE_117" # Campania
-	manpower = 5333611
-	
-	state_category = city
+	name="STATE_117"
 	resources={
 		aluminium=8.000
-		steel = 48.000
+		steel=48.000
 	}
 
 	history={
@@ -34,6 +31,9 @@ state={
 	}
 
 	provinces={
-		819 851 883 955 3958 3968 6843 6939 6972 6980 9826 11803 
+		819 851 955 3958 9826 11803 
 	}
+	manpower=3696600
+	buildings_max_level_factor=1.000
+	state_category=large_city
 }

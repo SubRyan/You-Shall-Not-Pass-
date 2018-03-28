@@ -2,11 +2,6 @@
 state={
 	id=151
 	name="STATE_151"
-	manpower = 1854711
-	
-	
-	state_category = city
-	
 	resources={
 		aluminium=26.000
 	}
@@ -14,16 +9,15 @@ state={
 	history={
 		owner = SWI
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 3
-		}
-		victory_points = {
-			663 10 
+			infrastructure = 3
 		}
 		add_core_of = SWI
 	}
 
 	provinces={
-		658 661 663 3641 3660 3662 9600 11601 11623 
+		658 3660 3662 
 	}
+	manpower=126600
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

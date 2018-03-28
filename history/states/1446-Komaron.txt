@@ -1,0 +1,18 @@
+state={
+	id=1446
+	name="STATE_1446"
+
+	history={
+		owner = HUN
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = HUN
+	}
+	provinces={
+		9676 11663 
+	}
+	manpower=230900
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

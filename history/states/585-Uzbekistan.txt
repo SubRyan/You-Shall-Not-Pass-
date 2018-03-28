@@ -6,17 +6,16 @@ state={
 	history={
 		owner = KAZ
 		buildings = {
-			infrastructure = 3
-
+			infrastructure = 1
 		}
 		add_core_of = SOV
 		add_core_of = KAZ
 	}
 
 	provinces={
-		4578 4581 4636 4638 7486 7541 7682 7777 10353 10366 12233 12471 
+		4686 7682 7777 10148 10506 10601 10660 12340 12487 
 	}
-	manpower=1033721
+	manpower=743950
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

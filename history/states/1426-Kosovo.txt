@@ -1,0 +1,24 @@
+state={
+	id=1426
+	name="STATE_1426"
+
+	history={
+		owner = ALB
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ALB
+		add_claim_by = ITA
+		1939.4.12 = {
+			owner = ITA
+			controller = ITA
+			remove_claim_by = ITA
+		}
+	}
+	provinces={
+		3896 
+	}
+	manpower=51300
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

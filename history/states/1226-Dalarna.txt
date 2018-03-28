@@ -1,0 +1,23 @@
+state={
+	id=1226
+	name="STATE_1226"
+
+	history={
+		owner = SWE
+		victory_points = {
+			156 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 3
+		}
+		add_core_of = SWE
+	}
+	provinces={
+		77 114 156 202 3005 3070 3148 6093 6123 6147 9068 9173 9182 9193 11197 
+	}
+	manpower=248900
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

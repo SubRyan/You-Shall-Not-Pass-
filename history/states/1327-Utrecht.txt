@@ -1,0 +1,23 @@
+state={
+	id=1327
+	name="STATE_1327"
+	provinces={
+		391 
+	}
+	history={
+		owner = HOL
+		add_core_of = HOL
+		victory_points = {
+			391 40 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 5
+		}
+	}
+	manpower=407000
+	state_category=city
+	buildings_max_level_factor=1.000
+}

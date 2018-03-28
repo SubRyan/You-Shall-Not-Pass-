@@ -6,27 +6,35 @@ state={
 	history={
 		owner = SYR
 		buildings = {
-			infrastructure = 2
+			infrastructure = 0
 		}
 		add_core_of = SYR
 		set_demilitarized_zone = yes
 		if = {
 			limit = {
 				OR = {
- 					FRA = { has_defensive_war = yes }
+					FRA = {
+						has_defensive_war = yes
+
+					}
 					NOT = {
 						country_exists = FRA
+
 					}
+
 				}
- 			}
-			set_demilitarized_zone = no		
+
+			}
+			set_demilitarized_zone = no
+
 		}
+
 	}
 
 	provinces={
-		901 1549 1578 1606 1634 2013 3942 6883 10882 
+		4486 7184 
 	}
-	manpower=324110
+	manpower=54700
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

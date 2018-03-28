@@ -1,0 +1,18 @@
+state={
+	id=1510
+	name="STATE_1510"
+
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = TUR
+	}
+	provinces={
+		876 10399 
+	}
+	manpower=64400
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

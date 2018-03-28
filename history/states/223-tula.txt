@@ -2,9 +2,9 @@
 state={
 	id=223
 	name="STATE_223"
-	manpower = 1635549
+	manpower = 1642200
 	
-	state_category = town
+	state_category = rural
 
 	history={
 		owner = SOV
@@ -12,7 +12,7 @@ state={
 			6262 3 
 		}
 		buildings = {
-			infrastructure = 5
+			infrastructure = 3
 			arms_factory = 2
 			air_base = 1
 		}

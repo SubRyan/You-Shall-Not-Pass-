@@ -2,16 +2,14 @@
 state={
 	id=83
 	name="STATE_83"
-	manpower = 632900
 	resources={
 		oil=10.000
 	}
-	state_category = town
 
 	history={
 		owner = ROM
 		buildings = {
-			infrastructure = 5
+			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 1
 		}
@@ -22,6 +20,9 @@ state={
 	}
 
 	provinces={
-		696 6682 6697 9640 
+		696 3696 3709 6682 6697 9640 
 	}
+	manpower=998400
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

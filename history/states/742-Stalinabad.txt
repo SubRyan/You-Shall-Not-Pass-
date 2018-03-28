@@ -1,3 +1,4 @@
+
 state={
 	id=742
 	name="STATE_742"
@@ -5,8 +6,8 @@ state={
 	history={
 		owner = TAJ
 		buildings = {
-			infrastructure = 1
-
+			infrastructure = 2
+			industrial_complex=2
 		}
 		add_core_of = SOV
 		add_core_of = TAJ
@@ -16,9 +17,9 @@ state={
 	}
 
 	provinces={
-		4542 7224 8027 10417 12218 12250 12430 12805 
+		1384 12250 
 	}
-	manpower=230000
+	manpower=482800
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=town
 }

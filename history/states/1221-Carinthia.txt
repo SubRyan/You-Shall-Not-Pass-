@@ -1,0 +1,23 @@
+state={
+	id=1221
+	name="STATE_1221"
+	provinces={
+		668 3673 3674 6673 
+	}
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = AUS
+		1938.3.12 = {
+			owner = GER
+			controller = GER
+			add_core_of = GER
+		}
+	}
+	manpower=414600
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

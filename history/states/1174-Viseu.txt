@@ -1,0 +1,17 @@
+state={
+	id=1174
+	name="STATE_1174"
+	provinces={
+		889 9787 
+	}
+	history={
+		owner = POR
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = POR
+	}
+	manpower=454200
+	buildings_max_level_factor=1.000
+	state_category=town
+}

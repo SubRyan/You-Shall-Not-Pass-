@@ -1,0 +1,19 @@
+state={
+	id=1459
+	name="STATE_1459"
+
+	history={
+		owner = DEN
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = DEN
+		add_core_of = ICE
+	}
+	provinces={
+		12689 
+	}
+	manpower=11300
+	state_category=wasteland
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,27 @@
+state={
+	id=1254
+	name="STATE_1254"
+
+	history={
+		owner = FIN
+		add_core_of = FIN
+		victory_points = {
+			3083 1 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			3083 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
+	}
+	provinces={
+		32 169 3009 3025 3083 3117 6066 9094 9194 
+	}
+	
+	manpower=517300
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

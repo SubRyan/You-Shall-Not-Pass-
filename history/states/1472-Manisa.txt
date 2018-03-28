@@ -1,0 +1,21 @@
+state={
+	id=1472
+	name="STATE_1472"
+	resources={
+		chromium=20.000
+	}
+
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 
+		}
+		add_core_of = TUR
+	}
+	provinces={
+		928 3927 9921 11898 
+	}
+	manpower=418200
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,21 @@
+state={
+	id=1251
+	name="STATE_1251"
+	provinces={
+		53 137 3192 6176 11101 
+	}
+	history={
+		owner = NOR
+		buildings = {
+			infrastructure = 1
+			6176 = {
+				naval_base = 1
+				coastal_bunker = 1
+			}
+		}
+		add_core_of = NOR
+	}
+	manpower=182900
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

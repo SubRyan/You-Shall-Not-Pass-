@@ -1,0 +1,21 @@
+state={
+	id=1321
+	name="STATE_1321"
+	provinces={
+		620 3621 6651 
+	}
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			620 5 
+		}
+		add_core_of = FRA
+	}
+
+	manpower=201800
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

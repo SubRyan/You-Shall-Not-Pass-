@@ -1,0 +1,22 @@
+state={
+	id=1374
+	name="STATE_1374"
+	provinces={
+		222 310 341 6459 9275 11358 
+	}
+	history={
+		owner = LAT
+		victory_points = {
+			310 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = LAT
+
+	}
+	manpower=581700
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

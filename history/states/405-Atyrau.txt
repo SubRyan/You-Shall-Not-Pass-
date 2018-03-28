@@ -12,24 +12,20 @@ state={
 			infrastructure = 5
 			industrial_complex = 3
 			air_base = 1
-
 		}
 		add_core_of = UZB
 		add_core_of = SOV
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 4
-
 			}
-
 		}
-
 	}
 
 	provinces={
-		756 1216 1384 1459 1919 2058 10187 10205 10488 10601 11687 12239 12581 12722 
+		1459 11687 
 	}
-	manpower=6275820
+	manpower=1154300
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=large_town
 }

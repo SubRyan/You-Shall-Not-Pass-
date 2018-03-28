@@ -1,0 +1,17 @@
+state={
+	id=1347
+	name="STATE_1347"
+	provinces={
+		11590 
+	}
+	history={
+		owner = SWI
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SWI
+	}
+	manpower=146300
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

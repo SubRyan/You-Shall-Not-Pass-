@@ -1,20 +1,21 @@
 
 state={
 	id=580
-	name="STATE_580" # Tobolsk
-	manpower = 100
-	
-	state_category = wasteland
-	impassable = yes
-	
+	name="STATE_580"
+
 	history={
-		owner = SOV
+		owner = KAZ
 		buildings = {
 			infrastructure = 0
 		}
+		add_core_of = KAZ
+		add_core_of = SOV
 	}
-	
+
 	provinces={
-		1659 1744 1812 4710 4715 4746 4774 4846 7733 7768 7796 7867 7895 10592 10604 10620 12602 12630 12700 
+		1879 4661 4670 4685 7317 7350 7708 10202 10235 10630 12616 
 	}
+	manpower=249750
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

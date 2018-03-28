@@ -1,0 +1,26 @@
+state={
+	id=1222
+	name="STATE_1222"
+	provinces={
+		671 688 3675 
+	}
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			688 10 
+		}
+		add_core_of = AUS
+		1938.3.12 = {
+			owner = GER
+			controller = GER
+			add_core_of = GER
+		}
+	}
+	manpower=255400
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

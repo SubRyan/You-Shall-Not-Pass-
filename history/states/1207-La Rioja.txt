@@ -1,0 +1,17 @@
+state={
+	id=1207
+	name="STATE_1207"
+	provinces={
+		884 3887 3902 11852 
+	}
+	history={
+		owner = SPR
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SPR
+	}
+	manpower=208300
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

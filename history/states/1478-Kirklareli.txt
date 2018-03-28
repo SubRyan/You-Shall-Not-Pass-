@@ -1,0 +1,19 @@
+state={
+	id=1478
+	name="STATE_1478"
+
+	history={
+		add_core_of = GRE
+		owner = TUR
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = TUR
+	}
+	provinces={
+		922 
+	}
+	manpower=253300
+	state_category=town
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,19 @@
+state={
+	id=1401
+	name="STATE_1401"
+
+	history={
+		owner = UZB
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = UZB
+		add_core_of = SOV
+	}
+	provinces={
+		1919 4629 
+	}
+	manpower=950700
+	state_category=town
+	buildings_max_level_factor=1.000
+}

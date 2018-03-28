@@ -12,12 +12,12 @@ autonomy_state = {
 	
 	modifier = {
 		autonomy_manpower_share = 0.65
-    drift_defence_factor = 0.25
-    communism_acceptance = 25
-    conscription_factor = 0.175
-    autonomy_gain_global_factor = -0.15
-    cic_to_overlord_factor = 0.25
-    mic_to_overlord_factor = 0.5
+    		drift_defence_factor = 0.25
+    		communism_acceptance = 25
+    		conscription_factor = 0.175
+    		autonomy_gain_global_factor = -0.15
+    		cic_to_overlord_factor = 0.25
+    		mic_to_overlord_factor = 0.5
 	}
 	
 	ai_subject_wants_higher = {

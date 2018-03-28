@@ -10,26 +10,35 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
+
 		}
 		add_core_of = SYR
 		set_demilitarized_zone = yes
 		if = {
 			limit = {
 				OR = {
- 					FRA = { has_defensive_war = yes }
+					FRA = {
+						has_defensive_war = yes
+
+					}
 					NOT = {
 						country_exists = FRA
+
 					}
+
 				}
- 			}
-			set_demilitarized_zone = no		
+
+			}
+			set_demilitarized_zone = no
+
 		}
+
 	}
 
 	provinces={
-		1074 4111 4486 4550 
+		1074 4111 4550 10383 12316 12442 
 	}
-	manpower=547797
+	manpower=797100
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

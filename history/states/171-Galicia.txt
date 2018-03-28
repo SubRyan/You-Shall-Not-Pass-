@@ -2,9 +2,6 @@
 state={
 	id=171
 	name="STATE_171"
-	manpower = 2295085
-	
-	state_category = city
 
 	history={
 		owner = SPR
@@ -12,7 +9,7 @@ state={
 			758 3 
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 4
 			dockyard = 2
 			arms_factory = 1
 			air_base = 2
@@ -24,6 +21,9 @@ state={
 	}
 
 	provinces={
-		729 758 3761 6734 6764 6955 9686 9689 11675 11677 11692 11710 11840 
+		758 3761 6955 11710 
 	}
+	manpower=792500
+	buildings_max_level_factor=1.000
+	state_category=town
 }

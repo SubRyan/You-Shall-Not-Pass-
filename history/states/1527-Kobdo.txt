@@ -1,0 +1,18 @@
+state={
+	id=1527
+	name="STATE_1527"
+
+	history={
+		owner = MON
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = MON
+	}
+	provinces={
+		7808 7870 10563 12520 
+	}
+	manpower=41600
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

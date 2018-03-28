@@ -1,0 +1,17 @@
+state={
+	id=1343
+	name="STATE_1343"
+	provinces={
+		661 
+	}
+	history={
+		owner = SWI
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SWI
+	}
+	manpower=346100
+	state_category=large_town
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,26 @@
+state={
+	id=1307
+	name="STATE_1307"
+	provinces={
+		3652 6698 9658 
+	}
+	history={
+		owner = FRA
+		victory_points = {
+			3652 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+			}
+		}
+		add_core_of = FRA
+	}
+	manpower=212800
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

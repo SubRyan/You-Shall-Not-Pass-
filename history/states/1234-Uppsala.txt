@@ -1,0 +1,20 @@
+state={
+	id=1234
+	name="STATE_1234"
+
+	history={
+		owner = SWE
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1	
+		}
+		add_core_of = SWE
+	}
+
+	provinces={
+		3182 6127 9149 11163 
+	}
+	manpower=139200
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

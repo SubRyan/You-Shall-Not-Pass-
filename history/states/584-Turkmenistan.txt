@@ -8,19 +8,19 @@ state={
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-
 		}
 		victory_points = {
 			12333 5 
 		}
 		add_core_of = SOV
 		add_core_of = TUK
+
 	}
 
 	provinces={
-		1593 4563 4599 4958 7477 7491 7560 7563 7635 8099 10357 10359 10406 10510 12333 12359 12491 
+		12333 
 	}
-	manpower=1064523
+	manpower=102800
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 }
