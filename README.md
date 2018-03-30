@@ -9,6 +9,7 @@ Hearts of Iron IV mod
 * @TheDivexz - Spain rework, Spanish Civil War event rework
 * @SPACERAIDER - Graphics assets
 * @Natt305 - Assistance with autonomy
+* Chairman Meow - Allowing use of his Flickering Flags Fix mod
 
 ## Features
 
