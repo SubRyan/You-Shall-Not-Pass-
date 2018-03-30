@@ -37,13 +37,16 @@ country_event = {
 		trigger = { is_ai = no }
 		hidden_effect = {
 			set_capital = 176
+			add_ideas = ENG_extensive_conscription
 			#annex_country = { target = EQU transfer_troops = yes }
 			start_civil_war = {
 				ruling_party = fascism
 				ideology = communism
 				size = 0.5
-				capital = 41
-				states = { 41 165 167 168 297 172 173 175 }
+				capital = 178
+				### republican controlled areas
+				### (old version) states = { 171 1161 176 1163 1204 1205 166 1201 1198 1197 165 1199 1200 1202 1203 1192 41 1195 1190 167 1188 168 1186 1176 1179 1177 170 1180 1191 1187 1189 1162 297}
+				states = { 832 801 833 834 699 297 1177 169 1179 173 1186 168 1188 1189 1162 1187 175 170 1180 1191 41 1190 167 1200 1192 1202 1199 165 1197 1198 1201 1203 171 1183 1182 1181 1184 174 1193 176 1163 1204 1205 1207 177 }
 			}
 			#EQU = { transfer_state = 297 }
 			#puppet = EQU 
@@ -67,7 +70,7 @@ country_event = {
 			set_global_flag = spanish_civil_war
 			
 			load_oob = "SPA_Civil_War"
-			set_equipment_fraction = 0.5
+			set_equipment_fraction = 0.7
 			set_stability = 0.9
 			set_war_support = 0.8
 			
@@ -91,11 +94,14 @@ country_event = {
 		name = spain.1.b
 		hidden_effect = {
 			#annex_country = { target = SMO transfer_troops = yes }
+			add_ideas = ENG_extensive_conscription
 			start_civil_war = {
 				ideology = fascism
 				size = 0.5
-				capital = 176
-				states = { 166 699 178 169 170 176 174 171 177 290 297 1104}
+				capital = 166 # zaragoza
+				### nationalist controlled areas
+				### (old version) states = { 1183 1182 1181 1184 174 1194 1193 1206 1207 172 1185 1196 1178 169 175 177 178 290 1104}
+				states = { 290 178 1104 166 172 1161 1185 1195 1196 1178 }
 			}
 			#SMO = { transfer_state = 290 }
 			#puppet = SMO 

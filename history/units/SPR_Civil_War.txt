@@ -1,0 +1,373 @@
+﻿division_template = {
+	name = "División de Infantería" # Peninsular Army x4(?) out of 10 (?)
+	is_locked = no
+	division_names_group = SPAN_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		artillery = { x = 2 y = 0 }
+		anti_tank = { x = 3 y = 0 }
+	}
+}
+division_template = {
+	name = "Guardia Civil" # Civil Guard - x12 out of 30
+	is_locked = yes
+	division_names_group = SPAN_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Cuerpo de Seguridad" # Security and Assault Corps x 2 out of 6 total
+	is_locked = yes
+	division_names_group = SPAN_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Carabineros" # Border Guards - gendarmie x 3 out of 8 total
+	is_locked = yes
+	division_names_group = SPAN_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "MAOC" # Antifascist Worker and Peasant Militias - republican militia only
+	is_locked = no
+	division_names_group = SPAN_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+division_template = {
+	name = "CNT" # National Confederation of Labour - republican militia only
+	is_locked = no
+	division_names_group = SPAN_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Iron Column" # Spanish anarchist militia - republican militia only
+	is_locked = yes
+	division_names_group = SPAN_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "EAJ" # Basque Army - republican militia only
+	is_locked = yes
+	division_names_group = SPAN_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Columna" # Catalon Army - republican militia only
+	is_locked = yes
+	division_names_group = SPAN_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	### Peninsular Army
+	division = {
+		name = "V División de Infantería"
+		location = 9764  # Barcelona
+		division_template = "División de Infantería"
+		start_experience_factor = 0.10
+	}
+	division = {
+		name = "VI División de Infantería"
+		location = 6906  # Valencia
+		division_template = "División de Infantería"
+		start_experience_factor = 0.10
+	}
+	division = {
+		name = "VII División de Infantería"
+		location = 3938  # Madrid
+		division_template = "División de Infantería"
+		start_experience_factor = 0.10
+	}
+	division = {
+		name = "VIII División de Infantería"
+		location = 3938  # Madrid
+		division_template = "División de Infantería"
+		start_experience_factor = 0.10
+	}
+	division = {
+		name = "IX División de Infantería"
+		location = 740  # Vizcaya
+		division_template = "División de Infantería"
+		start_experience_factor = 0.10
+	}
+	division = {
+		name = "X División de Infantería"
+		location = 3938  # Madrid
+		division_template = "División de Infantería"
+		start_experience_factor = 0.10
+	}
+	### Security and Assault Corps
+	division = {
+		name = "Cuerpo de Seguridad de Barcelona"
+		location = 9764  # Barcelona
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.00
+	}
+	division = {
+		name = "Cuerpo de Seguridad de Madrid"
+		location = 3938  # Madrid
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.00
+	}
+	division = {
+		name = "Cuerpo de Seguridad de Valencia"
+		location = 6906  # Valencia
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.00
+	}
+	division = {
+		name = "Cuerpo de Seguridad de Vizcaya"
+		location = 740  # Vizcaya
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.00
+	}
+	### Carabineros Corps
+	division = {
+		name = "Carabineros de Gerona"
+		location = 9824  # Gerona
+		division_template = "Carabineros"
+		start_experience_factor = 0.00
+	}
+	division = {
+		name = "Carabineros de Huelva"
+		location = 12070  # Huelva
+		division_template = "Carabineros"
+		start_experience_factor = 0.00
+	}
+	division = {
+		name = "Carabineros de Badajoz"
+		location = 11851  # Badajoz
+		division_template = "Carabineros"
+		start_experience_factor = 0.00
+	}
+	division = {
+		name = "Carabineros de Caceres"
+		location = 9877  # Caceres
+		division_template = "Carabineros"
+		start_experience_factor = 0.00
+	}
+	division = {
+		name = "Carabineros de Zamora"
+		location = 6907  # Zamora
+		division_template = "Carabineros"
+		start_experience_factor = 0.00
+	}
+	### Civil Guard
+	division = {
+		name = "13a Guardia Civil"
+		location = 6836  # Lerida
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+	}
+	division = {
+		name = "14a Guardia Civil"
+		location = 11819  # Huesca
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+	}
+	division = {
+		name = "15a Guardia Civil"
+		location = 798  # Teruel
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+	}
+	division = {
+		name = "16a Guardia Civil"
+		location = 11742  # Cuenca
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+	}
+	division = {
+		name = "17a Guardia Civil"
+		location = 11884  # Albacete
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+	}
+	division = {
+		name = "18a Guardia Civil"
+		location = 9778  # Ciudad Real
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+	}
+	division = {
+		name = "19a Guardia Civil"
+		location = 950  # Jaen
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+	}
+	division = {
+		name = "20a Guardia Civil"
+		location = 858  # Toledo
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+	}
+	division = {
+		name = "21a Guardia Civil"
+		location = 11854  # Burgos
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+	}
+	division = {
+		name = "22a Guardia Civil"
+		location = 726  # Leon
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+	}
+	division = {
+		name = "23a Guardia Civil"
+		location = 11677  # Leon
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+	}
+	division = {
+		name = "24a Guardia Civil"
+		location = 6955  # La Corona
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+	}
+	division = {
+		name = "25a Guardia Civil"
+		location = 9785  # Guadalajara
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+	}
+	division = {
+		name = "26a Guardia Civil"
+		location = 884  # La Rioja
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+	}
+	division = {
+		name = "27a Guardia Civil"
+		location = 9872  # Palencia
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+	}
+	division = {
+		name = "28a Guardia Civil"
+		location = 11780  # Caceres
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+	}
+	division = {
+		name = "29a Guardia Civil"
+		location = 3810  # Cordova
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+	}
+	division = {
+		name = "30a Guardia Civil"
+		location = 9889  # Alicante
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+	}
+	### MAOC
+	division = {
+		name = "Quinto Regimiento"
+		location = 3938  # Madrid
+		division_template = "MAOC"
+		start_experience_factor = 0.70
+	}
+	### Iron Column
+	division = {
+		name = "Columna de Hierro"
+		location = 6906  # Valencia
+		division_template = "Iron Column"
+		start_experience_factor = 0.00
+	}
+	### Basque Army
+	division = {
+		name = "Republicanos"
+		location = 6956  # Guipuzcoa
+		division_template = "EAJ"
+		start_experience_factor = 0.10
+	}
+	#division = {
+	#	name = "Solidaridad de los trabajadores vascos"
+	#	location = 740  # Vizcaya
+	#	division_template = "EAJ"
+	#	start_experience_factor = 0.10
+	#}
+	#division = {
+	#	name = "Jagi-Jagi"
+	#	location = 6956  # Guipuzcoa
+	#	division_template = "EAJ"
+	#	start_experience_factor = 0.10
+	#}
+	#division = {
+	#	name = "Acción Nacional Vasca"
+	#	location = 6956  # Guipuzcoa
+	#	division_template = "EAJ"
+	#	start_experience_factor = 0.10
+	#}
+	#division = {
+	#	name = "Republicanos Izquierdistas"
+	#	location = 6956  # Guipuzcoa
+	#	division_template = "EAJ"
+	#	start_experience_factor = 0.10
+	#}
+	#division = {
+	#	name = "Anarquistas"
+	#	location = 6956  # Guipuzcoa
+	#	division_template = "EAJ"
+	#	start_experience_factor = 0.10
+	#}
+	#division = {
+	#	name = "No Afiliado"
+	#	location = 6956  # Guipuzcoa
+	#	division_template = "EAJ"
+	#	start_experience_factor = 0.10
+	#}
+	#division = {
+	#	name = "Comunistas"
+	#	location = 6956  # Guipuzcoa
+	#	division_template = "EAJ"
+	#	start_experience_factor = 0.10
+	#}
+	#division = {
+	#	name = "Socialistas"
+	#	location = 6956  # Guipuzcoa
+	#	division_template = "EAJ"
+	#	start_experience_factor = 0.10
+	#}
+	### Catalon Army
+	division = {
+		name = "Columna Durruti"
+		location = 9764  # Barcelona
+		division_template = "Columna"
+		start_experience_factor = 0.10
+	}
+}

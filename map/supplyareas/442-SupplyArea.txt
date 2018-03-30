@@ -1,0 +1,8 @@
+supply_area={
+	id=442
+	name="SUPPLYAREA_442"
+	value=4
+	states={
+		1196 1203 1206 
+	}
+}
