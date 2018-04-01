@@ -1,9 +1,9 @@
 focus_tree = {
 	id = FocusTree_0
 	country = {
-		factor = 100
+		factor = 0
 		modifier = {
-			add = 10
+			add = 100
 			tag = ITA
 		}
 	}
