@@ -14,9 +14,14 @@ focus_tree = {
 	focus = {
 		id = African_War_Logistics
 		icon = GFX_goal_unknown
-		cost = 0.00
+		cost = 2
 		x = 8
 		y = 0
+		
+		completion_reward = {
+			send_equipment = { target = ERI type = infantry_equipment amount = 1000 }
+			send_equipment = { target = SOM type = infantry_equipment amount = 1500 }  
+		}
 
 	}
 	focus = {
