@@ -37,7 +37,6 @@ country_event = {
 		trigger = { is_ai = no }
 		hidden_effect = {
 			set_capital = 176
-			add_ideas = ENG_extensive_conscription
 			#annex_country = { target = EQU transfer_troops = yes }
 			start_civil_war = {
 				ruling_party = fascism
@@ -94,7 +93,6 @@ country_event = {
 		name = spain.1.b
 		hidden_effect = {
 			#annex_country = { target = SMO transfer_troops = yes }
-			add_ideas = ENG_extensive_conscription
 			start_civil_war = {
 				ideology = fascism
 				size = 0.5

@@ -68,18 +68,7 @@ bookmarks = {
 				GER_ussr_war_goal
 			}
 		}
-		ITA = {
-			history = ITA_BLITZKRIEG_DESC
-			ideology = fascism
-			ideas={
-				vittoria_mutilata
-				victor_emmanuel
-			}
-			focuses = {
-				ITA_pact_of_steel
-				ITA_spanish_italian_faction
-				ITA_italy_first
-			}			
+		ITA = {		
 		}
 		JAP = {
 			history = JAP_BLITZKRIEG_DESC
