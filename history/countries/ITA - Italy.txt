@@ -80,7 +80,10 @@ if = {
 
 set_convoys = 200
 
-
+add_equipment_to_stockpile = {
+	type = infantry_equipment
+	amount = 20000
+}
 set_politics = {
 
 	parties = {
