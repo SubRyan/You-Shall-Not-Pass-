@@ -6,7 +6,6 @@ Hearts of Iron IV mod
 
 * @FlimsyPike - Italy rework
 * insanegorey - Italy rework
-* @TheDivexz - Spain rework, Spanish Civil War event rework
 * @SPACERAIDER - Graphics assets
 * @Natt305 - Assistance with autonomy
 * Chairman Meow - Allowing use of his Flickering Flags Fix mod
