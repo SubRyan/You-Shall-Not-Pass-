@@ -21,34 +21,24 @@ Hearts of Iron IV mod
 
 * Global resource allocation rework according to League of Nations production data
 ![](https://i.imgur.com/2637Zs8.jpg)
-* Population adjustments according to census data and/or estimates for the following areas
-  * Africa
-  * North America
-  * Central America
-  * South America
-  * Oceania
-  * All adjusted and new colonies
-* Victory point rework for the following areas
-  * Africa
-  * North America
-  * Central America
-  * South America
-  * Oceania
-  * All adjusted and new colonies
- * States have been reworked to first order administrative divisions of a country according to historical maps for the following areas
-   * Africa
-   * North America
-   * Central America
-   * South America
-   * Oceania
-   * All adjusted and new colonies
- * State categories have been reworked based off of state population and/or density for the following areas
-   * Africa
-   * North America
-   * Central America
-   * South America
-   * Oceania
-   * All adjusted and new colonies
+* Global population adjustments according to census data and/or estimates
+* Global victory point rework 
+* Global state rework; states have been reworked to first order administrative divisions of a country according to historical maps (except for the following countries)
+   * Nepal
+   * Bhutan
+   * Czechoslovakia
+   * China
+   * Chinese warlord states
+   * Manchukuo
+   * Mengkuo
+ * Global state category rework; have been reworked based off of state population and/or density (except for the following countries)
+   * Nepal
+   * Bhutan
+   * Czechoslovakia
+   * China
+   * Chinese warlord states
+   * Manchukuo
+   * Mengkuo
 
 #### Creation of new impassable areas
 
@@ -61,12 +51,10 @@ Hearts of Iron IV mod
 * Tanami Desert
 * Stuart Stony Desert
 * West New Guinea Highlands
-* East New Guinea Highlands
 * North Borneo Rainforests
 * Borneo Rainforests
 * Bukit Barisan
 * Dilwati Mountain Range
-* Gobi Desert
 * Taklamakan Desert
 * Kyzlkum Desert
 * Karakum Desert
@@ -74,15 +62,7 @@ Hearts of Iron IV mod
 * Dasht-e Margo
 * Dasht-e Kavir
 * Dasht-e Lut
-* Thar Desert
-* Northeast Siberia
-* Northwest Siberia
-* Kirensk
-* Yeniseisk
-* Surgut
-* Tobolsk
-* Salekhard
-* Syrian Desert
+* Siberia
 * Al Hajara
 * Shammar
 * Rub Al Khali
@@ -260,11 +240,4 @@ Hearts of Iron IV mod
 
 ## Planned features
 
-* Communist puppet system
 * Generic colony focus trees specific to overlord
-* Population adjustments according to census data and/or estimates for the following areas
-  * Europe
-  * Asia
-* Victory point rework for the following areas
-  * Europe
-  * Asia
