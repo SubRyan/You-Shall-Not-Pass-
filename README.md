@@ -30,7 +30,7 @@ Hearts of Iron IV mod
    * China
    * Chinese warlord states
    * Manchukuo
-   * Mengkuo
+   * Mengkukuo
  * Global state category rework; have been reworked based off of state population and/or density (except for the following countries)
    * Nepal
    * Bhutan
@@ -38,7 +38,7 @@ Hearts of Iron IV mod
    * China
    * Chinese warlord states
    * Manchukuo
-   * Mengkuo
+   * Mengkukuo
 
 #### Creation of new impassable areas
 
