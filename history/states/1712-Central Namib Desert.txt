@@ -1,0 +1,19 @@
+state={
+	id=1712
+	name="STATE_1712"
+	
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	
+	provinces={
+		2229 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable=yes
+}

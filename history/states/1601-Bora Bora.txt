@@ -1,0 +1,19 @@
+state={
+	id=1601
+	name="STATE_1601"
+	
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+		}
+	}
+	
+	provinces={
+		10188 
+	}
+	manpower=16100
+	state_category=small_island
+	buildings_max_level_factor=1.000
+}

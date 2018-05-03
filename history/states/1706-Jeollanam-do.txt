@@ -1,0 +1,25 @@
+state={
+	id=1706
+	name="STATE_1706"
+	
+	history={
+		owner = JAP
+		victory_points = {
+			11948 2 
+		}
+		victory_points = {
+			10110 2 
+		}
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = KOR
+	}
+	
+	provinces={
+		1177 10110 11948 12085 
+	}
+	manpower=3212600
+	state_category=large_city
+	buildings_max_level_factor=1.000
+}

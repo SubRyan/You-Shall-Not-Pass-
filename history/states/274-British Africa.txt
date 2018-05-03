@@ -7,20 +7,17 @@ state={
 		owner = GHA
 		add_core_of = GHA
 		victory_points = {
-			10862 5 
+			10862 3 
 		}
 		victory_points = {
-			12742 1 
+			12742 2 
 		}
 		buildings = {
 			infrastructure = 3
 			10862 = {
 				naval_base = 2
-
 			}
-
 		}
-
 	}
 
 	provinces={

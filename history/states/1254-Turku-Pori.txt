@@ -6,7 +6,10 @@ state={
 		owner = FIN
 		add_core_of = FIN
 		victory_points = {
-			3083 1 
+			3083 3 
+		}
+		victory_points = {
+			169 1 
 		}
 		buildings = {
 			infrastructure = 3

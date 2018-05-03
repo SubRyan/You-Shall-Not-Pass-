@@ -1,0 +1,22 @@
+state={
+	id=1599
+	name="STATE_1599"
+	
+	history={
+		owner = NZL
+		victory_points = {
+			8241 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = NZL
+	}
+	
+	provinces={
+		8241 12980 12988 
+	}
+	manpower=72900
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

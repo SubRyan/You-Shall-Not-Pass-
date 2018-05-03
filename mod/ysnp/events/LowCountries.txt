@@ -1,0 +1,397 @@
+﻿###########################
+# Low Countries Events
+###########################
+
+add_namespace = low
+
+# France Starts Extending Maginot Line
+country_event = {
+	id = low.1
+	title = low.1.t
+	desc = low.1.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = low.1.a
+	}
+}
+
+### The Fall of Belgium
+
+# The Battle is Lost
+country_event = {
+	id = low.2
+	title = low.2.t
+	desc = low.2.d
+	picture = GFX_report_event_german_parade_paris
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BEL
+		has_war_with = GER
+		6 = { is_controlled_by = GER }
+		is_in_faction_with = ENG
+		ENG = { has_war_with = GER }
+		surrender_progress > 0.3
+		GER = {
+			is_faction_leader = yes
+		}
+		NOT = {
+			has_civil_war = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+
+	}
+	
+	option = { # Become Belgian Government in Exile
+		name = low.2.a
+		ai_chance = {
+			factor = 85
+		}
+		#Set same cosmetic tag they would get on capitulation
+		BEL = {
+			set_capital = 295 
+			add_national_unity = -0.10
+			set_cosmetic_tag = BEL_EXILE
+			#belgian congo
+			annex_country = { target = COG transfer_troops = yes }
+			hidden_effect = {
+				set_state_controller = 295
+				set_state_controller = 793
+				set_state_controller = 792
+				set_state_controller = 791
+				set_state_controller = 718
+				set_state_controller = 538
+				set_state_controller = 940
+			}
+		}
+		COG = { custom_effect_tooltip = GAME_OVER_TT }
+	}
+	option = { # Surrender
+		name = low.2.b
+		ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		custom_effect_tooltip = GAME_OVER_TT
+	}
+}
+
+### Belgium is restored
+
+# The Battle is Won
+country_event = {
+	id = low.3
+	title = low.3.t
+	desc = low.3.d
+	picture = GFX_report_event_german_parade_paris
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BEL
+		6 = { is_controlled_by = BEL }
+		NOT = {
+			has_civil_war = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+
+	}
+	
+	option = { # Release Belgian Congo as colony
+		name = low.3.a
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+		BEL = {
+			set_capital = 6
+			add_national_unity = 0.15
+			drop_cosmetic_tag = yes
+			release = COG
+			puppet = COG
+			set_autonomy = { target = COG autonomy_state = autonomy_colony }
+		}
+		COG = {
+			set_cosmetic_tag = COG_BEL
+			add_national_unity = 0.05
+		}
+	}
+	option = { # Don't release Belgian Congo
+		name = low.3.b
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		BEL = {
+			add_national_unity = -0.05
+		}
+	}
+}
+
+### The Fall of the Netherlands
+
+# The Battle is Lost
+country_event = {
+	id = low.4
+	title = low.4.t
+	desc = low.4.d
+	picture = GFX_report_event_german_parade_paris
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = HOL
+		has_war_with = GER
+		7 = { is_controlled_by = GER }
+		is_in_faction_with = ENG
+		ENG = { has_war_with = GER }
+		surrender_progress > 0.3
+		GER = {
+			is_faction_leader = yes
+		}
+		NOT = {
+			has_civil_war = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+
+	}
+	
+	option = { # Become Dutch Government in Exile
+		name = low.4.a
+		ai_chance = {
+			factor = 85
+		}
+		#Set same cosmetic tag they would get on capitulation
+		HOL = {
+			set_capital = 695 
+			add_national_unity = -0.10
+			set_cosmetic_tag = HOL_EXILE
+			#dutch curacao
+			annex_country = { target = CUR transfer_troops = yes }
+			hidden_effect = {
+					set_state_controller = 695
+				}
+			}
+		CUR = { custom_effect_tooltip = GAME_OVER_TT }
+	}
+	option = { # Surrender
+		name = low.2.b
+		ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		custom_effect_tooltip = GAME_OVER_TT
+	}
+}
+
+# Give United States Dutch Suriname
+country_event = {
+	id = low.6
+	title = low.6.t
+	desc = low.6.d
+	picture = GFX_report_event_generic_peaceful_annexation
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = HOL
+		has_war_with = GER
+		7 = { is_controlled_by = GER }
+		is_in_faction_with = ENG
+		ENG = { has_war_with = GER }
+		GER = {
+			is_faction_leader = yes
+		}
+		NOT = {
+			has_civil_war = yes
+		}
+		date > 1941.11.20
+		date < 1941.11.25
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+
+	}
+	
+	option = { # Give United States Dutch Suriname temporarily
+		name = low.6.a
+		ai_chance = {
+			factor = 85
+		}
+		#Set same cosmetic tag they would get on capitulation
+		HOL = {
+			release_puppet = SUR
+		}
+		USA = {
+			puppet = SUR
+			set_autonomy = { target = SUR autonomy_state = autonomy_colony }
+		}
+	}
+	option = { # Keep Dutch Suriname
+		name = low.6.b
+		ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+
+# United States gives Dutch Suriname back to the Netherlands
+country_event = {
+	id = low.7
+	title = low.7.t
+	desc = low.7.d
+	picture = GFX_report_event_generic_peaceful_annexation
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = HOL
+		7 = { is_controlled_by = HOL }
+		NOT = {
+			has_civil_war = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 14
+	}
+
+	immediate = {
+
+	}
+	
+	option = { # United States returns Dutch Suriname
+		name = low.7.a
+		ai_chance = {
+			factor = 65
+		}
+		#Set same cosmetic tag they would get on capitulation
+		USA = {
+			release_puppet = SUR
+		}
+		HOL = {
+			puppet = SUR
+			set_autonomy = { target = SUR autonomy_state = autonomy_colony }
+		}
+	}
+	option = { # United States refuses to return Dutch Suriname
+		name = low.7.b
+		ai_chance = {
+			factor = 45
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		HOL = {
+			add_opinion_modifier = { 
+				target = USA 
+				modifier = US_refuses_to_return_suriname
+			}
+		}
+	}
+}
+
+### The Netherlands is restored
+
+# The Battle is Won
+country_event = {
+	id = low.5
+	title = low.5.t
+	desc = low.5.d
+	picture = GFX_report_event_generic_peaceful_annexation
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = HOL
+		7 = { is_controlled_by = HOL }
+		NOT = {
+			has_civil_war = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+
+	}
+	
+	option = { # Release Dutch Curacao as colony
+		name = low.3.a
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+		HOL = {
+			set_capital = 7
+			add_national_unity = 0.15
+			drop_cosmetic_tag = yes
+			release = CUR
+			puppet = CUR
+			set_autonomy = { target = CUR autonomy_state = autonomy_colony }
+		}
+		CUR = {
+			set_cosmetic_tag = CUR_HOL
+			add_national_unity = 0.05
+		}
+	}
+	option = { # Don't release Dutch Curacao
+		name = low.3.b
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

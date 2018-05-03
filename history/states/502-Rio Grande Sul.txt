@@ -17,16 +17,16 @@ state={
 		}
 		add_core_of = BRA
 		victory_points = {
-			7638 8 
+			7638 4 
 		}
 		victory_points = {
-			7594 8 
+			7594 3 
 		}
 		victory_points = {
-			1542 8 
+			1542 3 
 		}
 		victory_points = {
-			10447 15 
+			10447 9 
 		}
 	}
 

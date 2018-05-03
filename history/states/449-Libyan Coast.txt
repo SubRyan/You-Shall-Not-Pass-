@@ -11,10 +11,10 @@ state={
 		}
 		add_core_of = LBA
 		victory_points ={
-			9980 4
+			9980 2
 		}
 		victory_points ={
-			7209 3
+			7209 2
 		}
 		victory_points ={
 			4047 1

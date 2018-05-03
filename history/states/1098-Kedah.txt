@@ -13,7 +13,7 @@ state={
 			industrial_complex = 1
 		}
 		victory_points={
-			12144 2
+			12144 1
 		}
 	}
 	provinces={

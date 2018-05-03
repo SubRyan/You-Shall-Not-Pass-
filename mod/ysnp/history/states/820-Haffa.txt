@@ -1,0 +1,16 @@
+state={
+	id=820
+	name="STATE_820"
+	provinces={
+		4138 
+	}
+	history={
+		owner = SUD
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=325164
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

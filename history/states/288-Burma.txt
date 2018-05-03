@@ -12,16 +12,16 @@ state={
 		owner = RAJ
 		add_core_of = MYA
 		victory_points={
-			1403 6
+			1403 3
 		}
 		victory_points={
-			1315 3
+			1315 2
 		}
 		victory_points={
-			12256 2
+			12256 1
 		}
 		victory_points={
-			12292 2
+			12292 1
 		}
 		victory_points={
 			4336 1

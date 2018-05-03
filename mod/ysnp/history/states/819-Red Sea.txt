@@ -1,0 +1,16 @@
+state={
+	id=819
+	name="STATE_819"
+	provinces={
+		2003 
+	}
+	history={
+		owner = SUD
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	state_category = wasteland
+	manpower=222145
+	buildings_max_level_factor=1.000
+}

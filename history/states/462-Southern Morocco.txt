@@ -10,7 +10,7 @@ state={
 			infrastructure = 1
 		}
 		victory_points = {
-			4108 10
+			4108 6
 		}
 	}
 

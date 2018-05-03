@@ -1,0 +1,26 @@
+
+state={
+	id=542
+	name="STATE_542"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = BOT
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = BOT
+		victory_points ={
+			10525 2
+		}
+	}
+
+	provinces={
+		10525 12963 
+	}
+	manpower=166000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -7,10 +7,12 @@ state={
 		owner = AST
 		buildings = {
 			infrastructure = 2
-
 		}
 		victory_points = {
 			12237 1 
+		}
+		victory_points = {
+			4418 1 
 		}
 		set_demilitarized_zone = yes
 		if = {
@@ -18,26 +20,20 @@ state={
 				OR = {
 					AST = {
 						has_defensive_war = yes
-
 					}
 					NOT = {
 						country_exists = AST
-
 					}
-
 				}
-
 			}
 			set_demilitarized_zone = no
-
 		}
-
 	}
 
 	provinces={
 		1389 4393 4418 7365 7614 10251 10423 12154 12193 12237 12240 12400 
 	}
-	manpower=280000
+	manpower=339600
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 }

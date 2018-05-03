@@ -2,12 +2,18 @@
 state={
 	id=442
 	name="STATE_442"
-	manpower = 4684400
+	manpower = 4720600
 	
-	state_category = rural
+	state_category = town
 
 	history={
 		owner = RAJ
+		victory_points = {
+			12717 5 
+		}
+		victory_points = {
+			1978 2 
+		}
 		buildings = {
 			infrastructure = 3
 			air_base = 3

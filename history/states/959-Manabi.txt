@@ -15,7 +15,7 @@ state={
 		}
 		add_core_of = ECU
 		victory_points = {
-			8252 14 
+			8252 5 
 		}
 	}
 	manpower=980400

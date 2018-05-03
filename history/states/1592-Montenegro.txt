@@ -1,0 +1,23 @@
+state={
+	id=1592
+	name="STATE_1592"
+	provinces={
+		937 982 3922 9809 9821 11858 
+	}
+	history={
+		owner = YUG
+		add_core_of = MNT
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			9809 = {
+				naval_base = 1
+
+			}
+		}
+		add_core_of = YUG
+	}
+	manpower=407100
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

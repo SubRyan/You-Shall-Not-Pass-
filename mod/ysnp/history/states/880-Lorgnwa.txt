@@ -1,0 +1,20 @@
+state={
+	id=880
+	name="STATE_880"
+	provinces={
+		12504 
+	}
+	history={
+		owner = ZAM
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points ={
+			12504 1
+		}
+	}
+
+	state_category=pastoral
+	manpower=151023
+	buildings_max_level_factor=1.000
+}

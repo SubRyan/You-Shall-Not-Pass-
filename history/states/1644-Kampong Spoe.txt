@@ -1,0 +1,19 @@
+state={
+	id=1644
+	name="STATE_1644"
+	
+	history={
+		add_core_of = CAM
+		owner = IND
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	
+	provinces={
+		10289 
+	}
+	manpower=176500
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

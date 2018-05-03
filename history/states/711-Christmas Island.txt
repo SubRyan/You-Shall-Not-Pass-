@@ -1,11 +1,14 @@
 state={
 	id=711
 	name="STATE_711"
-	manpower=1625	
-	state_category = tiny_island
+	manpower=1271	
+	state_category = small_island
 	
 	history= {
 		owner = MAL
+		victory_points = {
+			13005 1 
+		}
 		add_core_of = AST
 		buildings = {
 			infrastructure = 3

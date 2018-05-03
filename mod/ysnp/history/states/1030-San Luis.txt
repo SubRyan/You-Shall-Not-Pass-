@@ -1,0 +1,27 @@
+state={
+	id=1030
+	name="STATE_1030"
+	provinces={
+		5152 5184 5219 7550 12970 
+	}
+	resources={
+		tungsten=91.000
+	}
+	history={
+		owner = ARG
+		victory_points={
+			12970 2
+		}
+		victory_points={
+			5184 1
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex=1
+		}
+		add_core_of = ARG
+	}
+	state_category=pastoral
+	manpower=186600
+	buildings_max_level_factor=1.000
+}

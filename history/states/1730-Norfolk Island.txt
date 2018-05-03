@@ -1,0 +1,25 @@
+state={
+	id=1730
+	name="STATE_1730"
+	
+	history={
+		owner = AST
+		buildings = {
+			infrastructure = 1
+			13216 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			13216 1 
+		}
+		add_core_of = AST
+	}
+	
+	provinces={
+		13216 
+	}
+	manpower=1200
+	state_category=tiny_island
+	buildings_max_level_factor=1.000
+}

@@ -4,8 +4,12 @@ state={
 
 	history={
 		owner = NOR
+		victory_points = {
+			9296 1 
+		}
 		buildings = {
 			infrastructure = 2
+			
 			industrial_complex = 1
 			9296 = {
 				naval_base = 3

@@ -1,0 +1,21 @@
+state={
+	id=1603
+	name="STATE_1603"
+	
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 1
+			4247 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={
+		4247 
+	}
+	manpower=6500
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

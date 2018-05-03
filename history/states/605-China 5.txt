@@ -21,12 +21,17 @@ state=
 			air_base = 2
 		}
 		victory_points = { 
-			4925 5 
+			6999 14
 		}
 		victory_points = { 
-			6999 20
+			4925 13 
 		}
-
+		victory_points = { 
+			1395 5
+		}
+		victory_points = { 
+			12705 3
+		}
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 6

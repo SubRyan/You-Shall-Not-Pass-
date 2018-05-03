@@ -11,18 +11,16 @@ state={
 			7408 = {
 				naval_base = 3
 			}
-
 		}
 		victory_points = {
-			7408 10 
+			7408 26 
 		}
 		add_core_of = SIA
-
 	}
 	provinces={
 		7408 
 	}
-	state_category=city
+	state_category=large_city
 	manpower=890500
 	buildings_max_level_factor=1.000
 }

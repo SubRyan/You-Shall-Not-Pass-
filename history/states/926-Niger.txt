@@ -13,7 +13,7 @@ state={
 			infrastructure = 1
 		}
 		victory_points = {
-			2025 3 
+			2025 2 
 		}
 		add_core_of = NIG
 	}

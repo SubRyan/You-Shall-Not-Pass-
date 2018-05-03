@@ -1,0 +1,24 @@
+state={
+	id=837
+	name="STATE_837"
+	provinces={
+		10028 11974 
+	}
+	resources={
+		oil=2
+	}
+
+	history = {
+		owner = EGY
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points ={
+			11974 5
+		}
+		add_core_of = EGY
+	}
+	manpower=132456
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

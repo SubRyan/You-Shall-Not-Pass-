@@ -5,10 +5,13 @@ state={
 
 	history={
 		victory_points = {
-			6389 10 
+			6389 6 
 		}
 		victory_points = {
-			9347 15 
+			11331 4 
+		}
+		victory_points = {
+			317 2 
 		}
 		owner = GER
 		buildings = {

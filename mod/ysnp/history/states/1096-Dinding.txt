@@ -1,0 +1,20 @@
+state={
+	id=1096
+	name="STATE_1096"
+	resources={
+		rubber=27.000
+	}
+	history={
+		owner = MAL
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = MAL
+	}
+	provinces={
+		12215 
+	}
+	manpower=220000
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

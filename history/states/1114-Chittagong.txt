@@ -1,11 +1,15 @@
 state={
 	id=1114
 	name="STATE_1114"
-	provinces={
-		997 1075 9991 12010 
-	}
+
 	history={
 		owner = RAJ
+		victory_points = {
+			12010 9 
+		}
+		victory_points = {
+			1075 2 
+		}
 		buildings = {
 			infrastructure = 1
 		}
@@ -13,7 +17,11 @@ state={
 		add_core_of = RAJ
 
 	}
+
+	provinces={
+		1075 9991 12010 
+	}
 	manpower=10274000
-	state_category=town
 	buildings_max_level_factor=1.000
+	state_category=town
 }

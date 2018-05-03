@@ -19,34 +19,34 @@ state={
 		}
 		add_core_of = CAN
 		victory_points = {
-			3778 25 
+			3778 5 
 		}
 		victory_points = {
-			3775 20
+			3775 17
 		}
 		victory_points = {
-			3763 13
+			3763 4
 		}
 		victory_points = {
-			9967 8
+			9967 2
 		}
 		victory_points = {
-			722 7
+			722 3
 		}
 		victory_points = {
-			774 3
+			774 2
 		}
 		victory_points = {
 			749 2
 		}
 		victory_points = {
-			3605 2
+			3605 1
 		}
 		victory_points = {
-			6797 2
+			6797 1
 		}
 		victory_points = {
-			11569 2
+			11569 1
 		}
 		victory_points = {
 			9711 1
@@ -58,16 +58,10 @@ state={
 			11567 1
 		}
 		victory_points = {
-			4270 1
-		}
-		victory_points = {
 			6610 1
 		}
 		victory_points = {
 			6625 1
-		}
-		victory_points = {
-			3635 1
 		}
 	}
 

@@ -15,12 +15,23 @@ state={
 			infrastructure = 4
 		}
 		victory_points = {
-			4572 1
+			11864 18
 		}
 		victory_points = {
-			10433 1 
+			4572 13
 		}
-
+		victory_points = {
+			10433 7 
+		}
+		victory_points = {
+			11864 4 
+		}
+		victory_points = {
+			9759 2 
+		}
+		victory_points = {
+			887 2 
+		}
 	}
 
 	provinces={

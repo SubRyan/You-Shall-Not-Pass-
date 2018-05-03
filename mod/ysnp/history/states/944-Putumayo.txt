@@ -1,0 +1,23 @@
+state={
+	id=944
+	name="STATE_944"
+	provinces={
+		12869 
+	}
+	resources={
+		oil=17.000
+	}
+
+	history={
+		owner = PRU
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = PRU
+
+	}
+	manpower=15000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

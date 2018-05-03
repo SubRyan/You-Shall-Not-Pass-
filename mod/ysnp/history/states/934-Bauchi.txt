@@ -1,0 +1,20 @@
+state={
+	id=934
+	name="STATE_934"
+	provinces={
+		4938 
+	}
+	resources={
+		tungsten=71.000
+	}
+	history={
+		owner = NIG
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = NIG
+	}
+	state_category=rural
+	manpower=1025310
+	buildings_max_level_factor=1.000
+}

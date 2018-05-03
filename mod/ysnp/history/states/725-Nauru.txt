@@ -1,0 +1,32 @@
+state={
+	id=725
+	name="STATE_725"
+	manpower=5785
+	state_category = tiny_island
+
+	history={
+		owner = BWP
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			13038 1 
+		}
+		set_demilitarized_zone = yes
+		if = {
+			limit = {
+				OR = {
+ 					ENG = { has_defensive_war = yes }
+					NOT = {
+						country_exists = ENG
+					}
+				}
+ 			}
+			set_demilitarized_zone = no		
+		}
+	}
+	
+	provinces={
+		13038 
+	}
+}

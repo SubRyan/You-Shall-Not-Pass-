@@ -17,7 +17,7 @@ state={
 		}
 		add_core_of = DOM
 		victory_points = {
-			7660 7 
+			7660 3 
 		}
 	}
 	state_category=town

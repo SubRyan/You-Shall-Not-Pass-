@@ -25,10 +25,7 @@ state={
 		}
 		add_core_of = CAN
 		victory_points = {
-			1408 19 
-		}
-		victory_points = {
-			7529 4 
+			1408 8 
 		}
 	}
 

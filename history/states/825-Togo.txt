@@ -10,7 +10,7 @@ state={
 			infrastructure = 1
 		}
 		victory_points = {
-			1951 5 
+			1951 1 
 		}
 		set_demilitarized_zone = yes
 		if = {

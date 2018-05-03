@@ -5,6 +5,9 @@ state={
 
 	history={
 		owner = UKR
+		victory_points = {
+			3568 3 
+		}
 		buildings = {
 			infrastructure = 3
 			air_base = 8

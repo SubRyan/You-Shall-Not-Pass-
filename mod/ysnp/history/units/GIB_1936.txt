@@ -1,0 +1,84 @@
+﻿division_template = {
+	name = "Colonial Garrison"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+
+units = {
+	
+	### Middle East Command ###
+	#Gibraltar
+	division= {	
+		name = "Gibraltar Defense Force"
+		location = 4135
+		division_template = "Colonial Garrison"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.15
+
+	}
+	
+	##### NAVAL UNITS #####
+	### HOME COMMAND ###			
+	navy = {				
+		name = "North Atlantic Fleet"
+		base = 4135
+		location = 4135 # Gibraltar
+		ship = { name = "HMS Colombo" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GIB } } }
+		ship = { name = "HMS Capetown" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GIB } } }
+		ship = { name = "HMS Wryneck" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GIB } } }	
+		# 13th Destroyer Flotilla
+		ship = { name = "HMS Keppel" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GIB } } }	
+		# Destroyer Division 25
+		ship = { name = "HMS Vidette" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GIB } } }	
+		ship = { name = "HMS Vortigern" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GIB } } }	
+		ship = { name = "HMS Velox" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GIB } } }	
+		ship = { name = "HMS Watchman" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GIB } } }	
+		# Destroyer Division 26
+		ship = { name = "HMS Douglas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GIB } } }	
+		ship = { name = "HMS Active" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GIB version_name = "A/B/C/D Class" } } }	
+		ship = { name = "HMS Wishart" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GIB } } }	
+		ship = { name = "HMS Wrestler" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GIB } } }	
+	}									
+}
+
+
+air_wings = {
+
+}
+
+	#########################
+	## STARTING PRODUCTION ##
+	#########################
+instant_effect = {
+	
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "GIB"
+		}
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "GIB" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+}
+	#####################

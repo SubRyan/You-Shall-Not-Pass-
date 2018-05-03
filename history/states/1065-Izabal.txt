@@ -7,7 +7,7 @@ state={
 	history={
 		owner = GUA
 		victory_points={
-			13085 5
+			13085 1
 		}
 		buildings = {
 			infrastructure = 2

@@ -6,17 +6,26 @@ state={
 	history={
 		owner = AST
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
+			industrial_complex = 1
+			12910 = {
+				naval_base = 2
 
+			}
 		}
 		add_core_of = AST
-
+		victory_points = {
+			12910 9 
+		}
+		victory_points = {
+			7567 1 
+		}
 	}
 
 	provinces={
-		2205 2219 5183 5197 5211 5225 7567 7623 8186 8220 10925 10927 12906 
+		1773 2205 2219 5183 5197 5211 5225 7567 7623 8186 8220 10925 10927 12906 12910 12918 12924 
 	}
-	manpower=200800
+	manpower=58700
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

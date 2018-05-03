@@ -9,7 +9,7 @@ state={
 	history={
 		owner = GOA
 		victory_points = {
-			1273 5 
+			1273 1 
 		}
 		buildings = {
 			infrastructure = 5

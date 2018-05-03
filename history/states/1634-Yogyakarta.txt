@@ -1,0 +1,22 @@
+state={
+	id=1634
+	name="STATE_1634"
+	
+	history={
+		owner = INS
+		add_core_of = INS
+		victory_points = {
+			10135 4 
+		}
+		buildings = {
+			infrastructure = 7
+		}
+	}
+	
+	provinces={
+		10135 
+	}
+	manpower=1704700
+	state_category=large_city
+	buildings_max_level_factor=1.000
+}

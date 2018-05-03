@@ -1,0 +1,23 @@
+state={
+	id=1718
+	name="STATE_1718"
+	provinces={
+		4096 9955 
+	}
+	
+	history={
+		owner = JAP
+		victory_points = {
+			9955 1 
+		}
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	
+	manpower=153800
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

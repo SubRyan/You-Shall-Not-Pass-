@@ -1,0 +1,24 @@
+state={
+	id=1085
+	name="STATE_1085"
+	provinces={
+		801 3941 3975 4627 6850 6958 6971 7466 7588 7646 9923 10441 11888 
+	}
+	resources={
+		oil=52.000
+	}
+	history={
+		owner = USA
+		victory_points = {
+			7588 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = USA
+	}
+	state_category=city
+	manpower=1902100
+	buildings_max_level_factor=1.000
+}

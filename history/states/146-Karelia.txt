@@ -11,22 +11,23 @@ state={
 			industrial_complex = 1
 			9100 = {
 				bunker = 2
-
 			}
 			9105 = {
 				bunker = 2
-
 			}
 			9206 = {
 				coastal_bunker = 1
-
 			}
-
 		}
 		victory_points = {
 			9206 3 
 		}
-
+		victory_points = {
+			3061 1 
+		}
+		victory_points = {
+			6082 1 
+		}
 	}
 
 	provinces={

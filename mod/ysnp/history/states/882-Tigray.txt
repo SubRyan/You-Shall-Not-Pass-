@@ -1,0 +1,27 @@
+state={
+	id=882
+	name="STATE_882"
+	provinces={
+		1984 2072 
+	}
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			1984 5
+		}
+		victory_points = {
+			2072 1
+		}
+		add_core_of = ETH
+		1939.8.14 = {
+			owner = ITE
+			controller = ITE
+		}
+	}
+	manpower=153023
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

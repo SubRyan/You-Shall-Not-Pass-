@@ -1,0 +1,23 @@
+state={
+	id=1591
+	name="STATE_1591"
+	
+	history={
+		owner = YUG
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 2
+
+		}
+		add_core_of = YUG
+
+	}
+	
+	provinces={
+		833 867 6913 6940 9849 9874 11856 
+	}
+	manpower=653600
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

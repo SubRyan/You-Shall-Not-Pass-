@@ -16,19 +16,28 @@ state={
 			industrial_complex = 1
 		}
 		victory_points = {
-			1025 10 
+			7110 8 
+		}
+		victory_points = {
+			1025 20 
+		}
+		victory_points = {
+			4164 4 
 		}
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 3
+
 			}
+
 		}
+
 	}
 
 	provinces={
-		1025 4164 
+		1025 4164 7110 
 	}
 	manpower=2795800
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=large_city
 }

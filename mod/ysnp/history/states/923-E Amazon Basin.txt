@@ -1,0 +1,21 @@
+state={
+	id=923
+	name="STATE_923"
+
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		8172 10956 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable=yes
+}

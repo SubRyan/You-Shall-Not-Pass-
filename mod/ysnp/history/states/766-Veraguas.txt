@@ -1,0 +1,22 @@
+state={
+	id=766
+	name="STATE_766"
+
+	history={
+		owner = PAN
+		victory_points={
+			1633 2
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = PAN
+	}
+
+	provinces={
+		1633 
+	}
+	manpower=166000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,22 @@
+state={
+	id=1721
+	name="STATE_1721"
+	
+	history={
+		owner = JAM
+		add_core_of = JAM
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points ={
+			13207 1
+		}
+	}
+	
+	provinces={
+		13207 
+	}
+	manpower=6000
+	state_category=small_island
+	buildings_max_level_factor=1.000
+}

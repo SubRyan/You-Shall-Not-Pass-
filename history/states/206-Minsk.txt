@@ -6,12 +6,24 @@ state={
 	history={
 		owner = BLR
 		victory_points = {
-			11370 20 
+			11370 6 
+		}
+		victory_points = {
+			11322 2 
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 			air_base = 8
+			3267 = {
+				bunker = 3
+			}
+			11370 = {
+				bunker = 3
+			}
+			11216 = {
+				bunker = 3
+			}
 		}
 		add_core_of = SOV
 		add_core_of = BLR

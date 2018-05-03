@@ -10,9 +10,7 @@ state={
 		}
 		add_core_of = KEN
 		victory_points = {
-	
-			1939 10
-
+			1939 2
 		}
 	}
 

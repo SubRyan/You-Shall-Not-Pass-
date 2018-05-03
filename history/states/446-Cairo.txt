@@ -9,16 +9,14 @@ state={
 			infrastructure = 5
 			industrial_complex = 1
 			air_base = 5
-
 		}
 		victory_points = {
-			7011 25 
+			7011 64 
 		}
 		victory_points = {
-			1068 5 
+			1068 2 
 		}
 		add_core_of = EGY
-
 	}
 
 	provinces={

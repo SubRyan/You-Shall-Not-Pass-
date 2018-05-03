@@ -14,7 +14,7 @@ state={
 		}
 		add_core_of = ARG
 		victory_points = {
-			8216 13 
+			8216 4 
 		}
 	}
 

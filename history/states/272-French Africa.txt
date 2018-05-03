@@ -12,10 +12,10 @@ state={
 	history={
 		owner = AOF
 		victory_points = {
-			4948 15 
+			4948 4 
 		}
 		victory_points = {
-			7972 5 
+			7972 2 
 		}
 		victory_points = {
 			12834 1 

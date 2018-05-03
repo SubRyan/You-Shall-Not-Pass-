@@ -1,0 +1,22 @@
+state={
+	id=1050
+	name="STATE_1050"
+	provinces={
+		177 
+	}
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 4
+			177 = {
+				naval_base = 3
+			}
+		}
+		victory_points ={
+			177 5
+		}
+	}
+	state_category=small_island
+	manpower=247000
+	buildings_max_level_factor=1.000
+}

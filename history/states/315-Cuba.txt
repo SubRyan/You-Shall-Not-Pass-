@@ -13,12 +13,11 @@ state={
 			air_base = 1
 			7622 = {
 				naval_base = 3
-
 			}
 		}
 		add_core_of = CUB
 		victory_points = {
-			7622 20 
+			7622 16
 		}
 	}
 

@@ -1,0 +1,20 @@
+state={
+	id=1000
+	name="STATE_1000"
+	provinces={
+		10502 
+	}
+	history={
+		owner = URG
+		victory_points={
+			10502 3
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = URG
+	}
+	state_category=rural
+	manpower=122000
+	buildings_max_level_factor=1.000
+}

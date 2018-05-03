@@ -1,0 +1,17 @@
+state={
+	id=902
+	name="STATE_902"
+	provinces={
+		1230 2047 2170 2184 2222 4323 4335 5176 5226 7299 7355 7424 10266 
+	}
+	history={
+		owner = INS
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable=yes
+}

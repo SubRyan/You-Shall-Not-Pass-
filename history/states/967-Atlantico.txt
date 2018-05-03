@@ -9,14 +9,14 @@ state={
 		buildings = {
 			infrastructure = 1
 			air_base = 4
-			industrial_complex=2
+			industrial_complex = 2
 			12790 = {
 				naval_base = 5
 			}
 		}
 		add_core_of = COL
 		victory_points = {
-			12790 15 
+			12790 5 
 		}
 	}
 	state_category=rural

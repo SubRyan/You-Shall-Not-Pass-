@@ -1,0 +1,28 @@
+state={
+	id=1103
+	name="STATE_1103"
+	history={
+		owner = SIA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 5
+			air_base = 3
+			7408 = {
+				naval_base = 3
+			}
+
+		}
+		victory_points = {
+			7408 10 
+		}
+		add_core_of = SIA
+
+	}
+	provinces={
+		7408 
+	}
+	state_category=city
+	manpower=890500
+	buildings_max_level_factor=1.000
+}

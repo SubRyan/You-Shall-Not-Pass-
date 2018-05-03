@@ -1,0 +1,17 @@
+state={
+	id=780
+	name="STATE_780"
+	provinces={
+		1552 8054 
+	}
+	history={
+		owner = ANG
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = ANG
+	}
+	manpower=33562
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

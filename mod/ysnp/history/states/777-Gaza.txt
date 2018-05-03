@@ -1,0 +1,25 @@
+state={
+	id=777
+	name="STATE_777"
+
+	history={
+		owner = MZB
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = MZB
+		victory_points = {
+			5212 1
+		}
+		victory_points = {
+			5177 2
+		}
+	}
+
+	provinces={
+		5177 5212 
+	}
+	manpower=596301
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -24,12 +24,13 @@ state={
 				coastal_bunker = 1
 				bunker = 1
 			}
-
 		}
 		victory_points = {
-			1047 5
+			1047 27
 		}
-
+		victory_points = {
+			7152 4
+		}
 		1938.10.25 = {
 			remove_core_of = GXC
 			owner = CHI

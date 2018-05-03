@@ -1,0 +1,35 @@
+
+state={
+	id=556
+	name="STATE_556"
+	resources={
+		rubber=2.000
+	}
+
+	history={
+		owner = AOF
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			10788 1 
+		}
+		victory_points = {
+			12751 5 
+		}
+		victory_points = {
+			10915 1 
+		}
+		victory_points = {
+			12794 1 
+		}
+	}
+
+	provinces={
+		2012 2044 4927 5045 5101 7930 7954 8116 10788 10812 10829 10915 12751 12794 12838 12851 
+	}
+	manpower=5697300
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

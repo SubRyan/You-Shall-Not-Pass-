@@ -1,0 +1,19 @@
+state={
+	id=1040
+	name="STATE_1040"
+	provinces={
+		4942 
+	}
+	history={
+		owner = VEN
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = VEN
+
+	}
+	state_category=rural
+	manpower=119800
+	buildings_max_level_factor=1.000
+}

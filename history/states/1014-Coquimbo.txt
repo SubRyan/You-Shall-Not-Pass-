@@ -7,7 +7,7 @@ state={
 	history={
 		owner = CHL
 		victory_points={
-			8194 2
+			8194 1
 		}
 		buildings = {
 			infrastructure = 2

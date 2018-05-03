@@ -1,0 +1,25 @@
+state={
+	id=967
+	name="STATE_967"
+	provinces={
+		12790 
+	}
+	history={
+		owner = COL
+		buildings = {
+			infrastructure = 1
+			air_base = 4
+			industrial_complex=2
+			12790 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = COL
+		victory_points = {
+			12790 15 
+		}
+	}
+	state_category=rural
+	manpower=268400
+	buildings_max_level_factor=1.000
+}

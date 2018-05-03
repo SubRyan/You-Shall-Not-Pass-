@@ -1,0 +1,26 @@
+state={
+	id=992
+	name="STATE_992"
+	resources={
+		tungsten=144.00
+	}
+	history={
+		owner = BOL
+		victory_points={
+			12930 3
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = BOL
+
+	}
+
+	provinces={
+		2174 10987 12930 
+	}
+	manpower=594700
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

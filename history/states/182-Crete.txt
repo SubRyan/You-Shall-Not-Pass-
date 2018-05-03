@@ -9,7 +9,7 @@ state=
 	{
 		owner = GRE
 		victory_points = {
-			9940 1 
+			9940 2 
 		}
 		buildings = {
 			infrastructure = 3

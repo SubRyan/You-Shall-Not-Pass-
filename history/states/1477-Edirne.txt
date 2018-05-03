@@ -4,6 +4,9 @@ state={
 
 	history={
 		add_core_of = GRE
+		victory_points = {
+			11842 2 
+		}
 		owner = TUR
 		buildings = {
 			infrastructure = 3

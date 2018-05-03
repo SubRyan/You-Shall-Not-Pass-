@@ -12,7 +12,7 @@ state={
 			industrial_complex = 1
 		}
 		victory_points ={
-			4424 2
+			4424 1
 		}
 		add_core_of = MAL
 	}

@@ -792,3 +792,7 @@ TUK = { #done
 	color = rgb { 112 116 172 }
 	color_ui = rgb { 100 104 154 }
 }
+SPA = {
+	color = rgb { 97 98 101 }
+	color_ui = rgb { 128 129 131 }
+}

@@ -1,0 +1,25 @@
+state={
+	id=1708
+	name="STATE_1708"
+	resources={
+		tungsten=200.000
+	}
+	
+	history={
+		owner = JAP
+		victory_points = {
+			1003 2 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = KOR
+	}
+	
+	provinces={
+		1003 4107 7070 7155 10065 11915 12040 
+	}
+	manpower=1790700
+	state_category=town
+	buildings_max_level_factor=1.000
+}

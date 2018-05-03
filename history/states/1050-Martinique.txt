@@ -13,7 +13,7 @@ state={
 			}
 		}
 		victory_points ={
-			177 5
+			177 2
 		}
 	}
 	state_category=small_island

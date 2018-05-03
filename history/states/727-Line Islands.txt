@@ -11,14 +11,13 @@ state={
 			infrastructure = 1
 			13053 = {
 				naval_base = 1
-
 			}
 		}
 	}
 	
-	manpower=5367
+	manpower=634
 	buildings_max_level_factor=1.000
-	state_category=tiny_island
+	state_category=small_island
 	provinces={
 		13053 
 	}

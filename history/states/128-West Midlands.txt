@@ -18,7 +18,7 @@ state={
 			air_base = 6
 		}
 		victory_points = {
-			9297 25
+			9297 46
 		}
 		add_core_of = ENG
 		1939.1.1 = {

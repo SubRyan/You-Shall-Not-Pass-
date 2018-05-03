@@ -10,13 +10,22 @@ state={
 	history={
 		owner = UKR
 		victory_points = {
-			525 25 
+			525 20 
 		}
 		buildings = {
 			infrastructure = 6
 			arms_factory = 3
 			industrial_complex = 2
 			air_base = 8
+			3543 = {
+				bunker = 3
+			}
+			525 = {
+				bunker = 3
+			}
+			504 = {
+				bunker = 3
+			}
 		}
 		add_core_of = SOV
 		add_core_of = UKR

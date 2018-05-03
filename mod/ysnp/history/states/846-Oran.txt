@@ -1,0 +1,28 @@
+state={
+	id=846
+	name="STATE_846"
+	provinces={
+		4116 4150 7008 7132 10045 11923 13074 
+	}
+	history={
+		owner = FRA
+		victory_points = {
+			7132 20 
+		}
+		victory_points = {
+			4116 5 
+		}
+		victory_points = {
+			4150 5 
+		}
+		buildings = {
+			infrastructure = 3
+			7132 = {
+				naval_base = 6
+			}
+		}
+	}
+	manpower=685724
+	state_category=town
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=486
+	name="STATE_486"
+	resources={
+		oil=19.000
+	}
+	history={
+		owner = COL
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = COL
+	}
+	state_category=wasteland
+	provinces={
+		5026 
+	}
+	manpower=61100
+	buildings_max_level_factor=1.000
+
+}

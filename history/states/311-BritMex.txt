@@ -15,7 +15,7 @@ state={
 		}
 		add_core_of = BEZ
 		victory_points={
-			2077 5
+			2077 1
 		}
 	}
 	provinces= { 2077 }

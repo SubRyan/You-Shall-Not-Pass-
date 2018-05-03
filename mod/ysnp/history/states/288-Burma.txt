@@ -1,0 +1,45 @@
+
+state={
+	id=288
+	name="STATE_288"
+	resources={
+		rubber=6.000
+		tungsten=3006.000
+		oil=106.000
+	}
+
+	history={
+		owner = RAJ
+		add_core_of = MYA
+		victory_points={
+			1403 6
+		}
+		victory_points={
+			1315 3
+		}
+		victory_points={
+			12256 2
+		}
+		victory_points={
+			12292 2
+		}
+		victory_points={
+			4336 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		1939.8.14 = {
+			owner = MYA
+			controller = MYA
+		}
+	}	
+
+	provinces={
+		1296 1315 1385 1403 4275 4293 4336 4408 4626 7295 7441 10217 12125 12238 12256 12292 
+	}
+	manpower=2309600
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

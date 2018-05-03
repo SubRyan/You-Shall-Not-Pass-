@@ -5,12 +5,14 @@ state={
 
 	history={
 		owner = ENG
+		victory_points = {
+			2029 1 
+		}
 		buildings = {
 			infrastructure = 3
 			air_base = 4
 		}
 		add_core_of = YEM
-
 	}
 
 	provinces={

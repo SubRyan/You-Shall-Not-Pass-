@@ -10,6 +10,12 @@ state= {
 
 	history= {
 		owner = GXC
+		victory_points = {
+			9938 6 
+		}
+		victory_points = {
+			7182 5 
+		}
 		add_core_of = GXC
 		add_core_of = CHI
 		add_core_of = PRC

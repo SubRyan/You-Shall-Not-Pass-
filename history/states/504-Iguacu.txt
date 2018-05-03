@@ -6,13 +6,13 @@ state={
 	history={
 		owner = CUB
 		victory_points={
-			7451 9
+			7451 4
 		}
 		victory_points={
-			10374 9
+			10374 4
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			industrial_complex = 1
 		}
 		add_core_of = CUB

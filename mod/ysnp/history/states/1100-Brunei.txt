@@ -1,0 +1,26 @@
+state={
+	id=1100
+	name="STATE_1100"
+	resources={
+		rubber=27.000
+	}
+	history={
+		owner = BRU
+		buildings = {
+			infrastructure = 1
+			7371 = {
+				naval_base = 2
+			}
+		}
+		victory_points={
+			10285 5
+		}
+		add_core_of = BRU
+	}
+	provinces={
+		7371 10285 
+	}
+	state_category=pastoral
+	manpower=35000
+	buildings_max_level_factor=1.000
+}

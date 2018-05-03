@@ -16,7 +16,7 @@ state={
 		}
 		add_core_of = VEN
 		victory_points = {
-			8113 15 
+			8113 7
 		}
 
 	}

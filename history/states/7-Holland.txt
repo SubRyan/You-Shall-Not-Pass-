@@ -7,10 +7,10 @@ state={
 		owner = HOL
 		add_core_of = HOL
 		victory_points = {
-			3211 10 
+			3211 14
 		}
 		victory_points = {
-			9498 15 
+			9498 17 
 		}
 		buildings = {
 			infrastructure = 8

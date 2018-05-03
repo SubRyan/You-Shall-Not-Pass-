@@ -12,7 +12,7 @@ state={
 		add_core_of = SOV
 		add_core_of = TAJ
 		victory_points = {
-			12250 5 
+			12250 2 
 		}
 	}
 

@@ -16,7 +16,7 @@ state={
 		add_core_of = CHI
 		add_core_of = PRC
 		victory_points = {
-			1319 10 
+			1319 6
 		}
 		victory_points = {
 			7965 3 

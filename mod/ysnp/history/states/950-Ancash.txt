@@ -1,0 +1,25 @@
+state={
+	id=950
+	name="STATE_950"
+	provinces={
+		12983 
+	}
+	resources={
+		tungsten=55.000
+	}
+	history={
+		owner = PRU
+		victory_points={
+			12983 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex=1
+		}
+		add_core_of = PRU
+
+	}
+	manpower=465100
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

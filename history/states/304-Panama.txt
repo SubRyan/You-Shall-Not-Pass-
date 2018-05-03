@@ -18,7 +18,7 @@ state={
 		}
 		add_core_of = PAN
 		victory_points = {
-			7630 10 
+			7630 6
 		}
 
 	}

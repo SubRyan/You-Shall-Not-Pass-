@@ -1,0 +1,19 @@
+state={
+	id=1597
+	name="STATE_1597"
+	
+	history={
+		owner = NZL
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = NZL
+	}
+	
+	provinces={
+		8204 8212 10650 12966 12974 
+	}
+	manpower=18700
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

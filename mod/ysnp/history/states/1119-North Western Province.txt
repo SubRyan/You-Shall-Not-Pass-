@@ -1,0 +1,24 @@
+state={
+	id=1119
+	name="STATE_1119"
+	provinces={
+		7344 
+	}
+	history={
+		owner = SRI
+		add_core_of = SRI
+		victory_points = {
+			7344 15 
+		}
+		buildings = {
+			infrastructure = 3
+			7344 = {
+				naval_base = 3
+				coastal_bunker = 3
+			}
+		}
+	}
+	manpower=578000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

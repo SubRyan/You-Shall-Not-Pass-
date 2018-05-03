@@ -1,0 +1,22 @@
+state={
+	id=1690
+	name="STATE_1690"
+	
+	history={
+		owner = PHI
+		victory_points = {
+			1421 4 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = PHI
+	}
+	
+	provinces={
+		1421 4399 7389 
+	}
+	manpower=335600
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

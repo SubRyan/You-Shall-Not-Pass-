@@ -1,0 +1,16 @@
+state={
+	id=942
+	name="STATE_942"
+	provinces={
+		12879 
+	}
+	history={
+		buildings = {
+			infrastructure = 0
+		}
+		set_demilitarized_zone = yes
+	}
+	manpower=100
+	state_category=wasteland
+	buildings_max_level_factor=1.000
+}

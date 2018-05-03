@@ -19,7 +19,7 @@ state={
 		}
 		add_core_of = VEN
 		victory_points = {
-			1944 11 
+			1944 4 
 		}
 
 	}

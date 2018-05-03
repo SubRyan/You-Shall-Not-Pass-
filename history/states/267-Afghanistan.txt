@@ -9,13 +9,14 @@ state={
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 2
-
 		}
 		victory_points = {
-			10737 5 
+			10737 4
+		}
+		victory_points = {
+			12769 1
 		}
 		add_core_of = AFG
-
 	}
 
 	provinces={

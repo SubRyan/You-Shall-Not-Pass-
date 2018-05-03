@@ -4,6 +4,9 @@ state={
 
 	history={
 		owner = JAP
+		victory_points = {
+			4172 4 
+		}
 		add_core_of = JAP
 		buildings = {
 			infrastructure = 6

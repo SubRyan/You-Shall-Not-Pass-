@@ -1,0 +1,21 @@
+state={
+	id=1061
+	name="STATE_1061"
+	provinces={
+		2031 
+	}
+	history={
+		owner = HON
+		victory_points={
+			2031 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = HON
+	}
+	state_category=pastoral
+	manpower=137300
+	buildings_max_level_factor=1.000
+}

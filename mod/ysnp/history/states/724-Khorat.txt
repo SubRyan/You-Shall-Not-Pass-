@@ -1,0 +1,29 @@
+
+state={
+	id=724
+	name="STATE_724"
+	resources={
+		rubber=25.000
+		tungsten=50.000
+	}
+
+	history={
+		owner = SIA
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			7236 1 
+		}
+		add_core_of = SIA
+
+	}
+
+	provinces={
+		1279 1281 1308 1337 1366 1394 1427 4297 4312 4319 4348 4371 4388 4392 4566 7236 7338 7367 7544 7587 10156 10158 10193 10250 12122 12131 12201 12220 12230 12286 
+	}
+	manpower=3556400
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

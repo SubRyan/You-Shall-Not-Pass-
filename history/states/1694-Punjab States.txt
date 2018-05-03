@@ -1,0 +1,22 @@
+state={
+	id=1694
+	name="STATE_1694"
+	
+	history={
+		owner = RAJ
+		victory_points = {
+			10729 8 
+		}
+		add_core_of = RAJ
+		buildings = {
+			infrastructure = 6
+		}
+	}
+	
+	provinces={
+		2002 10729 12868 
+	}
+	manpower=3784300
+	state_category=city
+	buildings_max_level_factor=1.000
+}

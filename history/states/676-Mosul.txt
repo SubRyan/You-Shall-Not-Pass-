@@ -11,7 +11,7 @@ state={
 			infrastructure = 3
 		}
 		victory_points = {
-			10106 1 
+			10811 2 
 		}
 		add_core_of = IRQ
 	}

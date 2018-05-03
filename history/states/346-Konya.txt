@@ -10,7 +10,7 @@ state={
 			air_base = 5
 		}
 		victory_points = {
-			940 1 
+			940 2 
 		}
 		add_core_of = TUR
 	}

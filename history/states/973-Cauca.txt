@@ -10,10 +10,10 @@ state={
 	history={
 		owner = COL
 		victory_points={
-			10846 2
+			10846 1
 		}
 		victory_points={
-			7936 2
+			7936 1
 		}
 		buildings = {
 			infrastructure = 1

@@ -1,0 +1,19 @@
+state={
+	id=1687
+	name="STATE_1687"
+	
+	history={
+		owner = PHI
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = PHI
+	}
+	
+	provinces={
+		12160 12245 
+	}
+	manpower=93300
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

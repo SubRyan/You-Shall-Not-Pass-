@@ -1,0 +1,17 @@
+state={
+	id=932
+	name="STATE_932"
+	provinces={
+		4889 10820 
+	}
+	history={
+		owner = NIG
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = NIG
+	}
+	state_category=pastoral
+	manpower=652361
+	buildings_max_level_factor=1.000
+}

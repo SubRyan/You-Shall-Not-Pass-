@@ -1,0 +1,20 @@
+state={
+	id=877
+	name="STATE_877"
+	provinces={
+		7872 
+	}
+	history={
+		owner = ZAM
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			7872 1
+		}
+	}
+
+	state_category=pastoral
+	manpower=297135
+	buildings_max_level_factor=1.000
+}

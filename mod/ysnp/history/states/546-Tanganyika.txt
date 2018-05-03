@@ -1,0 +1,37 @@
+
+state={
+	id=546
+	name="STATE_546"
+	resources={
+		rubber=2.000
+	}
+
+	history={
+		owner = TNZ
+		victory_points = {
+			2196 1 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		set_demilitarized_zone = yes
+		if = {
+			limit = {
+				OR = {
+ 					ENG = { has_defensive_war = yes }
+					NOT = {
+						country_exists = ENG
+					}
+				}
+ 			}
+			set_demilitarized_zone = no		
+		}
+	}
+
+	provinces={
+		2206 11017 
+	}
+	manpower=165042
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

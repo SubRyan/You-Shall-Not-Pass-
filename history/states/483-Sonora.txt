@@ -16,7 +16,7 @@ state={
 		}
 		add_core_of = MEX
 		victory_points={
-			10848 2
+			10848 1
 		}
 	}
 

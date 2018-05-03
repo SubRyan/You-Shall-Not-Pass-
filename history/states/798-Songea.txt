@@ -10,10 +10,10 @@ state={
 		}
 		set_demilitarized_zone = yes
 		victory_points = {
-			2196 10 
+			2196 2 
 		}
 		victory_points = {
-			5180 5 
+			5180 1 
 		}
 		if = {
 			limit = {

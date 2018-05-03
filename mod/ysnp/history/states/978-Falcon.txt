@@ -1,0 +1,26 @@
+state={
+	id=978
+	name="STATE_978"
+	provinces={
+		4526 5088 
+	}
+	resources={
+		oil=322.000
+	}
+	history={
+		owner = VEN
+		victory_points={
+			4526 1
+		}
+		victory_points={
+			5088 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = VEN
+	}
+	state_category=pastoral
+	manpower=215100
+	buildings_max_level_factor=1.000
+}

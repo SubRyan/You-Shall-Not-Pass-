@@ -10,7 +10,7 @@ state={
 			infrastructure = 1
 		}
 		victory_points = {
-			7980 10 
+			7980 2
 		}
 		victory_points = {
 			12812 1 
@@ -22,6 +22,6 @@ state={
 		}
 	}
 	manpower=15426
-	state_category=wasteland
+	state_category=pastoral
 	buildings_max_level_factor=1.000
 }

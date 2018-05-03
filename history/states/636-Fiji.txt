@@ -9,6 +9,7 @@ state={
 		owner = BWP
 		buildings = {
 			infrastructure = 3
+			industrial_complex=1
 			4286 = {
 				naval_base = 1
 			}
@@ -17,7 +18,7 @@ state={
 			4286 1 
 		}
 	}
-	manpower=198000
+	manpower=166300
 	buildings_max_level_factor=1.000
-	state_category=small_island
+	state_category=pastoral
 }

@@ -1,0 +1,19 @@
+state={
+	id=824
+	name="STATE_824"
+	provinces={
+		10919 12762 12874 
+	}
+	history={
+		owner = AOF
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			10919 5 
+		}
+	}
+	manpower=1351500
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

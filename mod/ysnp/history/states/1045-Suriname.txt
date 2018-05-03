@@ -1,0 +1,25 @@
+state={
+	id=1045
+	name="STATE_1045"
+	provinces={
+		1928 10906 
+	}
+	resources={
+		aluminium=234.000
+	}
+	history={
+		owner = SUR
+		add_core_of = SUR
+		victory_points = {
+			10906 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+	}
+	manpower=139100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

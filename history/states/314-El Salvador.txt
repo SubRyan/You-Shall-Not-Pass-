@@ -17,7 +17,7 @@ state={
 		}
 		add_core_of = ELS
 		victory_points = {
-			12823 9 
+			12823 4 
 		}
 
 	}

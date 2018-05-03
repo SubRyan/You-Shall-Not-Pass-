@@ -1,0 +1,19 @@
+state={
+	id=1129
+	name="STATE_1129"
+	provinces={
+		7393 
+	}
+	history={
+		owner = BWP
+		buildings = {
+			infrastructure = 1
+			7393 = {
+				naval_base = 1
+			}
+		}
+	}
+	manpower=1035
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

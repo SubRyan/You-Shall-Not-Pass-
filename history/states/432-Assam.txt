@@ -8,17 +8,25 @@ state={
 
 	history={
 		owner = RAJ
+		victory_points = {
+			12366 2 
+		}
+		victory_points = {
+			12322 1 
+		}
+		victory_points = {
+			12395 1 
+		}
+		add_core_of = RAJ
 		buildings = {
 			infrastructure = 3
-
 		}
-
 	}
 
 	provinces={
-		1497 1525 1553 1581 7179 7455 10090 10349 10514 12366 12395 
+		997 1116 1497 1525 1553 7455 10090 10349 10514 12322 12366 12395 
 	}
-	manpower=8977100
+	manpower=7950100
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=large_town
 }

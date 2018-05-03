@@ -9,7 +9,7 @@ state={
 		owner = MAL
 		add_core_of = MAL
 		victory_points = {
-			10297 13 
+			10297 4
 		}
 		buildings = {
 			infrastructure = 3

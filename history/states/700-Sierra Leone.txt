@@ -9,7 +9,7 @@ state={
 	{
 		owner = LEO
 		victory_points = {
-			2038 5 
+			2038 2 
 		}
 		buildings = {
 			infrastructure = 3

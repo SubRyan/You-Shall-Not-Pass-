@@ -1,0 +1,25 @@
+ideas = {
+
+	industrial_concern = {
+					
+		shell_nigeria = {
+			
+			
+			allowed = {
+				original_tag = NIG
+			}
+			
+
+			
+			research_bonus = {
+				industry = 0.10
+			}
+			
+			traits = { industrial_concern }
+			
+			modifier = {
+			}
+		}
+		
+	}
+}

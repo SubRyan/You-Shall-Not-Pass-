@@ -1,0 +1,26 @@
+
+state={
+	id=487
+	name="STATE_487"
+
+	history={
+		owner = BOL
+		victory_points={
+			10924 3
+		}
+		buildings = {
+			infrastructure = 1
+			12916 = {
+				bunker = 1
+			}
+		}
+		add_core_of = BOL
+	}
+	state_category=pastoral
+	provinces={
+		2160 10924 12902 12916 
+	}
+	manpower=382800
+	buildings_max_level_factor=1.000
+
+}

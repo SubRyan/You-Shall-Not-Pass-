@@ -12,7 +12,19 @@ state={
 			infrastructure = 4
 		}
 		victory_points = {
-			6474 10
+			6474 16
+		}
+		victory_points = {
+			502 6
+		}
+		victory_points = {
+			3479 6
+		}
+		victory_points = {
+			6420 5
+		}
+		victory_points = {
+			6493 4 
 		}
 		add_core_of = SOV
 		add_core_of = UKR

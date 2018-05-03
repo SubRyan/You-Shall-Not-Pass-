@@ -1,0 +1,19 @@
+state={
+	id=1642
+	name="STATE_1642"
+	
+	history={
+		add_core_of = CAM
+		owner = IND
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	
+	provinces={
+		1620 7645 10204 12150 
+	}
+	manpower=64500
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

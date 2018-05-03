@@ -7,7 +7,7 @@ state={
 	history={
 		owner = HON
 		victory_points={
-			8017 2
+			8017 1
 		}
 		buildings = {
 			infrastructure = 2

@@ -1,0 +1,23 @@
+state={
+	id=733
+	name="STATE_733"
+	manpower=30700
+	state_category = small_island
+	
+	history={
+		owner = RAJ
+		victory_points = {
+			12251 1 
+		}
+		add_core_of = RAJ
+		buildings = {
+			infrastructure = 3
+			12251 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces={
+		10321 12251 
+	}
+}

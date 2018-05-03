@@ -8,7 +8,7 @@ state=
 		owner = KON
 		add_core_of = CHI
 		victory_points = {
-			10062 15 
+			10062 11 
 		}
 		buildings = {
 			infrastructure = 5

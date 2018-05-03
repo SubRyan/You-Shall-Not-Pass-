@@ -7,10 +7,10 @@ state={
 	history={
 		owner = MEX
 		victory_points={
-			10172 7
+			10172 3
 		}
 		victory_points={
-			12804 2
+			12804 1
 		}
 		buildings = {
 			infrastructure = 3

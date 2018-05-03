@@ -5,32 +5,39 @@ state={
 	resources={
 		tungsten=28.000
 	}
+
 	history={
 		owner = SAF
 		buildings = {
 			infrastructure = 3
-
 		}
 		victory_points = {
-			4879 5 
+			4879 1 
+		}
+		victory_points = {
+			5154 1 
+		}
+		victory_points = {
+			2207 1 
 		}
 		set_demilitarized_zone = yes
 		if = {
 			limit = {
 				OR = {
- 					ENG = { has_defensive_war = yes }
+					ENG = {
+						has_defensive_war = yes
+					}
 					NOT = {
 						country_exists = ENG
 					}
 				}
- 			}
-			set_demilitarized_zone = no		
-		}		
-
+			}
+			set_demilitarized_zone = no
+		}
 	}
 
 	provinces={
-		4879 5189 8136 10957 10963 12519 
+		2207 4879 5154 5189 8136 10957 10963 12519 
 	}
 	manpower=360000
 	buildings_max_level_factor=1.000

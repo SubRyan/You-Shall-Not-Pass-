@@ -1,0 +1,26 @@
+
+state={
+	id=309
+	name="STATE_309"
+
+	history={
+		owner = SUR
+		add_core_of = SUR
+		buildings = {
+			infrastructure = 3
+			12828 = {
+				naval_base = 1
+			}
+		}
+		victory_points ={
+			12828 1
+		}
+	}
+
+	provinces={
+		12828 
+	}
+	manpower=18400
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

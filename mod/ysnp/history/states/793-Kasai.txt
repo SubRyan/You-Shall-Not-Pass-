@@ -1,0 +1,21 @@
+state={
+	id=793
+	name="STATE_793"
+
+	history={
+		owner = COG
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = COG
+
+	}
+
+	provinces={
+		1731 1929 2024 4128 7716 8016 9986 10858 
+	}
+	manpower=1933500
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

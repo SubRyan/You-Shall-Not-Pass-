@@ -1,0 +1,35 @@
+
+state={
+	id=290
+	name="STATE_290"
+	resources={
+		steel=20.000
+	}
+
+	history={
+		owner = SMO
+		add_core_of = MOR
+		victory_points = {
+			9945 5 
+		}
+		victory_points = {
+			10113 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 3
+			12100 = {
+				naval_base = 3
+			}
+		}
+	}
+
+
+	provinces={
+		4199 7215 9945 10113 12087 12100 
+	}
+	manpower=750000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

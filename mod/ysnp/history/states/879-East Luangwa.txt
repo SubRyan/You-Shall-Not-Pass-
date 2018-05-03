@@ -1,0 +1,17 @@
+state={
+	id=879
+	name="STATE_879"
+	provinces={
+		5221 
+	}
+	history={
+		owner = ZAM
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	state_category=pastoral
+	manpower=168459
+	buildings_max_level_factor=1.000
+}

@@ -1,15 +1,16 @@
 
-state=
-{
+state={
 	id=134
 	name="STATE_134"
 	manpower = 524800
 	
 	state_category = rural
 
-	history=
-	{
+	history={
 		owner = IRE
+		victory_points = {
+			9303 1 
+		}
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2

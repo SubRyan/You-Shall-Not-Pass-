@@ -1,13 +1,11 @@
 state={
 	id=1178
 	name="STATE_1178"
-	provinces={
-		1048 7153 10094 
-	}
+
 	history={
 		owner = SPR
 		victory_points = {
-			1048 1 
+			1048 3 
 		}
 		buildings = {
 			infrastructure = 4
@@ -17,8 +15,14 @@ state={
 				naval_base = 5
 
 			}
+
 		}
 		add_core_of = SPR
+
+	}
+
+	provinces={
+		1048 7153 10094 13219 13220 
 	}
 	manpower=506100
 	buildings_max_level_factor=1.000

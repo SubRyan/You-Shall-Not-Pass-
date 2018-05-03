@@ -4,9 +4,11 @@ state={
 	manpower=2147	
 	state_category = tiny_island
 	
-	history=
-	{
+	history={
 		owner = MAU
+		victory_points = {
+			13019 1 
+		}
 		buildings = {
 			infrastructure = 3
 			13019 = {

@@ -249,7 +249,7 @@ crush_ethiopia = {
 	}
 	
 	ai_strategy = {
-		type = conquer
+		type = area_priority
 		id = africa
 		value = 500
 	}

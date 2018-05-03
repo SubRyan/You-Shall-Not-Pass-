@@ -1,0 +1,20 @@
+state={
+	id=961
+	name="STATE_961"
+	provinces={
+		5051 
+	}
+	history={
+		owner = ECU
+		victory_points={
+			5051 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ECU
+	}
+	manpower=1089900
+	state_category=large_town
+	buildings_max_level_factor=1.000
+}

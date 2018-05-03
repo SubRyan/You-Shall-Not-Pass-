@@ -1,0 +1,17 @@
+state={
+	id=997
+	name="STATE_997"
+	provinces={
+		1626 
+	}
+	history={
+		owner = URG
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = URG
+	}
+	state_category=pastoral
+	manpower=70200
+	buildings_max_level_factor=1.000
+}

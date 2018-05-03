@@ -1,0 +1,25 @@
+
+state={
+	id=557
+	name="STATE_557"
+
+	history={
+		owner = AOF
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			5034 5 
+		}
+		victory_points = {
+			8058 1 
+		}
+	}
+
+	provinces={
+		5034 5077 7992 8058 
+	}
+	manpower=383100
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

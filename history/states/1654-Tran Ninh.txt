@@ -1,0 +1,19 @@
+state={
+	id=1654
+	name="STATE_1654"
+	
+	history={
+		owner = IND
+		add_core_of = LAO
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	
+	provinces={
+		4339 7075 7356 10496 
+	}
+	manpower=83400
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

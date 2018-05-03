@@ -1,0 +1,19 @@
+state={
+	id=1648
+	name="STATE_1648"
+	
+	history={
+		owner = IND
+		add_core_of = LAO
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	
+	provinces={
+		1563 1592 10453 
+	}
+	manpower=66200 
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

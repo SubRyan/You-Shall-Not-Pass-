@@ -7,7 +7,7 @@ state={
 	history={
 		owner = DOM
 		victory_points={
-			7632 2
+			7632 1
 		}
 		buildings = {
 			infrastructure = 2

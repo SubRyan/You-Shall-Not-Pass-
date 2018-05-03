@@ -12,19 +12,27 @@ state={
 			infrastructure = 4
 			industrial_complex = 1
 			air_base = 2
-
 		}
 		victory_points = {
-			3882 1 
+			3882 3 
+		}
+		victory_points = {
+			974 2 
+		}
+		victory_points = {
+			3865 1 
+		}
+		victory_points = {
+			11832 1 
 		}
 		add_core_of = YUG
 
 	}
 
 	provinces={
-		833 867 907 974 3833 3865 3882 6886 9849 9874 9890 9906 11832 11856 11857 
+		907 974 3833 3865 3882 6886 11832 11857 11868 
 	}
-	manpower=1374200
+	manpower=883400
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

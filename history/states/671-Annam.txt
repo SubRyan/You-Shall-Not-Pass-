@@ -10,10 +10,13 @@ state={
 		add_core_of = VIN
 		owner = IND
 		victory_points = {
-			4075 15 
+			4075 5 
 		}
 		victory_points = {
-			1185 7 
+			1185 3 
+		}
+		victory_points = {
+			1157 1 
 		}
 		buildings = {
 			infrastructure = 4

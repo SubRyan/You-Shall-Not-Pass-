@@ -6,7 +6,6 @@ state={
 		owner = AOF
 		buildings = {
 			infrastructure = 1
-
 		}
 		victory_points = {
 			10758 1 
@@ -15,9 +14,8 @@ state={
 			8028 1 
 		}
 		victory_points = {
-			1975 5 
+			1975 1 
 		}
-
 	}
 
 	provinces={

@@ -1,17 +1,18 @@
 state={
 	id=939
 	name="STATE_939"
-	provinces={
-		2129 5135 10954 11004 11018 12428 12931 
-	}
+
 	history={
 		owner = AST
 		buildings = {
-			infrastructure = 0
+			infrastructure = 1
 		}
 	}
-	manpower=100
-	state_category=wasteland
-	impassable=yes
+
+	provinces={
+		5135 10954 11018 12428 12931 
+	}
+	manpower=458000
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

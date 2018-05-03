@@ -1,0 +1,25 @@
+state={
+	id=794
+	name="STATE_794"
+
+	history={
+		owner = AEF
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+		}
+		victory_points = {
+			8193 5 
+		}
+		victory_points = {
+			12975 1 
+		}
+	}
+
+	provinces={
+		2192 3109 6008 8193 12975 
+	}
+	manpower=747000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

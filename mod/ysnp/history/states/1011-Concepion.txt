@@ -1,0 +1,21 @@
+state={
+	id=1011
+	name="STATE_1011"
+	provinces={
+		12984 
+	}
+	history={
+		owner = CHL
+		victory_points={
+			12984 8
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex=1
+		}
+		add_core_of = CHL
+	}
+	state_category=rural
+	manpower=455700
+	buildings_max_level_factor=1.000
+}

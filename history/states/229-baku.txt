@@ -9,7 +9,19 @@ state={
 	history={
 		owner = AZR
 		victory_points = {
-			7661 1 
+			7661 19 
+		}
+		victory_points = {
+			11674 3 
+		}
+		victory_points = {
+			11645 1 
+		}
+		victory_points = {
+			4473 1
+		}
+		victory_points = {
+			4458 1
 		}
 		buildings = {
 			infrastructure = 4

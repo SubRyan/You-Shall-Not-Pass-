@@ -14,7 +14,7 @@ state={
 
 		}
 		victory_points = {
-			947 1 
+			947 3 
 		}
 		add_core_of = TUR
 	}

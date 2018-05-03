@@ -13,10 +13,12 @@ state={
 			industrial_complex = 4
 		}
 		victory_points = {
+			10221 11 
+		}
+		victory_points = {
 			10438 1 
 		}
 		add_core_of = SIA
-
 	}
 
 	provinces={

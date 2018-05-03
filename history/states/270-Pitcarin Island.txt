@@ -2,8 +2,8 @@ state=
 {
 	id=270
 	name="STATE_270"
-	manpower = 40
-	state_category = enclave
+	manpower = 209
+	state_category = small_island
 	
 	history=
 	{

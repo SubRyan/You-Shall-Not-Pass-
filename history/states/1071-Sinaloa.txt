@@ -15,7 +15,7 @@ state={
 		}
 		add_core_of = MEX
 		victory_points={
-			10895 3
+			10895 2
 		}
 	}
 	state_category=rural

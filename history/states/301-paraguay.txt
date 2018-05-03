@@ -14,7 +14,7 @@ state={
 		}
 		add_core_of = PAR
 		victory_points = {
-			2152 10 
+			2152 4
 		}
 
 	}

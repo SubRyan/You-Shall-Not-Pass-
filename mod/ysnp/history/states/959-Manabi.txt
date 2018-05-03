@@ -1,0 +1,24 @@
+state={
+	id=959
+	name="STATE_959"
+	provinces={
+		8252 
+	}
+	history={
+		owner = ECU
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			8252 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = ECU
+		victory_points = {
+			8252 14 
+		}
+	}
+	manpower=980400
+	state_category=town
+	buildings_max_level_factor=1.000
+}

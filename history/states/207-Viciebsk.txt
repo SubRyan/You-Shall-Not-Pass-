@@ -11,9 +11,18 @@ state={
 		victory_points = {
 			11241 5
 		}
+		victory_points = {
+			3331 2
+		}
 		buildings = {
 			infrastructure = 3
 			air_base = 5
+			6326 = {
+				bunker = 3
+			}
+			6249 = {
+				bunker = 3
+			}
 		}
 		add_core_of = SOV
 		add_core_of = BLR

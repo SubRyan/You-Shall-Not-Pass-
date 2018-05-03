@@ -11,15 +11,14 @@ state={
 
 	history={
 		owner = EGY
-		
 		victory_points = {
-			4076 20
+			4076 35
 		}
 		victory_points = {
-			7164 5 
+			7164 3 
 		}
 		victory_points = {
-			10073 5 
+			10073 3 
 		}
 		victory_points = {
 			1071 1 
@@ -32,7 +31,6 @@ state={
 				naval_base = 8
 			}
 		}
-
 		add_core_of = EGY
 	}
 

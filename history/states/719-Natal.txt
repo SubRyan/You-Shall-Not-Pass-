@@ -16,14 +16,12 @@ state={
 			air_base = 1
 			1468 = {
 				naval_base = 2
-
 			}
 		}
 		victory_points = {
-			1468 20 
+			1468 8 
 		}
 		add_core_of = SAF
-
 	}
 
 	provinces={

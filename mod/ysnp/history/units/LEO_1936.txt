@@ -1,0 +1,70 @@
+﻿division_template = {
+	name = "Colonial Garrison"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+
+units = {
+			
+	navy = {				
+		name = "South Atlantic Fleet"
+		base = 2038
+		location = 2038 # Sierra Leone
+		ship = { name = "HMS Neptune" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = LEO version_name = "Emerald Class" } } }	
+		ship = { name = "HMS Dauntless" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = LEO } } }
+		# Destroyer Division 4
+		ship = { name = "HMS Vansittart" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LEO } } }	
+		ship = { name = "HMS Venomous" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LEO } } }	
+		ship = { name = "HMS Wivern" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LEO } } }	
+	}			
+	navy = {				
+		name = "3rd Submarine Flotilla"			
+		base = 2038 
+		location = 2038 # Sierra Leone
+		# Submarine Division 71
+		ship = { name = "HMS Severn" definition = submarine equipment = { submarine_1 = { amount = 1 owner = LEO version_name = "O/P/R Class" } } }		
+		ship = { name = "HMS Clyde" definition = submarine equipment = { submarine_1 = { amount = 1 owner = LEO version_name = "O/P/R Class" } } }		
+	}				
+}
+
+
+air_wings = {
+
+}
+
+	#########################
+	## STARTING PRODUCTION ##
+	#########################
+instant_effect = {
+	
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "LEO"
+		}
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "LEO" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+}
+	#####################

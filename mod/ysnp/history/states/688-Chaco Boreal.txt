@@ -1,0 +1,27 @@
+
+state={
+	id=688
+	name="STATE_688"
+
+	history={
+		owner = PAR
+		buildings = {
+			infrastructure = 1
+			10973 = {
+				bunker = 1
+			}
+			5165 = {
+				bunker = 3
+			}
+		}
+		add_core_of = PAR
+		add_core_of = BOL
+	}
+	state_category=pastoral
+	provinces={
+		5165 10973 
+	}
+	manpower=50400
+	buildings_max_level_factor=1.000
+
+}

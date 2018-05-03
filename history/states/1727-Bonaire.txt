@@ -1,0 +1,29 @@
+state={
+	id=1727
+	name="STATE_1727"
+	
+	state_category = small_island
+
+	history={
+		owner = CUR
+		add_core_of = CUR
+		victory_points = {
+			13215 1 
+		}
+		buildings = {
+			infrastructure = 3
+			13215 = {
+				naval_base = 1
+			}
+			13215 = {
+				coastal_bunker = 2
+			}
+		}
+	}
+	
+	provinces={
+		13215 
+	}
+	manpower=5900
+	buildings_max_level_factor=1.000
+}

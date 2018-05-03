@@ -16,7 +16,7 @@ state={
 			arms_factory = 1
 		}
 		victory_points = {
-			1182 50 
+			1182 129 
 		}
 		1939.1.1 = {
 			buildings = {

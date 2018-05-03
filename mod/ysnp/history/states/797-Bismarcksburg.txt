@@ -1,0 +1,35 @@
+state={
+	id=797
+	name="STATE_797"
+
+	history={
+		owner = TNZ
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+	
+			8144 1 
+
+		}
+		set_demilitarized_zone = yes
+		if = {
+			limit = {
+				OR = {
+ 					ENG = { has_defensive_war = yes }
+					NOT = {
+						country_exists = ENG
+					}
+				}
+ 			}
+			set_demilitarized_zone = no		
+		}
+	}
+
+	provinces={
+		2176 4171 8144 10932 
+	}
+	manpower=110256
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,21 @@
+state={
+	id=1079
+	name="STATE_1079"
+	provinces={
+		2011 
+	}
+	history={
+		owner = MEX
+		victory_points={
+			2011 5
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+		}
+		add_core_of = MEX
+	}
+	state_category=city
+	manpower=1016500
+	buildings_max_level_factor=1.000
+}

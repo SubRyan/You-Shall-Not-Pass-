@@ -1,0 +1,24 @@
+state={
+	id=1019
+	name="STATE_1019"
+	provinces={
+		2169 8161 8176 10953 11005 12349 
+	}
+	resources={
+		oil=16.000
+	}
+
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 3
+			10953 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = ARG
+	}
+	state_category=pastoral
+	manpower=59400
+	buildings_max_level_factor=1.000
+}

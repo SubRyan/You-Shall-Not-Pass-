@@ -1,0 +1,28 @@
+
+state={
+	id=513
+	name="STATE_513"
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			10059 2 
+		}
+		victory_points = {
+			4970 1 
+		}
+		victory_points = {
+			9943 1 
+		}
+	}
+
+	provinces={
+		4970 5053 9943 10059 12034 12888 
+	}
+	manpower=52431
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

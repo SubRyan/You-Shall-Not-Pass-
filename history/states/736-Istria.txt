@@ -7,7 +7,10 @@ state={
 	history={
 		owner = ITA
 		victory_points = {
-			6626 1 
+			6626 7 
+		}
+		victory_points = {
+			11735 2 
 		}
 		add_core_of = ITA
 		add_core_of = YUG

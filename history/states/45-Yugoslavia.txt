@@ -7,17 +7,25 @@ state={
 		owner = YUG
 		buildings = {
 			infrastructure = 6
-
+			industrial_complex = 2
+		}
+		victory_points = {
+			11586 10 
+		}
+		victory_points = {
+			11787 2 
+		}
+		victory_points = {
+			614 2 
 		}
 		add_core_of = YUG
 		add_core_of = SER
-
 	}
 
 	provinces={
-		614 619 3614 3617 3623 3984 6634 6643 9599 9608 9621 11580 11583 11586 11787 
+		614 797 3609 3614 3984 6634 6643 9599 11583 11586 11787 
 	}
-	manpower=1026200
+	manpower=684100
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

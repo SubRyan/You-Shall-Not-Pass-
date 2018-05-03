@@ -1,0 +1,17 @@
+state={
+	id=1009
+	name="STATE_1009"
+	provinces={
+		8229 
+	}
+	history={
+		owner = CHL
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = CHL
+	}
+	state_category=rural
+	manpower=361600
+	buildings_max_level_factor=1.000
+}

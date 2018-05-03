@@ -4,6 +4,15 @@ state={
 
 	history={
 		owner = UZB
+		victory_points = {
+			12581 3 
+		}
+		victory_points = {
+			2058 3 
+		}
+		victory_points = {
+			10530 3 
+		}
 		buildings = {
 			infrastructure = 0
 		}

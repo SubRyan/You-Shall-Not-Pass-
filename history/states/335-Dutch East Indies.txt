@@ -1,11 +1,7 @@
 
 state={
 	id=335
-	name="STATE_335" # Java
-	manpower = 41718200
-	
-	state_category = city
-	
+	name="STATE_335"
 	resources={
 		rubber=121.000
 		oil=205.000
@@ -15,56 +11,35 @@ state={
 		owner = INS
 		add_core_of = INS
 		victory_points = {
-			7381 25
+			7381 17 
 		}
 		victory_points = {
-			4608 15 
+			7421 6 
 		}
 		victory_points = {
-			7421 10 
+			4406 2 
 		}
 		victory_points = {
-			10135 10 
-		}
-		victory_points = {
-			12293 10 
-		}
-		victory_points = {
-			12277 15 
-		}
-		victory_points = {
-			4406 7 
-		}
-		victory_points = {
-			1386 5 
-		}
-		victory_points = {
-			10491 4 
-		}
-		victory_points = {
-			1413 5 
+			1386 2 
 		}
 		victory_points = {
 			10279 1 
 		}
-		victory_points = {
-			7223 6 
-		}
 		buildings = {
-			infrastructure = 5
+			infrastructure = 7
 			industrial_complex = 1
 			dockyard = 1
 			air_base = 3
 			7381 = {
 				naval_base = 6
 			}
-			4608 = {
-				naval_base = 3
-			}
 		}
 	}
 
 	provinces={
-		1209 1386 1398 1413 1425 4306 4390 4406 4434 4608 4621 7223 7381 7421 7642 7654 10135 10279 10307 10479 10491 12249 12277 12293 12472 
+		1386 1398 1425 4406 4434 4621 7381 7421 10279 10307 12249 
 	}
+	manpower=12462000
+	buildings_max_level_factor=1.000
+	state_category=large_city
 }

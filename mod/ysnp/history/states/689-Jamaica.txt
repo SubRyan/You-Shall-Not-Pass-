@@ -1,0 +1,26 @@
+state={
+	id=689
+	name="STATE_689"
+	manpower = 1139000
+	
+	state_category = town
+
+	history={
+		owner = JAM
+		add_core_of = JAM
+		buildings = {
+			infrastructure = 4
+			12304 = {
+				naval_base = 1
+			}
+		}
+		victory_points ={
+			12304 15
+		}
+		victory_points ={
+			12477 1
+		}
+	}
+	
+	provinces={ 12304 12477 }
+}

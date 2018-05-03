@@ -10,20 +10,17 @@ state={
 			12371 1 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 0
 			12371 = {
 				naval_base = 2
-
 			}
-
 		}
-
 	}
 
 	provinces={
 		1546 1602 1617 1629 4468 4509 4524 4552 4593 7269 7487 7512 7529 7542 7585 7627 10369 10396 10505 12315 12371 12386 12457 
 	}
-	manpower=314300
+	manpower=343600
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

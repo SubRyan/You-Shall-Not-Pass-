@@ -9,13 +9,13 @@ state={
 	history={
 		owner = CAN
 		victory_points={
-			12603 5
+			12603 2
 		}
 		victory_points={
-			4739 4
+			4739 2
 		}
 		victory_points={
-			10611 2
+			10611 1
 		}
 		victory_points={
 			736 1

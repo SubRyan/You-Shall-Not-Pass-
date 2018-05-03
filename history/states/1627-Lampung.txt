@@ -1,0 +1,22 @@
+state={
+	id=1627
+	name="STATE_1627"
+	
+	history={
+		owner = INS
+		add_core_of = INS
+		victory_points = {
+			4361 2
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	
+	provinces={
+		1342 4320 4361 12165 
+	}
+	manpower=395400
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

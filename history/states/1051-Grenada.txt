@@ -10,7 +10,7 @@ state={
 			infrastructure = 2
 		}
 		victory_points ={
-			11106 5
+			11106 1
 		}
 	}
 	state_category=small_island

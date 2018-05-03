@@ -1,0 +1,21 @@
+state={
+	id=855
+	name="STATE_855"
+	provinces={
+		4063 7139 9977 10123 12079 12094 
+	}
+
+	history={
+		owner = LBA
+
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = LBA
+
+	}
+
+	manpower=45635
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

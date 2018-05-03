@@ -1,0 +1,17 @@
+state={
+	id=982
+	name="STATE_982"
+	provinces={
+		4892 5056 
+	}
+	history={
+		owner = VEN
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = VEN
+	}
+	state_category=wasteland
+	manpower=71300
+	buildings_max_level_factor=1.000
+}

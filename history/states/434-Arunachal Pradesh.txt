@@ -2,19 +2,19 @@
 state={
 	id=434
 	name="STATE_434"
-	manpower = 200000
-	
-	state_category = wasteland
 
 	history={
 		owner = RAJ
+		add_core_of = RAJ
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
 		}
-
 	}
 
 	provinces={
-		1116 1996 10810 12322 12730 
+		1622 7428 7465 12490 
 	}
+	manpower=3129200
+	buildings_max_level_factor=1.000
+	state_category=large_town
 }

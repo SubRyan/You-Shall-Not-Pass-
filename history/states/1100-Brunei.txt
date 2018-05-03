@@ -13,7 +13,7 @@ state={
 			}
 		}
 		victory_points={
-			10285 5
+			10285 1
 		}
 		add_core_of = BRU
 	}

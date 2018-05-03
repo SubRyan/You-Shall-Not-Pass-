@@ -1,0 +1,20 @@
+state={
+	id=1596
+	name="STATE_1596"
+	
+	history={
+		owner = NZL
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+		}
+		add_core_of = NZL
+
+	}
+	provinces={
+		4819 12632 
+	}
+	manpower=78600
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

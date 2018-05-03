@@ -1,18 +1,22 @@
 state={
 	id=938
 	name="STATE_938"
-	provinces={
-		2117 7443 
-	}
+
 	history={
-		owner = SAR
-		add_core_of = MAL
+		owner = BHN
+		add_core_of = BHN
+		victory_points = {
+			13206 1 
+		}
 		buildings = {
-			infrastructure = 0
+			infrastructure = 1
 		}
 	}
-	state_category=wasteland
-	impassable=yes
-	manpower=100
+
+	provinces={
+		13206 
+	}
+	manpower=20000
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

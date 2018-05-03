@@ -12,19 +12,19 @@ state={
 
 		}
 		victory_points = {
-			1086 12 
+			1086 4 
 		}
 		victory_points = {
-			4206 14 
+			4206 7 
 		}
 		victory_points = {
-			4088 2 
+			4088 1 
 		}
 		victory_points = {
-			7107 2 
+			7107 1 
 		}
 		victory_points = {
-			1201 10 
+			1201 4 
 		}
 		add_core_of = PAL
 		add_core_of = ISR

@@ -7,7 +7,7 @@ state={
 	history={
 		owner = BOL
 		victory_points={
-			12930 3
+			12930 2
 		}
 		buildings = {
 			infrastructure = 1
@@ -22,5 +22,5 @@ state={
 	}
 	manpower=594700
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=town
 }

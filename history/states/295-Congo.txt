@@ -13,18 +13,15 @@ state={
 			industrial_complex = 1
 			10968 = {
 				naval_base = 1
-
 			}
-
 		}
 		victory_points = {
-			5117 10 
+			5117 2 
 		}
 		victory_points = {
 			10968 1 
 		}
 		add_core_of = COG
-
 	}
 
 	provinces={

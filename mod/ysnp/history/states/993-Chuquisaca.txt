@@ -1,0 +1,24 @@
+state={
+	id=993
+	name="STATE_993"
+	provinces={
+		5179 10938 12979 
+	}
+	history={
+		owner = BOL
+		victory_points={
+			10938 2
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex=1
+			12979 = {
+				bunker = 1
+			}
+		}
+		add_core_of = BOL
+	}
+	state_category=rural
+	manpower=367000
+	buildings_max_level_factor=1.000
+}

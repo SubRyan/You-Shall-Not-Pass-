@@ -18,7 +18,10 @@ state= {
 			industrial_complex = 1
 		}
 		victory_points = { 
-			7222 1 
+			7222 3 
+		}
+		victory_points = { 
+			1083 4 
 		}
 		1938.10.25 = {		
 			controller = JAP

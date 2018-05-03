@@ -8,7 +8,7 @@ state={
 		owner = SRI
 		add_core_of = SRI
 		victory_points = {
-			7344 15 
+			7344 9 
 		}
 		buildings = {
 			infrastructure = 3

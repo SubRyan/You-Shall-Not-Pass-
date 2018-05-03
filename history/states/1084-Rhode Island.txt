@@ -13,7 +13,7 @@ state={
 		}
 		add_core_of = USA
 		victory_points = {
-			11830 19 
+			11830 7 
 		}
 	}
 	state_category=city

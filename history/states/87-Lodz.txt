@@ -11,7 +11,7 @@ state={
 
 		}
 		victory_points = {
-			9508 1 
+			9508 18 
 		}
 		add_core_of = POL
 		1939.1.1 = {

@@ -1,0 +1,22 @@
+state={
+	id=1674
+	name="STATE_1674"
+	
+	history={
+		owner = PHI
+		victory_points = {
+			10165 2 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = PHI
+	}
+	
+	provinces={
+		10165 
+	}
+	manpower=392900
+	state_category=town
+	buildings_max_level_factor=1.000
+}

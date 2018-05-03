@@ -6,7 +6,7 @@ state={
 	history={
 		owner = SPR
 		victory_points = {
-			875 1 
+			875 4 
 		}
 		buildings = {
 			industrial_complex = 1

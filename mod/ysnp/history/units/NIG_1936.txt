@@ -1,0 +1,54 @@
+﻿division_template = {
+	name = "Colonial Garrison"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+units = {
+
+	division= {	
+		name = "1 West African Force"
+		location = 2050 # nigeria
+		division_template = "Colonial Garrison"			# Colonial militia (lowest equipment and experience)
+		force_equipment_variants = { infantry_equipment_0 = { owner = "NIG" } }
+		start_equipment_factor = 0.15
+
+	}
+
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "NIG"
+		}
+		requested_factories = 1
+		progress = 0.9
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "NIG" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+}
+
+#################################

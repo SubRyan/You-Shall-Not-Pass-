@@ -1,0 +1,31 @@
+
+state={
+	id=559
+	name="STATE_559"
+
+	history={
+		owner = SOM
+		add_core_of = SOM
+		victory_points = {
+			12991 3 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			12991 = {
+				naval_base = 2
+			}
+		}
+		1939.8.14 = {
+			owner = ITE
+			controller = ITE
+		}
+	}
+
+	provinces={
+		2020 2063 5065 10928 12991 
+	}
+	manpower=785000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

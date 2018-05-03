@@ -1,4 +1,4 @@
-﻿capital = 6
+﻿capital = 1460
 
 oob = "BEL_1936"
 

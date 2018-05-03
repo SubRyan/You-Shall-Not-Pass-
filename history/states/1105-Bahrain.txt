@@ -9,7 +9,7 @@ state={
 		owner = BHN
 		add_core_of = BHN
 		victory_points = {
-			8051 5 
+			8051 1 
 		}
 		buildings = {
 			infrastructure = 2
@@ -23,7 +23,7 @@ state={
 	provinces={
 		8051 
 	}
-	manpower=120000
+	manpower=94000
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 }

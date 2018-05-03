@@ -11,6 +11,9 @@ state={
 			air_base = 3
 			industrial_complex = 1
 		}
+		victory_points = {
+			3530 5 
+		}
 		add_core_of = GER
 		1939.1.1 = {
 			buildings = {

@@ -1,0 +1,21 @@
+state={
+	id=989
+	name="STATE_989"
+	provinces={
+		8211 10982 10996 12973 
+	}
+	history={
+		owner = BOL
+		victory_points={
+			12973 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = BOL
+	}
+	state_category=pastoral
+	manpower=58300
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

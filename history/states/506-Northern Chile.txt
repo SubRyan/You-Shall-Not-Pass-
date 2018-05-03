@@ -7,7 +7,7 @@ state={
 		owner = CHL
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 2
+			industrial_complex = 1
 			air_base = 1
 			12994 = {
 				naval_base = 1
@@ -17,7 +17,7 @@ state={
 		}
 		add_core_of = CHL
 		victory_points = {
-			12994 5 
+			12994 2 
 		}
 
 	}
@@ -27,5 +27,5 @@ state={
 	}
 	manpower=206700
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 }

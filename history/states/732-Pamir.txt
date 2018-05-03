@@ -11,7 +11,7 @@ state={
 		add_core_of = SOV
 		add_core_of = KYR
 		victory_points = {
-			1825 5 
+			1825 3 
 		}
 	}
 

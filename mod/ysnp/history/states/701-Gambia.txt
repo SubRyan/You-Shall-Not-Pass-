@@ -1,0 +1,24 @@
+state={
+	id=701
+	name="STATE_701"
+	manpower = 199520
+	
+	state_category = town
+	history={
+		owner = GAM
+		add_core_of = GAM
+		buildings = {
+			infrastructure = 3
+			4989 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			4989 5 
+		}
+	}
+	
+	provinces={
+		4989 
+	}
+}

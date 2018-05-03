@@ -13,10 +13,9 @@ state={
 			arms_factory = 2
 			industrial_complex = 2
 			air_base = 1
-
 		}
 		victory_points = {
-			5010 15 
+			5010 3 
 		}
 		add_core_of = ETH
 		1939.8.14 = {

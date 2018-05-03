@@ -1,0 +1,27 @@
+state={
+	id=1725
+	name="STATE_1725"
+	
+	history={
+		owner = ENG
+		victory_points = {
+			13211 1 
+		}
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			13211 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = ENG
+
+	}
+	
+	provinces={
+		13211 
+	}
+	manpower=43000
+	state_category=small_island
+	buildings_max_level_factor=1.000
+}

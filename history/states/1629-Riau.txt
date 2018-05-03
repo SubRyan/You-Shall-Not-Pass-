@@ -1,0 +1,21 @@
+state={
+	id=1629
+	name="STATE_1629"
+
+	history={
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1277 7463 12113 12168 12184 12302 
+	}
+	manpower=326100
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

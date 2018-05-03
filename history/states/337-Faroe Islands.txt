@@ -1,0 +1,23 @@
+state=
+{
+	id=337
+	name="STATE_337"
+	manpower = 25700
+	
+	state_category = enclave
+	
+	history={
+		owner = DEN
+		victory_points = {
+			13003 1 
+		}
+		buildings = {
+			infrastructure = 4
+			13003 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = DEN
+	}
+	provinces= { 13003 }
+}

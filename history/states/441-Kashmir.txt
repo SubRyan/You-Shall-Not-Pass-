@@ -2,12 +2,18 @@
 state={
 	id=441
 	name="STATE_441"
-	manpower = 3539500
+	manpower = 3656300
 	
 	state_category = rural
 
 	history={
 		owner = RAJ
+		victory_points = {
+			10905 5 
+		}
+		victory_points = {
+			12754 2 
+		}
 		buildings = {
 			infrastructure = 2
 		}

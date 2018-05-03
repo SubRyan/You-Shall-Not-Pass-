@@ -1,0 +1,8 @@
+supply_area={
+	id=446
+	name="SUPPLYAREA_446"
+	value=13
+	states={
+		1706 1703 1702 1705 1701 1700 1704 525 
+	}
+}

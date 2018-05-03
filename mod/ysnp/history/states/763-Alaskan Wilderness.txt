@@ -1,0 +1,19 @@
+state={
+	id=763
+	name="STATE_763"
+
+	state_category = wasteland
+	impassable = yes
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	provinces={
+		7855 13069 
+	}
+	manpower=100
+
+}

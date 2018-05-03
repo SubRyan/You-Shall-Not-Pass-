@@ -1,0 +1,25 @@
+state={
+	id=898
+	name="STATE_898"
+	provinces={
+		5017 12723 
+	}
+	history={
+		owner = ERI
+		add_core_of = ERI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			5017 1 
+		}
+		1939.8.14 = {
+			owner = ITE
+			controller = ITE
+		}
+	}
+
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	manpower=85645
+}

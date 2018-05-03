@@ -13,20 +13,17 @@ state={
 			air_base = 3
 			8222 = {
 				naval_base = 5
-
 			}
 			650 = {
 				bunker = 1
-
 			}
-
 		}
 		add_core_of = CHL
 		victory_points = {
-			650 20 
+			650 42
 		}
 		victory_points = {
-			8222 20 
+			8222 8 
 		}
 	}
 

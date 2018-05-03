@@ -15,16 +15,14 @@ state={
 			arms_factory = 1
 			industrial_complex = 5
 			air_base = 3
-
 		}
 		victory_points = {
-			10400 20
+			10400 26
 		}
 		victory_points = {
-			5106 12
+			5106 4
 		}
 		add_core_of = SAF
-
 	}
 
 	provinces={

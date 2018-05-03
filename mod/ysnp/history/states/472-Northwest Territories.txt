@@ -1,0 +1,24 @@
+
+state={
+	id=472
+	name="STATE_472"
+
+	history={
+		owner = RAJ
+		add_core_of = MYA
+		buildings = {
+			infrastructure = 2
+		}
+		1939.8.14 = {
+			owner = MYA
+			controller = MYA
+		}
+	}
+
+	provinces={
+		1170 1566 1607 2061 4175 4210 4585 7400 7469 7562 7603 7647 7909 7974 12363 
+	}
+	manpower=898650
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

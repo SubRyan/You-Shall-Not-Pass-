@@ -1,0 +1,21 @@
+state={
+	id=928
+	name="STATE_928"
+	provinces={
+		12900 
+	}
+
+	history={
+		owner = NIG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			12900 5 
+		}
+		add_core_of = NIG
+	}
+	manpower=462726
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

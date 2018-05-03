@@ -1,258 +1,1110 @@
 ﻿##### Division Templates #####
 division_template = {
-	name = "División de Infantería" 		# Used for both regular infantry divisions and larger garrison divisions
+	name = "División de Infantería" # Peninsular Army x4(?) out of 10 (?)
+	is_locked = no
 	division_names_group = SPR_INF_01
-	# Note: Spanish divisions were 2x brigades of 2x2 rgts each, + support
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
 		infantry = { x = 0 y = 3 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 1 y = 3 }
-	}
-	support = {
-		artillery = { x = 0 y = 0 }  # Spanish Arty Rgt/Bge had 2 Bn 105mm arty
-		engineer = { x = 0 y = 1 }   # Eng Bn
-	}
-}
-division_template = {
-	name = "División de Caballería"  		# Only one Cavalry Division (3x bge of 2x2 Rgts)
-	division_names_group = SPR_CAV_01
-
-	regiments = {
-		cavalry = { x = 0 y = 0 }
-		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 0 y = 2 }
-		cavalry = { x = 0 y = 3 }
 		cavalry = { x = 1 y = 0 }
-		cavalry = { x = 1 y = 1 }
-		cavalry = { x = 1 y = 2 }
-		cavalry = { x = 1 y = 3 }
-		cavalry = { x = 2 y = 0 }
-		cavalry = { x = 2 y = 1 }
-		cavalry = { x = 2 y = 2 }
-		cavalry = { x = 2 y = 3 }
 	}
 	support = {
-		recon = { x = 0 y = 0 }      # Recon consisted of motorcycles and ACs
+		artillery = { x = 0 y = 0 } 	
+		anti_tank = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
 	}
 }
 division_template = {
-	name = "Brigada Montaña"  		# Mountain Brigades were 2x2 Rgts + support
-	division_names_group = SPR_MNT_01
+	name = "Tropas Regulares de Marruecos" # Moroccan Regulars - nationalist only
+	is_locked = yes
+	division_names_group = SPR_INF_02
 	regiments = {
-		mountaineers = { x = 0 y = 0 }	
+		mountaineers = { x = 0 y = 0 }
 		mountaineers = { x = 0 y = 1 }
-		mountaineers = { x = 1 y = 0 }
-		mountaineers = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 0 }
 	}
-	support = {
-		artillery = { x = 0 y = 0 }  # Spanish Arty Rgt/Bge had 2 Bn 105mm arty
+}
+division_template = { 
+	name = "Guardia Civil" # Civil Guard - 32 out of 68 total (16k out of 34k)
+	is_locked = yes
+	division_names_group = SPR_INF_03
+	regiments = {
+		gendarmerie = { x = 0 y = 0 }
+		gendarmerie = { x = 0 y = 1 }
 	}
 }
 division_template = {
-	name = "Brigada de Infantería" 		# Infantry Brigade - Used for smaller garrison units
-	division_names_group = SPR_GAR_01
-
+	name = "Cuerpo de Seguridad" # Security and Assault Corps - 12 out of 36 total (6k out of 18k)
+	is_locked = yes
+	division_names_group = SPR_INF_04
 	regiments = {
-		infantry = { x = 0 y = 0 }	
-		infantry = { x = 0 y = 1 }	
-		infantry = { x = 1 y = 0 }	
-		infantry = { x = 1 y = 1 }	
+		gendarmerie = { x = 0 y = 0 }
+		gendarmerie = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Carabineros" # Frontier Police Corps - 8 out of 21 total (6k out of 16k)
+	is_locked = yes
+	division_names_group = SPR_INF_05
+	regiments = {
+		gendarmerie = { x = 0 y = 0 }
+		gendarmerie = { x = 0 y = 1 }
+		gendarmerie = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Division del Ejercito de Africa" # Army of Africa x 3 (?) - nationalist only
+	is_locked = yes
+	division_names_group = SPR_INF_06
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		cavalry = { x = 1 y = 0 }
+		#artillery = { x = 2 y = 0 }
 	}
 	support = {
-		engineer = { x = 0 y = 0 }   # Eng Bn
+		artillery = { x = 0 y = 0 } 	
+	}
+}
+division_template = {
+	name = "Tercio de Extranjeros" # Spanish Foreign Legion x 6 - nationalist only
+	is_locked = yes
+	division_names_group = SPR_INF_07
+	regiments = {
+		infantry = { x = 0 y = 0 }
 	}
 }
 
 ###### OOB ######
 units = {
 	#####LAND UNITS #####
-	### MAINLAND UNITS ###
-	division = { # "1a División de Infantería"		
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 3938  # Madrid
+	### Peninsular Army
+	division = {
+		name = "I División de Infantería"
+		location = 9857  # Navarre
 		division_template = "División de Infantería"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}			
-	division = { # "2a División de Infantería"		
-		division_name = {
-				is_name_ordered = yes
-				name_order = 2
-		}
-		location = 7183  # Sevilla
+		start_experience_factor = 0.00
+	}
+	division = {
+		name = "II División de Infantería"
+		location = 11843  # Leon
 		division_template = "División de Infantería"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}			
-	division = { # "3a División de Infantería"		
-		division_name = {
-				is_name_ordered = yes
-				name_order = 3
-		}
+		start_experience_factor = 0.00
+	}
+	division = {
+		name = "III División de Infantería"
+		location = 3737  # Navarre
+		division_template = "División de Infantería"
+		start_experience_factor = 0.00
+	}
+	division = {
+		name = "IV División de Infantería"
+		location = 6903  # Zaragoza
+		division_template = "División de Infantería"
+		start_experience_factor = 0.00
+	}
+	division = {
+		name = "V División de Infantería"
+		location = 9764  # Barcelona
+		division_template = "División de Infantería"
+		start_experience_factor = 0.10
+	}
+	division = {
+		name = "VI División de Infantería"
 		location = 6906  # Valencia
 		division_template = "División de Infantería"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}			
-	division = { # "4a División de Infantería"		
-		division_name = {
-				is_name_ordered = yes
-				name_order = 4
-		}
+		start_experience_factor = 0.10
+	}
+	division = {
+		name = "VII División de Infantería"
+		location = 3938  # Madrid
+		division_template = "División de Infantería"
+		start_experience_factor = 0.10
+	}
+	division = {
+		name = "VIII División de Infantería"
+		location = 3938  # Madrid
+		division_template = "División de Infantería"
+		start_experience_factor = 0.10
+	}
+	division = {
+		name = "IX División de Infantería"
+		location = 740  # Vizcaya
+		division_template = "División de Infantería"
+		start_experience_factor = 0.10
+	}
+	division = {
+		name = "X División de Infantería"
+		location = 3938  # Madrid
+		division_template = "División de Infantería"
+		start_experience_factor = 0.10
+	}
+	### Army of Africa
+	division = {
+		name = "I División Ejército de África"
+		location = 1048 # Cadiz
+		division_template = "Division del Ejercito de Africa"
+		start_experience_factor = 0.75
+	}
+	division = {
+		name = "II División Ejército de África"
+		location = 7183 # Sevilla
+		division_template = "Division del Ejercito de Africa"
+		start_experience_factor = 0.75
+	}
+	division = {
+		name = "III División Ejército de África"
+		location = 1178 # Sevilla
+		division_template = "Division del Ejercito de Africa"
+		start_experience_factor = 0.75
+	}
+	### Moroccan Regulares
+	division = {
+		name = "1a Grupo Regulares"
+		location = 6744 # Cordova
+		division_template = "Tropas Regulares de Marruecos"
+		start_experience_factor = 0.75
+	}
+	division = {
+		name = "2a Grupo Regulares"
+		location = 3871 # Cordova
+		division_template = "Tropas Regulares de Marruecos"
+		start_experience_factor = 0.75
+	}
+	division = {
+		name = "3a Grupo Regulares"
+		location = 875 # Cordova
+		division_template = "Tropas Regulares de Marruecos"
+		start_experience_factor = 0.75
+	}
+	division = {
+		name = "4a Grupo Regulares"
+		location = 9891 # Sevilla
+		division_template = "Tropas Regulares de Marruecos"
+		start_experience_factor = 0.75
+	}
+	division = {
+		name = "5a Grupo Regulares"
+		location = 7098 # Sevilla
+		division_template = "Tropas Regulares de Marruecos"
+		start_experience_factor = 0.75
+	}
+	### Spanish Foreign Legion
+	division = {
+		name = "I Bandera"
+		location = 10094 # Cadiz
+		division_template = "Tercio de Extranjeros"
+		start_experience_factor = 0.30
+	}
+	division = {
+		name = "II Bandera"
+		location = 7153 # Cadiz
+		division_template = "Tercio de Extranjeros"
+		start_experience_factor = 0.30
+	}
+	division = {
+		name = "III Bandera"
+		location = 879 # Cordova
+		division_template = "Tercio de Extranjeros"
+		start_experience_factor = 0.30
+	}
+	division = {
+		name = "IV Bandera"
+		location = 3810 # Cordova
+		division_template = "Tercio de Extranjeros"
+		start_experience_factor = 0.30
+	}
+	division = {
+		name = "V Bandera"
+		location = 7198 # Cordova
+		division_template = "Tercio de Extranjeros"
+		start_experience_factor = 0.30
+	}
+	division = {
+		name = "VI Bandera"
+		location = 1048 # Cadiz
+		division_template = "Tercio de Extranjeros"
+		start_experience_factor = 0.30
+	}
+	### Security and Assault Corps
+	division = {
+		name = "1a Cuerpo de Seguridad"
+		location = 9857  # Pontevedra
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "2a Cuerpo de Seguridad"
+		location = 758  # La Corona
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "3a Cuerpo de Seguridad"
+		location = 729  # Lugo
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "4a Cuerpo de Seguridad"
+		location = 726  # Leon
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "5a Cuerpo de Seguridad"
+		location = 11684  # Palencia
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "6a Cuerpo de Seguridad"
+		location = 9699  # Zaragoza
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "7a Cuerpo de Seguridad"
+		location = 726  # Zaragoza
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "8a Cuerpo de Seguridad"
+		location = 11852  # Zaragoza
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "9a Cuerpo de Seguridad"
+		location = 11684  # Palencia
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "10a Cuerpo de Seguridad"
+		location = 9699  # Zaragoza
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "11a Cuerpo de Seguridad"
+		location = 726  # Zaragoza
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "12a Cuerpo de Seguridad"
+		location = 11852  # Zaragoza
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "13a Cuerpo de Seguridad"
 		location = 9764  # Barcelona
-		division_template = "División de Infantería"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}			
-	division = { # "5a División de Infantería"		
-		division_name = {
-				is_name_ordered = yes
-				name_order = 5
-		}
-		location = 3816  # Zaragosa
-		division_template = "División de Infantería"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}			
-	division = { # "6a División de Infantería"		
-		division_name = {
-				is_name_ordered = yes
-				name_order = 6
-		}
-		location = 885  # Burgos
-		division_template = "División de Infantería"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}			
-	division = { # "7a División de Infantería"		
-		division_name = {
-				is_name_ordered = yes
-				name_order = 7
-		}
-		location = 11825  # Valladolid
-		division_template = "División de Infantería"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}			
-	division = { # "8a División de Infantería"		
-		division_name = {
-				is_name_ordered = yes
-				name_order = 8
-		}
-		location = 758  # La Coruña
-		division_template = "División de Infantería"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}			
-
-	division = { # "1a División de Caballería"		
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "14a Cuerpo de Seguridad"
+		location = 3938  # Madrid
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "15a Cuerpo de Seguridad"
+		location = 6906  # Valencia
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "16a Cuerpo de Seguridad"
+		location = 740  # Vizcaya
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "17a Cuerpo de Seguridad"
 		location = 9764  # Barcelona
-		division_template = "División de Caballería"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "18a Cuerpo de Seguridad"
+		location = 3938  # Madrid
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "19a Cuerpo de Seguridad"
+		location = 6906  # Valencia
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "20a Cuerpo de Seguridad"
+		location = 740  # Vizcaya
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "21a Cuerpo de Seguridad"
+		location = 9764  # Barcelona
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "22a Cuerpo de Seguridad"
+		location = 3938  # Madrid
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "23a Cuerpo de Seguridad"
+		location = 9764  # Barcelona
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "24a Cuerpo de Seguridad"
+		location = 3938  # Madrid
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "25a Cuerpo de Seguridad"
+		location = 6906  # Valencia
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "26a Cuerpo de Seguridad"
+		location = 740  # Vizcaya
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "27a Cuerpo de Seguridad"
+		location = 9764  # Barcelona
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "28a Cuerpo de Seguridad"
+		location = 3938  # Madrid
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "29a Cuerpo de Seguridad"
+		location = 6906  # Valencia
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "30a Cuerpo de Seguridad"
+		location = 740  # Vizcaya
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "31a Cuerpo de Seguridad"
+		location = 9764  # Barcelona
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "32a Cuerpo de Seguridad"
+		location = 3938  # Madrid
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "33a Cuerpo de Seguridad"
+		location = 6906  # Valencia
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "34a Cuerpo de Seguridad"
+		location = 740  # Vizcaya
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "35a Cuerpo de Seguridad"
+		location = 9764  # Barcelona
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "36a Cuerpo de Seguridad"
+		location = 3938  # Madrid
+		division_template = "Cuerpo de Seguridad"
+		start_experience_factor = 0.10
+		start_equipment_factor = 0.85
+	}
+	### Carabineros Corps
+	division = {
+		name = "1a Carabineros"
+		location = 3737  # Navarre
+		division_template = "Carabineros"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "2a Carabineros"
+		location = 3820  # Segovia
+		division_template = "Carabineros"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "3a Carabineros"
+		location = 9827  # Segovia
+		division_template = "Carabineros"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "4a Carabineros"
+		location = 9846  # Valladolid
+		division_template = "Carabineros"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "5a Carabineros"
+		location = 3874  # Salamanca
+		division_template = "Carabineros"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "6a Carabineros"
+		location = 9770  # Salamanca
+		division_template = "Carabineros"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "7a Carabineros"
+		location = 794  # Salamanca
+		division_template = "Carabineros"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "8a Carabineros"
+		location = 794  # Salamanca
+		division_template = "Carabineros"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "9a Carabineros"
+		location = 9824  # Gerona
+		division_template = "Carabineros"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "10a Carabineros"
+		location = 12070  # Huelva
+		division_template = "Carabineros"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "11a Carabineros"
+		location = 11851  # Badajoz
+		division_template = "Carabineros"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "12a Carabineros"
+		location = 9877  # Caceres
+		division_template = "Carabineros"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "13a Carabineros"
+		location = 3845  # Zamora
+		division_template = "Carabineros"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "14a Carabineros"
+		location = 9824  # Gerona
+		division_template = "Carabineros"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "15a Carabineros"
+		location = 12070  # Huelva
+		division_template = "Carabineros"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "16a Carabineros"
+		location = 11851  # Badajoz
+		division_template = "Carabineros"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "17a Carabineros"
+		location = 9877  # Caceres
+		division_template = "Carabineros"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "18a Carabineros"
+		location = 11756  # Zamora
+		division_template = "Carabineros"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "19a Carabineros"
+		location = 9824  # Gerona
+		division_template = "Carabineros"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "20a Carabineros"
+		location = 12070  # Huelva
+		division_template = "Carabineros"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "21a Carabineros"
+		location = 11851  # Badajoz
+		division_template = "Carabineros"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.75
+	}
+	### Civil Guard
+	division = {
+		name = "1a Guardia Civil"
+		location = 9770  # Salamanca
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "2a Guardia Civil"
+		location = 794  # Salamanca
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "3a Guardia Civil"
+		location = 3874  # Salamanca
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "4a Guardia Civil"
+		location = 9846  # Valladolid
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "5a Guardia Civil"
+		location = 9827  # Segovia
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "6a Guardia Civil"
+		location = 3820  # Segovia
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "7a Guardia Civil"
+		location = 9870  # Burgos
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "8a Guardia Civil"
+		location = 884  # La Rioja
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "9a Guardia Civil"
+		location = 3887  # La Rioja
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "10a Guardia Civil"
+		location = 6903  # Navarre
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "11a Guardia Civil"
+		location = 9857  # Zaragoza
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "12a Guardia Civil"
+		location = 6764  # Lugo
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "13a Guardia Civil"
+		location = 729 # Lugo
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "14a Guardia Civil"
+		location = 11843  # Leon
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "15a Guardia Civil"
+		location = 6746  # Leon
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "16a Guardia Civil"
+		location = 9699  # Leon
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "17a Guardia Civil"
+		location = 932  # Navarre
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "18a Guardia Civil"
+		location = 3933  # Navarre
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "19a Guardia Civil"
+		location = 3902  # La Rioja
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "20a Guardia Civil"
+		location = 11852  # La Rioja
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "21a Guardia Civil"
+		location = 738  # Burgos
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "22a Guardia Civil"
+		location = 11684  # Palencia
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "23a Guardia Civil"
+		location = 3931  # Navarre
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "24a Guardia Civil"
+		location = 9857  # Navarre
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "25a Guardia Civil"
+		location = 932  # Navarre
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "26a Guardia Civil"
+		location = 3933  # Navarre
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "27a Guardia Civil"
+		location = 3902  # La Rioja
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "28a Guardia Civil"
+		location = 11852  # La Rioja
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "29a Guardia Civil"
+		location = 738  # Burgos
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "30a Guardia Civil"
+		location = 11684  # Palencia
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "31a Guardia Civil"
+		location = 3931  # Navarre
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "32a Guardia Civil"
+		location = 9857  # Navarre
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
 	}			
-
-	division = {			
-		name = "1a Brigada Montaña"		
-		location = 13071  # Canary Islands
-		division_template = "Brigada Montaña"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}			
-	division = {			
-		name = "2a Brigada Montaña"		
-		location = 740  #Bilbao
-		division_template = "Brigada Montaña"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}			
-	division = {			
-		name = "Brigada Mixta Montaña"		
-		location = 11707  #Oviedo
-		division_template = "Brigada Montaña"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}			
-
-	division = {			
-		name = "Brigada de Arma de Infantería"		
-		location = 1048  #Cádiz
-		division_template = "Brigada de Infantería"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}			
-
-
-	### Island Garrisons ###
-	division = { # "Comandancia de Baleares"		
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 9793  #Mallorca
-		division_template = "Brigada de Infantería"		# garrison division, lower equipment, experience
-		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
-
-	}			
-	division = { # "Comandancia de Canarias"		
-		division_name = {
-				is_name_ordered = yes
-				name_order = 2
-		}
-		location = 13071  # Canary Islands
-		division_template = "Brigada de Infantería"		# garrison division, lower equipment, experience
-		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
-
-	}			
-
-
-	### Ejército de África ###
-	division = {			
-		name = "Circunscripción Occidental"		
-		location = 9945  #Ceuta
-		division_template = "División de Infantería"		# garrison division, lower equipment, experience
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
-
-	}			
-	division = {			
-		name = "Circunscripción Oriental"		
-		location = 12100  #Melilla
-		division_template = "División de Infantería"		# garrison division, lower equipment, experience
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
-
-	}			
-
+	division = {
+		name = "33a Guardia Civil"
+		location = 6836  # Lerida
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "34a Guardia Civil"
+		location = 11819  # Huesca
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "35a Guardia Civil"
+		location = 798  # Teruel
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "36a Guardia Civil"
+		location = 11742  # Cuenca
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "37a Guardia Civil"
+		location = 11884  # Albacete
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "38a Guardia Civil"
+		location = 9778  # Ciudad Real
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "39a Guardia Civil"
+		location = 950  # Jaen
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "40a Guardia Civil"
+		location = 858  # Toledo
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "41a Guardia Civil"
+		location = 11688  # Burgos
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "42a Guardia Civil"
+		location = 11707  # Leon
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "43a Guardia Civil"
+		location = 11707  # Leon
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "44a Guardia Civil"
+		location = 11707  # La Corona
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "45a Guardia Civil"
+		location = 9785  # Guadalajara
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "46a Guardia Civil"
+		location = 6948  # Soria
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "47a Guardia Civil"
+		location = 9703  # Palencia
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "48a Guardia Civil"
+		location = 11780  # Caceres
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "49a Guardia Civil"
+		location = 6948  # Cordova
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "50a Guardia Civil"
+		location = 9889  # Alicante
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "51a Guardia Civil"
+		location = 9889  # Alicante
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "52a Guardia Civil"
+		location = 9889  # Alicante
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "53a Guardia Civil"
+		location = 9889  # Alicante
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "54a Guardia Civil"
+		location = 9889  # Alicante
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "55a Guardia Civil"
+		location = 9889  # Alicante
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "56a Guardia Civil"
+		location = 9889  # Alicante
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "57a Guardia Civil"
+		location = 9889  # Alicante
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "58a Guardia Civil"
+		location = 9889  # Alicante
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "59a Guardia Civil"
+		location = 9889  # Alicante
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "60a Guardia Civil"
+		location = 9889  # Alicante
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "61a Guardia Civil"
+		location = 9889  # Alicante
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "62a Guardia Civil"
+		location = 9889  # Alicante
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "63a Guardia Civil"
+		location = 9889  # Alicante
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "64a Guardia Civil"
+		location = 9889  # Alicante
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "65a Guardia Civil"
+		location = 9889  # Alicante
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "66a Guardia Civil"
+		location = 9889  # Alicante
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "67a Guardia Civil"
+		location = 9889  # Alicante
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
+	division = {
+		name = "68a Guardia Civil"
+		location = 9889  # Alicante
+		division_template = "Guardia Civil"
+		start_experience_factor = 0.00
+		start_equipment_factor = 0.45
+	}
 
 	##### NAVAL UNITS #####
 	navy = {
@@ -318,6 +1170,7 @@ units = {
 }
 
 ### Air Wings
+
 air_wings = {
 	# Arma de Aviación -- Madrid (Getafe)
 	41 = { 
@@ -328,7 +1181,7 @@ air_wings = {
 		}
 	}
 	# Arma de Aviación -- Sevilla (and Barcelona)
-	169 = {
+	165 = {
 		# Grupo n.3 de Caza FARE 'Malraux'
 		fighter_equipment_0 = {
 			owner = "SPR" 
@@ -343,7 +1196,6 @@ air_wings = {
 		}
 	}
 }
-
 
 instant_effect = {
 	add_equipment_production = {

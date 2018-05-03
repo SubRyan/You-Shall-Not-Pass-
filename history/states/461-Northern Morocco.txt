@@ -7,13 +7,13 @@ state={
 		owner = MOR
 		add_core_of = MOR
 		victory_points = {
-			7069 20 
+			7069 7 
 		}
 		victory_points = {
-			10070 10 
+			10070 4 
 		}
 		victory_points = {
-			11943 2 
+			11943 1 
 		}
 		buildings = {
 			infrastructure = 3

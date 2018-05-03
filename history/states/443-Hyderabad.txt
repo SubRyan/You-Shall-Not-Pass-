@@ -6,25 +6,25 @@ state={
 	history={
 		owner = RAJ
 		victory_points = {
-			3456 3 
+			3456 9
+		}
+		victory_points = {
+			4110 4
 		}
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
 			3456 = {
 				naval_base = 4
-
 			}
-
 		}
 		add_core_of = PAK
-
 	}
 
 	provinces={
-		1971 3456 4003 4110 7049 7084 10108 10735 
+		1147 1971 1980 3456 4003 4110 7049 7084 10108 10735 
 	}
-	manpower=3887000
+	manpower=3952900
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }

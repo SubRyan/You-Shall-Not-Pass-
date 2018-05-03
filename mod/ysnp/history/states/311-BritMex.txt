@@ -1,0 +1,22 @@
+state={
+	id=311
+	name="STATE_311"
+	manpower = 56000
+	
+	state_category = pastoral
+	history={
+		owner = BEZ
+		add_core_of = BEZ
+		buildings = {
+			infrastructure = 4
+			2077 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = BEZ
+		victory_points={
+			2077 5
+		}
+	}
+	provinces= { 2077 }
+}

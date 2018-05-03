@@ -8,6 +8,12 @@ state={
 
 	history={
 		owner = ROM
+		victory_points = {
+			6711 3 
+		}
+		victory_points = {
+			6679 2 
+		}
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1

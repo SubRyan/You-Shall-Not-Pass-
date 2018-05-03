@@ -7,7 +7,7 @@ state={
 	history={
 		owner = CHL
 		victory_points={
-			5121 3
+			5121 2
 		}
 		buildings = {
 			infrastructure = 3
@@ -18,7 +18,7 @@ state={
 		}
 		add_core_of = CHL
 	}
-	state_category=rural
+	state_category=town
 	manpower=423100
 	buildings_max_level_factor=1.000
 }

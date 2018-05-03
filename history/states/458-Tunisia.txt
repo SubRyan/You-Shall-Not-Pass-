@@ -12,19 +12,19 @@ state={
 		owner = TUN
 		add_core_of = TUN
 		victory_points = {
-			11969 20 
+			11969 7 
 		}
 		victory_points = {
-			9994 1 
+			9994 2 
 		}
 		victory_points = {
-			11921 4 
+			11921 2 
 		}
 		victory_points = {
-			7162 3 
+			7162 1 
 		}
 		victory_points = {
-			7707 2 
+			7707 1 
 		}
 		buildings = {
 			infrastructure = 4

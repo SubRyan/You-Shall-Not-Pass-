@@ -1,0 +1,21 @@
+state={
+	id=1723
+	name="STATE_1723"
+	
+	history={
+		owner = USA
+		victory_points = {
+			4155 1 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	
+	provinces={
+		4155 
+	}
+	manpower=23000
+	state_category=small_island
+	buildings_max_level_factor=1.000
+}

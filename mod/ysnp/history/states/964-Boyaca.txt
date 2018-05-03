@@ -1,0 +1,20 @@
+state={
+	id=964
+	name="STATE_964"
+	provinces={
+		1887 
+	}
+	resources={
+		oil=76.000
+	}
+	history={
+		owner = COL
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = COL
+	}
+	state_category=pastoral
+	manpower=748600
+	buildings_max_level_factor=1.000
+}

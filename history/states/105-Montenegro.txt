@@ -9,27 +9,23 @@ state={
 
 	history={
 		owner = YUG
-		add_core_of = MNT
+		victory_points = {
+			6889 1 
+		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-			9809 = {
-				naval_base = 1
-
-			}
 			6889 = {
 				naval_base = 1
-
 			}
 		}
 		add_core_of = YUG
-
 	}
 
 	provinces={
-		937 953 3868 3922 6889 6913 6940 9809 9821 11845 11858 
+		953 3868 6889 11845 
 	}
-	manpower=895500
+	manpower=325600
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
