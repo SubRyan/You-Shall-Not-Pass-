@@ -1,0 +1,227 @@
+﻿### Division Templates and deployments are designed to reflect reality as much as possible, this may spit out some 'really fucking shit divisions' but thats just how it is ###
+
+### also google translate had a really hard time translating, so I'm being various generous on the names ###
+
+division_template = {
+		name = "Kebur Zabangna"
+		
+		regiments = {
+			infantry = { x = 0 y = 0 } 
+			infantry = { x = 0 y = 1 } 
+			infantry = { x = 0 y = 2 } 
+		}
+		support = { 
+			engineer = { x = 0 y = 0 } 
+			artillery = { x = 0 y = 1 } 
+		} 
+}
+division_template = {
+		name = "Terarama Wenidochi"
+	
+		regiments = {
+			mountaineers = { x = 0 y = 0 } 
+			mountaineers = { x = 0 y = 1 } 
+			mountaineers = { x = 0 y = 2 } 
+			mountaineers = { x = 1 y = 0 } 
+		}
+}
+division_template = { 
+	name = "Medebenya" 
+
+	regiments = { 
+		infantry = { x = 0 y = 0 } 
+		infantry = { x = 0 y = 1 } 
+		infantry = { x = 1 y = 0 } 
+		infantry = { x = 1 y = 1 } 
+	} 
+}
+division_template = {
+	name = "Feresenya Budini"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+}
+division_template = { 
+	name = "Medebenya Levy" 
+
+	regiments = { 
+		infantry = { x = 0 y = 0 } 
+		infantry = { x = 0 y = 1 } 
+		infantry = { x = 0 y = 2 } 
+		infantry = { x = 0 y = 3 } 
+		infantry = { x = 0 y = 4 }  
+		infantry = { x = 1 y = 0 } 
+		infantry = { x = 1 y = 1 } 
+		infantry = { x = 1 y = 2 } 
+		infantry = { x = 1 y = 3 } 
+		infantry = { x = 1 y = 4 }  
+	} 
+}
+#### OOB ####
+units = {
+	division = { # 
+		name = "Kebur Zabangna"
+		location = 5010
+		division_template = "Kebur Zabangna"
+		start_experience_factor = 0.2
+	}
+	division = { # 
+		name = "1. Gojjam Sefari"
+		location = 1984
+		division_template = "Medebenya"
+		start_experience_factor = 0.1
+	}
+	division = { # 
+		name = "2. Gojjam Sefari"
+		location = 1984
+		division_template = "Medebenya"
+		start_experience_factor = 0.1
+	}
+	division = { # 
+		name = "3. Gojjam Sefari"
+		location = 1984
+		division_template = "Medebenya"
+		start_experience_factor = 0.1
+	}
+	division = { # 
+		name = "Wolqayt Terarama Wenidochi"
+		location = 2072
+		division_template = "Terarama Wenidochi"
+		start_experience_factor = 0.1
+	}
+	division = { # 
+		name = "Semien Terarama Wenidochi"
+		location = 2072
+		division_template = "Terarama Wenidochi"
+		start_experience_factor = 0.1
+	}
+	division = { # 
+		name = "1. Gojjam Levies"
+		location = 1984
+		division_template = "Medebenya"
+		start_experience_factor = 0.0
+	}
+	division = { # 
+		name = "2. Gojjam Levies"
+		location = 1984
+		division_template = "Medebenya"
+		start_experience_factor = 0.0
+	}
+	division = { # 
+		name = "3. Gojjam Levies"
+		location = 1984
+		division_template = "Medebenya"
+		start_experience_factor = 0.0
+	}
+	division = { # 
+		name = "1. Medebenya Levy"
+		location = 4954
+		division_template = "Medebenya Levy"
+		start_experience_factor = 0.0
+	}
+	division = { # 
+		name = "2. Medebenya Levy"
+		location = 4954
+		division_template = "Medebenya Levy"
+		start_experience_factor = 0.0
+	}
+	division = { # 
+		name = "3. Medebenya Levy"
+		location = 7912
+		division_template = "Medebenya Levy"
+		start_experience_factor = 0.0
+	}
+	division = { # 
+		name = "4. Medebenya Levy"
+		location = 7912
+		division_template = "Medebenya Levy"
+		start_experience_factor = 0.0
+	}
+	division = { # 
+		name = "5. Medebenya Levy"
+		location = 10734
+		division_template = "Medebenya Levy"
+		start_experience_factor = 0.0
+	}
+	division = { # 
+		name = "6. Medebenya Levy"
+		location = 10734
+		division_template = "Medebenya Levy"
+		start_experience_factor = 0.0
+	}
+	division = { # 
+		name = "7. Medebenya Levy"
+		location = 12856
+		division_template = "Medebenya Levy"
+		start_experience_factor = 0.0
+	}
+	division = { # 
+		name = "1. Begemder Sefari"
+		location = 7944
+		division_template = "Medebenya Levy"
+		start_experience_factor = 0.05
+	}
+	division = { # 
+		name = "2. Begemder Sefari"
+		location = 7944
+		division_template = "Medebenya Levy"
+		start_experience_factor = 0.05
+	}
+	division = { # 
+		name = "3. Begemder Sefari"
+		location = 2072
+		division_template = "Medebenya Levy"
+		start_experience_factor = 0.05
+	}
+	division = { # 
+		name = "4. Begemder Sefari"
+		location = 5097
+		division_template = "Medebenya Levy"
+		start_experience_factor = 0.05
+	}
+	division = { # 
+		name = "5. Begemder Sefari Levy"
+		location = 5097
+		division_template = "Medebenya Levy"
+		start_experience_factor = 0.05
+	}
+	division = { # 
+		name = "1. Tigray Sefari "
+		location = 2072
+		division_template = "Medebenya"
+		start_experience_factor = 0.1
+	}
+	division = { # 
+		name = "2. Tigray Sefari"
+		location = 2072
+		division_template = "Medebenya"
+		start_experience_factor = 0.1
+	}
+	division = { # 
+		name = "3. Tigray Sefari"
+		location = 2072
+		division_template = "Medebenya"
+		start_experience_factor = 0.1
+	}
+	division = { # 
+		name = "1. Wag Sefari"
+		location = 5041
+		division_template = "Medebenya"
+		start_experience_factor = 0.05
+	}
+	division = { # 
+		name = "2. Wag Sefari"
+		location = 5041
+		division_template = "Medebenya"
+		start_experience_factor = 0.05
+	}
+	division = { # 
+		name = "Ogaden Sefari"
+		location = 12812
+		division_template = "Medebenya"
+		start_experience_factor = 0.15
+	}
+}
