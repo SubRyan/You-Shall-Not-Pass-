@@ -1,0 +1,22 @@
+ideas = {
+	country = {
+		Labour_Corps_ERI = {
+			removal_cost = -1
+	
+			modifier = {
+				supply_consumption_factor = -0.10
+				conscription = 0.02
+			}
+		}
+	}
+	country = {
+		Labour_Corps_SOM = {
+			removal_cost = -1
+	
+			modifier = {
+				supply_consumption_factor = -0.10
+				conscription = 0.02
+			}
+		}
+	}
+}
