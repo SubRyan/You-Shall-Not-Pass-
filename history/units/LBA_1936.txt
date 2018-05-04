@@ -1,125 +1,51 @@
-﻿##### Division Templates #####
-division_template = {
-	name = "Divisione di Fanteria"		
-	# Represents nearly all infantry divisions
-	# In later years, CCNN Brigade added to Inf Division (1x2 militia/inf regiment)
-	# Also represent semi-mountain divisions (1st, 2nd, 3rd, 4th, 6th Divisions)
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-	}
-	support = {
-		engineer = { x = 0 y = 0 } 
-	}
-}
+##### Division Templates #####
 division_template = {
 	name = "Divisione Coloniale"		
-	# Represents lesser-equipped colonial units
+						# Represents more organized colonial troops
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
 		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
 	}
 	priority = 0
 }
-
-
-##### OOB #####
+division_template = {
+	name = "Irregolare Divisione Coloniale"		
+							# Represents lesser-equipped colonial units
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Raggruppamento Celere" 			# More organized cavalry troops
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+	}
+}
+division_template = {
+	name = "Irregolare Raggruppamento Celere" 			# Irregular troops or native troops
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+	}
+}
+#### OOB ####
 units = {		
-	
-	##### Commando Superiore Africa #####
-	# Subordinate to Theatre #
-	division= {	
-		name = "7a Divisione CC.NN. 'Cirene'"
-		location = 1149
-		division_template = "Divisione di Fanteria"		# CCNN militia, lower training and equipment
+	division = { # 
+		name = "Libyan Battalion"
+		location = 5017
+		division_template = "Irregolare Divisione Coloniale"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
-
 	}
-	division= {	
-		name = "2a Divisione Coloniale 'Libia'"
-		location = 1130
-		division_template = "Divisione Coloniale"		# Colonial militia, lower training and equipment
-		force_equipment_variants = { infantry_equipment_0 = { owner = "LBA" } }
-		start_equipment_factor = 0.5
-
-	}
-	
-	### AFRICA ###					
-	navy = {					
-		name = "Comando Navale Libico"				
-		base = 1130 
-		location = 1130 # Tobruk			
-		# 1a Squadriglia Cacciatorpedindiere
-		ship = { name = "RM Aquilone" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LBA version_name = "Navigatori Class" } } }
-		ship = { name = "RM Euro" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LBA version_name = "Navigatori Class" } } }
-		ship = { name = "RM Nembo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LBA version_name = "Navigatori Class" } } }
-		ship = { name = "RM Turbine" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LBA version_name = "Navigatori Class" } } }
-	}								
-	navy = {					
-		name = "5° Gruppo Sommergibili"				
-		base = 1130 
-		location = 1130 # Tobruk			
-		# 51a Squadriglia Sommergibili
-		ship = { name = "RM Delfino" definition = submarine equipment = { submarine_1 = { amount = 1 owner = LBA version_name = "Bandiera Class" } } }
-		ship = { name = "RM Narvalo" definition = submarine equipment = { submarine_1 = { amount = 1 owner = LBA version_name = "Bandiera Class" } } }
-		ship = { name = "RM Squalo" definition = submarine equipment = { submarine_1 = { amount = 1 owner = LBA version_name = "Bandiera Class" } } }
-		ship = { name = "RM Tricheco" definition = submarine equipment = { submarine_1 = { amount = 1 owner = LBA version_name = "Bandiera Class" } } }
-	}									
-}
-
-### Air Wings ###
-air_wings = {
-
-	### Commando Aeronautica Libia -- Tripoli
-	448 = {
-		fighter_equipment_0 =  {
-			owner = "LBA" 
-			amount = 20
-		}
-		tac_bomber_equipment_0 =  {
-			owner = "LBA" 
-			amount = 32
-		}
+	division = {
+		name = "Libyan Divisione"
+		location = 11014	
+		division_template = "Divisione Coloniale"
+		start_experience_factor = 0.2
 	}
 }
-
-	
-	#########################
-	## STARTING PRODUCTION ##
-	#########################
-instant_effect = {
-
-	if = {
-		limit = { is_tutorial = no }
-
-		add_equipment_production = {
-			equipment = {
-				type = infantry_equipment_1
-				creator = "LBA"
-			}
-			requested_factories = 4
-			progress = 0.1
-			efficiency = 50
-		}
-
-		add_equipment_production = {
-			equipment = {
-				type = support_equipment_1
-				creator = "LBA" 
-			}
-			requested_factories = 1
-			progress = 0.3
-			efficiency = 50
-		}
-	}
-}
-	#####################
