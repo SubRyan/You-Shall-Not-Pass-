@@ -1,0 +1,54 @@
+spriteTypes = {	
+	#pretty much all the graphics in hoi4 except for the leader portraits need a sprite to work
+	#both .gui and .gfx can take a random file name i.e. my_mods_graphic.gfx
+	#The sprite for an autonomy icon is like this
+	#
+	#spriteType = {
+	#	name = "GFX_[autonomy id]_icon"
+	#	textureFile = "gfx/interface/autonomy/[file name].dds"
+	#}
+	#
+	#i.e. (taken from vanilla)
+	#spriteType = {
+	#	name = "GFX_autonomy_wtt_imperial_subject_icon" ##(autonomy_wtt_imperial_subject is the id)
+	#	textureFile = "gfx/interface/autonomy/autonomy_imperial_associate.dds" ##(autonomy_imperial_associate is the file name)
+	#}
+	
+	
+	##################################
+	### Text icons for DIVISIONS ###
+	
+	#gendarmerie
+	spriteType = {
+		name = "GFX_unit_gendarmerie_icon_small"
+		texturefile = "gfx/texticons/unit_gendarmerie_icon_art_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+
+	#militia
+	spriteType = {
+		name = "GFX_unit_militia_icon_small"
+		texturefile = "gfx/texticons/unit_militia_icon_art_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	
+	####################################################
+	### NATO icons for DIVISIONS ###
+	
+	#gendarmerie
+	spriteType = {
+		name = "GFX_nato_unit_gendarmerie_icon_small"
+		texturefile = "gfx/texticons/nato_unit_gendarmerie_icon_small.dds"
+		legacy_lazy_load = no
+	}	
+	
+	#militia
+	spriteType = {
+		name = "GFX_nato_unit_militia_icon_small"
+		texturefile = "gfx/texticons/nato_unit_militia_icon_small.dds"
+		legacy_lazy_load = no
+	}	
+	
+}
