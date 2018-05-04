@@ -1,0 +1,100 @@
+focus_tree = {
+	id = FocusTree_1
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ERI
+		}
+	}
+	default = no
+	focus = {
+		id = Italian_Manpower_ERI
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 13
+		y = 3
+
+		completion_reward = {
+			add_manpower = 20000
+		}
+	}
+	focus = {
+		id = Labour_Conscripts_ERI
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = Italian_Manpower_ERI
+		}
+		x = 11
+		y = 4
+
+		completion_reward = {
+			add_ideas = Labour_Corps_ERI
+		}
+	}
+	focus = {
+		id = Roads_for_War_ERI
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = Italian_Manpower_ERI
+		}
+		x = 15
+		y = 4
+		completion_reward = {		
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = Native_Conscripts_ERI
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = Labour_Conscripts_ERI
+		}
+		prerequisite = {
+			focus = Roads_for_War_ERI
+		}
+		x = 13
+		y = 5
+
+		completion_reward = {
+			add_manpower = 50000
+		}
+	}
+	focus = {
+		id = Weve_Not_Won_Yet_ERI
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = Native_Conscripts_ERI
+		}
+		x = 13
+		y = 6
+
+		completion_reward = {
+			start_civil_war = { ideology = neutrality size = 0.5 } 
+		}
+	}
+}
